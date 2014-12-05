@@ -1,0 +1,12 @@
+When thinking about the early days of Apple, iterated version of the game over the long term. But now they've come out with a somewhat less rosy view of evolution. With a new analysis of the Prisoner's Dilemma played in a large, evolving population,  most people who know even a little bit about the company probably picture Steve Jobs and cofounder Steve Wozniak busily brainstorming in a small garage in Silicon Valley.
+That's how the story goes — in fact, the garage where they famously started the company was even deemed a historical site last year. Last year, University of Pennsylvania researchers Alexander J. Stewart and Joshua B. Plotkin
+
+Wozniak, however, doesn't really see that location as a crucial part of Apple's history. published a mathematical explanation for why cooperation and generosity have evolved in nature. Using the classical game theory match-up known as the Prisoner's Dilemma,
+
+"The garage is a bit of a myth," he told Bloomberg Businessweek's Brandon Lisy when asked whether the garage was important to Apple's story. The work paints a dimmer but likely more realistic view of how cooperation and selfishness balance one another in nature." "We did no designs there, no breadboarding, no prototyping, no planning of products. We did no manufacturing there."
+
+The garage served as a familiar location for him and Jobs in the early days, Wozniak said, but that's about it.  they found that generous strategies were the only ones that could persist and succeed in a multi-player, 
+
+"The garage didn't service much purpose, except it was something for us to feel was our home," they found that adding more flexibility to the game can allow selfish strategies to be more successful.  he said. "We had no money. You have to work out of your home when you have no money."
+
+http://www.businessinsider.com/apple-co-founder-steve-wozniak-famous-garage-is-a-myth-2014-12#ixzz3Kx1SqWAX

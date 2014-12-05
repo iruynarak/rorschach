@@ -1,0 +1,27 @@
+Three Inbox by Gmail engineers today answered questions as part of a Reddit AMA session. Most of the answers were tidbits we’ve heard of before, but one stood out to us: Google plans to eventually replace Gmail with Inbox.
+
+In response to the question “Do you think Inbox will replace Gmail on the long road?,” lead designer Jason Cornwell gave the following answer:
+
+In the short term, no. In the very long term, we hope so. Inbox is something new — that’s why we’re launching it as a separate product. We care deeply about Gmail and Gmail users, but in the long run as we add more features to Inbox and respond to user feedback we hope that everyone will want to use Inbox instead of Gmail. Ultimately, our users will decide.
+The followup question asks how Google believed one email product possibly target both casual (Gmail) and power (Inbox) users, to which Cornwell replied: “They are not aimed at fundamentally different audiences. Both Gmail and Inbox are designed to scale from low volume to high volume users.”
+
+While this shouldn’t come as a complete shock — there needs to be an end goal here aside from offering two separate email products — it’s still interesting that Google is so confident in Inbox. While the last sentence implies that Google’s decision will be based on what users want, it wouldn’t be the first time for Google to do the exact opposite.
+
+In another answer, Cornwell explains why Google couldn’t simply add Inbox features into Gmail:
+
+The way people use email has changed a huge amount since we launched Gmail. With Inbox, we took a step back and did a lot of research into how most people are using email today. What we found was that email works as a todo list for many people, that phone usage is starting to eclipse desktop usage, and that many people have negative feelings towards email because it feels like so much work. We built Inbox as a separate product because we didn’t feel like we could solve those problems by just adding more features on to Gmail. We needed to start from scratch to build a tool that really helps you stay on top of your life.
+There are a few other tidbits in the AMA that are worth noting. The three engineers promised various features that Reddit users asked for, though no exact dates were shared.
+
+We’re told cross-browser support is already being tested internally across all of Google. The holdup is apparently because “we want to make sure that everything works perfectly before enabling it for all of our users.”
+
+Integration with other email systems (Outlook.com, Yahoo) is something Google is “interested in.” After all, the Gmail app for Android recently gained this functionality.
+
+The option to change the mobile app’s notification sound will become available “within the next few months.” Being able to download all attachments might also be coming.
+
+The Undo Send feature and the ability to customize Snooze times are being worked on right now. Google is also developing a unified inbox option to handle multiple email addresses, adding signatures, building out Calendar integration further, and adding Drive integration.
+
+Finally, we already knew Inbox by Gmail was coming to Google Apps users, and that’s still true. It turns out the delay comes down to the fact that “supporting these accounts comes with other demands and we’re working hard on addressing them.”
+
+All in all, this was a productive AMA. It looks like Inbox will be growing quickly to match Gmail feature-for-feature, and one day a big switch might occur.
+
+http://venturebeat.com/2014/12/03/google-hopes-to-one-day-replace-gmail-with-inbox-but-will-ultimately-decide-based-on-user-feedback/

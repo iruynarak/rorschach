@@ -1,0 +1,148 @@
+\hypertarget{classHashTable}{\section{Hash\+Table$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classHashTable}\index{Hash\+Table$<$ Type\+Of\+Content $>$@{Hash\+Table$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$Hash\+Table.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classHashTable_a7eb799519445199cb568ea0c6dfe5e9d}{Hash\+Table} (int prime\+Number)
+\item 
+void \hyperlink{classHashTable_a26d5ad659135103f261c4ded31fda22e}{add\+Hash} (\hyperlink{classSubstring}{Substring}$<$ Type\+Of\+Content $>$ $\ast$substring)
+\item 
+void \hyperlink{classHashTable_a9575e866f5584fadffbcce7b7771c33c}{print\+Hash\+Table} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classHashTable_ac09c30fbbee3c3a526220ed51074b957}{hash\+Table\+Size}
+\begin{DoxyCompactList}\small\item\em quantidade de valores diferentes possiveis para o valor da hash \end{DoxyCompactList}\item 
+\hyperlink{classListOfSubstrings}{List\+Of\+Substrings}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classHashTable_a1772210583a06ad2f1039e7fecbc588c}{table}
+\begin{DoxyCompactList}\small\item\em vetor de listas de substrings (uma para cada possivel valor de hash) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class Hash\+Table$<$ Type\+Of\+Content $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Type\+Of\+Content} & tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text Classe que implementa uma tabela de valores de hash \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classRollingHash}{Rolling\+Hash} 
+
+\hyperlink{classListOfSubstrings}{List\+Of\+Substrings} 
+\end{DoxySeeAlso}
+
+
+Definition at line 38 of file Hash\+Table.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classHashTable_a7eb799519445199cb568ea0c6dfe5e9d}{\index{Hash\+Table@{Hash\+Table}!Hash\+Table@{Hash\+Table}}
+\index{Hash\+Table@{Hash\+Table}!Hash\+Table@{Hash\+Table}}
+\subsubsection[{Hash\+Table}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Hash\+Table}$<$ Type\+Of\+Content $>$\+::{\bf Hash\+Table} (
+\begin{DoxyParamCaption}
+\item[{int}]{prime\+Number}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHashTable_a7eb799519445199cb568ea0c6dfe5e9d}
+Construtor da classe \hyperlink{classHashTable}{Hash\+Table} 
+\begin{DoxyParams}{Parameters}
+{\em prime\+Number} & número primo que define o limite superior para o valor de hash \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file Hash\+Table.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classHashTable_a26d5ad659135103f261c4ded31fda22e}{\index{Hash\+Table@{Hash\+Table}!add\+Hash@{add\+Hash}}
+\index{add\+Hash@{add\+Hash}!Hash\+Table@{Hash\+Table}}
+\subsubsection[{add\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Hash\+Table}$<$ Type\+Of\+Content $>$\+::add\+Hash (
+\begin{DoxyParamCaption}
+\item[{{\bf Substring}$<$ Type\+Of\+Content $>$ $\ast$}]{substring}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHashTable_a26d5ad659135103f261c4ded31fda22e}
+Adiciona um novo termo na \hyperlink{classHashTable}{Hash\+Table} 
+\begin{DoxyParams}{Parameters}
+{\em substring} & estrutura que contém o termo a ser adicionado e seu respectivo valor de hash \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 62 of file Hash\+Table.\+h.
+
+
+
+References Substring$<$ Type\+Of\+Content $>$\+::rolling\+Hash.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table().
+
+\hypertarget{classHashTable_a9575e866f5584fadffbcce7b7771c33c}{\index{Hash\+Table@{Hash\+Table}!print\+Hash\+Table@{print\+Hash\+Table}}
+\index{print\+Hash\+Table@{print\+Hash\+Table}!Hash\+Table@{Hash\+Table}}
+\subsubsection[{print\+Hash\+Table}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Hash\+Table}$<$ Type\+Of\+Content $>$\+::print\+Hash\+Table (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHashTable_a9575e866f5584fadffbcce7b7771c33c}
+Imprime o conteudo da tabela de hash 
+
+Definition at line 70 of file Hash\+Table.\+h.
+
+
+
+References Substring$<$ Type\+Of\+Content $>$\+::next, and Substring$<$ Type\+Of\+Content $>$\+::print().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classHashTable_a9575e866f5584fadffbcce7b7771c33c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classHashTable_ac09c30fbbee3c3a526220ed51074b957}{\index{Hash\+Table@{Hash\+Table}!hash\+Table\+Size@{hash\+Table\+Size}}
+\index{hash\+Table\+Size@{hash\+Table\+Size}!Hash\+Table@{Hash\+Table}}
+\subsubsection[{hash\+Table\+Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Hash\+Table}$<$ Type\+Of\+Content $>$\+::hash\+Table\+Size}}\label{classHashTable_ac09c30fbbee3c3a526220ed51074b957}
+
+
+quantidade de valores diferentes possiveis para o valor da hash 
+
+
+
+Definition at line 43 of file Hash\+Table.\+h.
+
+\hypertarget{classHashTable_a1772210583a06ad2f1039e7fecbc588c}{\index{Hash\+Table@{Hash\+Table}!table@{table}}
+\index{table@{table}!Hash\+Table@{Hash\+Table}}
+\subsubsection[{table}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf List\+Of\+Substrings}$<$Type\+Of\+Content$>$$\ast$ {\bf Hash\+Table}$<$ Type\+Of\+Content $>$\+::table}}\label{classHashTable_a1772210583a06ad2f1039e7fecbc588c}
+
+
+vetor de listas de substrings (uma para cada possivel valor de hash) 
+
+
+
+Definition at line 46 of file Hash\+Table.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{HashTable_8h}{Hash\+Table.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,158 @@
+\hypertarget{classRandomPrime}{\section{Random\+Prime Class Reference}
+\label{classRandomPrime}\index{Random\+Prime@{Random\+Prime}}
+}
+
+
+{\ttfamily \#include $<$Random\+Prime.\+h$>$}
+
+
+
+Collaboration diagram for Random\+Prime\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classRandomPrime__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRandomPrime_a941dadf444034d5cd4918f0f9ec6c1f5}{Random\+Prime} ()
+\item 
+\hyperlink{classRandomPrime_a5c42d9687ece6ea0cdee8ac0dd949f51}{$\sim$\+Random\+Prime} ()
+\item 
+bool \hyperlink{classRandomPrime_ad5dcc20963dcb83120db6e2c93749585}{is\+Prime} (int number)
+\item 
+int \hyperlink{classRandomPrime_a322ce83f7af45e67d009ff3ed19d0047}{new\+Random\+Prime} (int min, int max)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRandomNumber}{Random\+Number} $\ast$ \hyperlink{classRandomPrime_aed4cde44e5f33444c1d0e02d061a6a22}{random\+Number}
+\begin{DoxyCompactList}\small\item\em Ponteiro para a classe que cria um número aleatório, primo ou não. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe que cria um número primo aleatório 
+
+Definition at line 30 of file Random\+Prime.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRandomPrime_a941dadf444034d5cd4918f0f9ec6c1f5}{\index{Random\+Prime@{Random\+Prime}!Random\+Prime@{Random\+Prime}}
+\index{Random\+Prime@{Random\+Prime}!Random\+Prime@{Random\+Prime}}
+\subsubsection[{Random\+Prime}]{\setlength{\rightskip}{0pt plus 5cm}Random\+Prime\+::\+Random\+Prime (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRandomPrime_a941dadf444034d5cd4918f0f9ec6c1f5}
+Construtor da classe \hyperlink{classRandomPrime}{Random\+Prime} 
+
+Definition at line 40 of file Random\+Prime.\+h.
+
+\hypertarget{classRandomPrime_a5c42d9687ece6ea0cdee8ac0dd949f51}{\index{Random\+Prime@{Random\+Prime}!````~Random\+Prime@{$\sim$\+Random\+Prime}}
+\index{````~Random\+Prime@{$\sim$\+Random\+Prime}!Random\+Prime@{Random\+Prime}}
+\subsubsection[{$\sim$\+Random\+Prime}]{\setlength{\rightskip}{0pt plus 5cm}Random\+Prime\+::$\sim$\+Random\+Prime (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRandomPrime_a5c42d9687ece6ea0cdee8ac0dd949f51}
+Destrutor da classe \hyperlink{classRandomPrime}{Random\+Prime} 
+
+Definition at line 48 of file Random\+Prime.\+h.
+
+
+
+References random\+Number.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classRandomPrime_ad5dcc20963dcb83120db6e2c93749585}{\index{Random\+Prime@{Random\+Prime}!is\+Prime@{is\+Prime}}
+\index{is\+Prime@{is\+Prime}!Random\+Prime@{Random\+Prime}}
+\subsubsection[{is\+Prime}]{\setlength{\rightskip}{0pt plus 5cm}bool Random\+Prime\+::is\+Prime (
+\begin{DoxyParamCaption}
+\item[{int}]{number}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRandomPrime_ad5dcc20963dcb83120db6e2c93749585}
+Verifica se um certo número é primo ou não 
+\begin{DoxyParams}{Parameters}
+{\em number} & -\/ número que será verificado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool -\/ true caso seja primo e false caso contrário 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file Random\+Prime.\+h.
+
+
+
+Referenced by new\+Random\+Prime().
+
+\hypertarget{classRandomPrime_a322ce83f7af45e67d009ff3ed19d0047}{\index{Random\+Prime@{Random\+Prime}!new\+Random\+Prime@{new\+Random\+Prime}}
+\index{new\+Random\+Prime@{new\+Random\+Prime}!Random\+Prime@{Random\+Prime}}
+\subsubsection[{new\+Random\+Prime}]{\setlength{\rightskip}{0pt plus 5cm}int Random\+Prime\+::new\+Random\+Prime (
+\begin{DoxyParamCaption}
+\item[{int}]{min, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRandomPrime_a322ce83f7af45e67d009ff3ed19d0047}
+Gera um número primo aleatório 
+\begin{DoxyParams}{Parameters}
+{\em min} & -\/ menor número possível de ser retornado \\
+\hline
+{\em max} & -\/ maior número possível de ser retornado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+número primo gerado 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file Random\+Prime.\+h.
+
+
+
+References is\+Prime(), and Random\+Number\+::new\+Random\+Number().
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::\+R\+K\+R\+G\+S\+T().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRandomPrime_a322ce83f7af45e67d009ff3ed19d0047_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classRandomPrime_aed4cde44e5f33444c1d0e02d061a6a22}{\index{Random\+Prime@{Random\+Prime}!random\+Number@{random\+Number}}
+\index{random\+Number@{random\+Number}!Random\+Prime@{Random\+Prime}}
+\subsubsection[{random\+Number}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Random\+Number}$\ast$ Random\+Prime\+::random\+Number}}\label{classRandomPrime_aed4cde44e5f33444c1d0e02d061a6a22}
+
+
+Ponteiro para a classe que cria um número aleatório, primo ou não. 
+
+
+
+Definition at line 35 of file Random\+Prime.\+h.
+
+
+
+Referenced by $\sim$\+Random\+Prime().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{RandomPrime_8h}{Random\+Prime.\+h}\end{DoxyCompactItemize}

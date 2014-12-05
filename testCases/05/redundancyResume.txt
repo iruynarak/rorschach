@@ -1,0 +1,29 @@
+
+ If you're wondering what scientists can do with a camera that captures 100 billion frames per second, you're not alone. We've already got ​cameras that can film bullets as they burst through an apple, and ​watching high frames-per-second videos online is a pastime of many. So, what happens when you improve on existing cameras by several orders of magnitude?
+
+Lots of things, it turns out. You can watch light move—and you can watch it go through and around objects, which is quite important when you want to eventually cloak them.
+
+"It might be possible to improve the investigation into approaches to optical cloaking, in which light bends or is deformed around an object, instead of going through it," Brian Pogue, an engineer at Darthmouth,  ​wrote of the breakthrough in Nature
+
+"This field of study, popularized in Star Trek, is real, and although may advances are being made in fundamental approaches to cloaking designs, the inability to see the interactions between light and the object being cloaked hampers development," he added.
+
+But let's talk about this camera, or rather, the technique developed to make the cameras, for a second. It's called Compressed Ultrafast Photography (CUP), and  ​it was developed by a team led by Lihon Wang at Washington University in St. Louis. It uses technology made popular in streak cameras, which are also used to image light. In streak cameras, the sensor is moved laterally along with the light—in other words, within the camera, the sensor or a mirror or the whole thing itself would move very, very fast to create the image.
+
+With CUP, the photons necessary to take an image are blasted through a beam splitter and then through a tube that has several tiny mirrors. These photons are converted into electrons, which encode the data you want captured—namely the time and space data necessary to create an image. All of this happens in one billionth of a second, and the data can then be arranged into a video on a computer.
+
+The technology is impressive and quite complex. Previous cameras could record at roughly a billion frames a second, but could only do so in one dimension—that meant you could measure space or time, but not both. And it was slower, anyway.
+
+Three Inbox by Gmail engineers today answered questions as part of a Reddit AMA session. Most of the answers were tidbits we've heard of before, but one stood out to us: Google plans to eventually replace Gmail with Inbox. In response to the question "Do you think Inbox will replace Gmail on the long road?," lead designer Jason Cornwell gave the following answer: "In the short term, no. In the very long term, we hope so. Inbox is something new — that's why we're launching it as a separate product. We care deeply about Gmail and Gmail users, but in the long run as we add more features to Inbox and respond to user feedback we hope that everyone will want to use Inbox instead of Gmail. Ultimately, our users will decide." The followup question asks how Google believed one email product possibly target both casual (Gmail) and power (Inbox) users, to which Cornwell replied: "They are not aimed at fundamentally different audiences. Both Gmail and Inbox are designed to scale from low volume to high volume users."
+
+Other ultrafast cameras would require an event to occur many, many times in succession in order to record them. That means you'd have to blast a laser over and over just to get anything useful.
+
+Here's what the camera looks like. The DMD is a "digital micromirror device" Image: Nature
+So, what can you do with Wang's breakthrough? Well, in addition to watching just how light interacts with objects, you can also watching optical communications, quantum-phenomena, and other phenomena that are about as cutting-edge as you can get. It can also be used to image body processes that are difficult or too fast to see with current cameras.
+
+For the team's first tests, Wang was able to visualize laser pulse reflections, photons racing through air and through resin, and "faster-than-light propagation of non-information" (that is, motion that appears faster than the speed of light but cannot convey information). It can also be used in conjunction with a telescope—say, the Hubble Space Telescope, to watch things in space.
+
+To be totally honest, we're not even sure what we'll be able to see with a camera this fast.
+
+"It's our hope that CUP will enable new discoveries in science—ones that we can't even anticipate yet," Wang  ​said in a statement. "Combine CUP imaging with the Hubble Telescope, and we will have both the sharpest spatial resolution of the Hubble and the highest temporal solution with CUP. That combination is bound to discover new science."
+
+http://motherboard.vice.com/read/the-fastest-camera-ever-created-will-be-used-to-study-invisibility-cloaks

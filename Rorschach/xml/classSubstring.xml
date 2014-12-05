@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classSubstring" kind="class" prot="public">
+    <compoundname>Substring</compoundname>
+    <includes refid="Substring_8h" local="no">Substring.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSubstring_1a8d1fd97efa348288f4b39bea36a8e879" prot="public" static="no" mutable="no">
+        <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Letter&lt;TypeOfContent&gt;* Substring&lt; TypeOfContent &gt;::string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+<para>Ponteiro para a string que a contém. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="42" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+        <referencedby refid="classSubstring_1a065a95aaacde32e5b623f0a52d3ca180" compoundref="Substring_8h" startline="68" endline="82">Substring&lt; TypeOfContent &gt;::Substring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubstring_1a5965b296a10e4a5fd874913f07754451" prot="public" static="no" mutable="no">
+        <type><ref refid="classSubstring" kindref="compound">Substring</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Substring&lt;TypeOfContent&gt;* Substring&lt; TypeOfContent &gt;::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+<para>Ponteiro para a próxima substring na lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="44" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classListOfSubstrings_1a480372956993999a6e42e104cf264e32" compoundref="ListOfSubstrings_8h" startline="78" endline="95">ListOfSubstrings&lt; TypeOfContent &gt;::addSubstring</referencedby>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classHashTable_1a9575e866f5584fadffbcce7b7771c33c" compoundref="HashTable_8h" startline="70" endline="83">HashTable&lt; TypeOfContent &gt;::printHashTable</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+        <referencedby refid="classListOfSubstrings_1ae5aa0c336f8f5fab58a8d239cc5ab9d9" compoundref="ListOfSubstrings_8h" startline="60" endline="72">ListOfSubstrings&lt; TypeOfContent &gt;::~ListOfSubstrings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubstring_1a992d0f85409426c420d243ac18d2bca5" prot="public" static="no" mutable="no">
+        <type><ref refid="classSubstring" kindref="compound">Substring</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Substring&lt;TypeOfContent&gt;* Substring&lt; TypeOfContent &gt;::previous</definition>
+        <argsstring></argsstring>
+        <name>previous</name>
+        <briefdescription>
+<para>Ponteiro para a substring anterior na lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="46" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classListOfSubstrings_1a480372956993999a6e42e104cf264e32" compoundref="ListOfSubstrings_8h" startline="78" endline="95">ListOfSubstrings&lt; TypeOfContent &gt;::addSubstring</referencedby>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubstring_1a84e0e55a0ecbd5f74d25441df0edc68e" prot="public" static="no" mutable="no">
+        <type><ref refid="classRollingHash" kindref="compound">RollingHash</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>RollingHash&lt;TypeOfContent&gt;* Substring&lt; TypeOfContent &gt;::rollingHash</definition>
+        <argsstring></argsstring>
+        <name>rollingHash</name>
+        <briefdescription>
+<para>ponteiro para a hash relativa ao seu conteúdo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="49" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classHashTable_1a26d5ad659135103f261c4ded31fda22e" compoundref="HashTable_8h" startline="62" endline="65">HashTable&lt; TypeOfContent &gt;::addHash</referencedby>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+        <referencedby refid="classSubstring_1ac486fd7645e645efd9c5a07b5e664b20" compoundref="Substring_8h" startline="88" endline="91">Substring&lt; TypeOfContent &gt;::~Substring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubstring_1a88e2864cc7847c7f57815de891246cfe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Substring&lt; TypeOfContent &gt;::begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Índice inicial da substring na sua string de origem. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="52" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+        <referencedby refid="classSubstring_1a065a95aaacde32e5b623f0a52d3ca180" compoundref="Substring_8h" startline="68" endline="82">Substring&lt; TypeOfContent &gt;::Substring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubstring_1a5a223bd1f3483d1ee55f4b3997a48862" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Substring&lt; TypeOfContent &gt;::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>Índice inicial da substring na sua string de origem. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="55" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classSubstring_1a065a95aaacde32e5b623f0a52d3ca180" compoundref="Substring_8h" startline="68" endline="82">Substring&lt; TypeOfContent &gt;::Substring</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubstring_1a065a95aaacde32e5b623f0a52d3ca180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Substring&lt; TypeOfContent &gt;::Substring</definition>
+        <argsstring>(Letter&lt; TypeOfContent &gt; *string, int begin, int end, int baseLength, int primeNumber)</argsstring>
+        <name>Substring</name>
+        <param>
+          <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>baseLength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>primeNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor da classe <ref refid="classSubstring" kindref="compound">Substring</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ponteiro para a string que a contém </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>begin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>índice para sua posição inicial na string que a contém </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>índice para sua posição final na string que a contém </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>baseLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>base do alfabeto ao qual pertence cada termo da string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>primeNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>número primo usado para evitar overflow do valor de hash </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>begin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice inicial da substring na sua string de origem </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice inicial da substring na sua string de origem </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="68" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="68" bodyend="82"/>
+        <references refid="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" compoundref="RollingHash_8h" startline="107" endline="123">RollingHash&lt; TypeOfContent &gt;::append</references>
+        <references refid="classSubstring_1a88e2864cc7847c7f57815de891246cfe" compoundref="Substring_8h" startline="52">Substring&lt; TypeOfContent &gt;::begin</references>
+        <references refid="classSubstring_1a5a223bd1f3483d1ee55f4b3997a48862" compoundref="Substring_8h" startline="55">Substring&lt; TypeOfContent &gt;::end</references>
+        <references refid="classSubstring_1a8d1fd97efa348288f4b39bea36a8e879" compoundref="Substring_8h" startline="42">Substring&lt; TypeOfContent &gt;::string</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubstring_1ac486fd7645e645efd9c5a07b5e664b20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Substring&lt; TypeOfContent &gt;::~Substring</definition>
+        <argsstring>()</argsstring>
+        <name>~Substring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destrutor da classe <ref refid="classSubstring" kindref="compound">Substring</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="88" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="88" bodyend="91"/>
+        <references refid="classSubstring_1a84e0e55a0ecbd5f74d25441df0edc68e" compoundref="Substring_8h" startline="49">Substring&lt; TypeOfContent &gt;::rollingHash</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubstring_1ae5eb3f9712352741b8bf65b2b231356c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Substring&lt; TypeOfContent &gt;::append</definition>
+        <argsstring>()</argsstring>
+        <name>append</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método que adiciona um novo termo a substring. Isto é feito através do ponteiro para a string que a contém. Adicionamos o termo posterior a substring. <simplesect kind="see"><para><ref refid="classRollingHash" kindref="compound">RollingHash</ref> </para></simplesect>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="100" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="100" bodyend="104"/>
+        <references refid="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" compoundref="RollingHash_8h" startline="107" endline="123">RollingHash&lt; TypeOfContent &gt;::append</references>
+        <references refid="classRollingHash_1aa3f8e695a18340a65fbe29abc46e90ff" compoundref="RollingHash_8h" startline="66">RollingHash&lt; TypeOfContent &gt;::end</references>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSubstring_1a618432b07f7469537bd8de5c9dccc02f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Substring&lt; TypeOfContent &gt;::skip</definition>
+        <argsstring>()</argsstring>
+        <name>skip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método que remove um termo da substring. <simplesect kind="see"><para><ref refid="classRollingHash" kindref="compound">RollingHash</ref> </para></simplesect>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="112" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="112" bodyend="116"/>
+        <references refid="classRollingHash_1aa4f2a75c882a87d7cce490663c8e01be" compoundref="RollingHash_8h" startline="130" endline="155">RollingHash&lt; TypeOfContent &gt;::skip</references>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSubstring_1a217db9ee47a8cc5db31a671606e039b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Substring&lt; TypeOfContent &gt;::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Imprimindo indices e valor de hash da substring <simplesect kind="see"><para><ref refid="classRollingHash" kindref="compound">RollingHash</ref> </para></simplesect>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="124" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="124" bodyend="127"/>
+        <references refid="classRollingHash_1ae1516e16a6167fbe36b46af49614c6af" compoundref="RollingHash_8h" startline="63">RollingHash&lt; TypeOfContent &gt;::begin</references>
+        <references refid="classRollingHash_1aa3f8e695a18340a65fbe29abc46e90ff" compoundref="RollingHash_8h" startline="66">RollingHash&lt; TypeOfContent &gt;::end</references>
+        <references refid="classRollingHash_1af12ead08746ce29672d41151f0d3ac21" compoundref="RollingHash_8h" startline="46">RollingHash&lt; TypeOfContent &gt;::hashValue</references>
+        <referencedby refid="classHashTable_1a9575e866f5584fadffbcce7b7771c33c" compoundref="HashTable_8h" startline="70" endline="83">HashTable&lt; TypeOfContent &gt;::printHashTable</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo do termo da substring. Classe referente a um candidato a <ref refid="classTile" kindref="compound">Tile</ref>. além do seu ponteiro para a string que contém, índice de início e de fim, também possui uma <ref refid="classRollingHash" kindref="compound">RollingHash</ref> para o seu conteúdo </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" line="38" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Substring.h" bodystart="37" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classSubstring_1ae5eb3f9712352741b8bf65b2b231356c" prot="public" virt="non-virtual"><scope>Substring</scope><name>append</name></member>
+      <member refid="classSubstring_1a88e2864cc7847c7f57815de891246cfe" prot="public" virt="non-virtual"><scope>Substring</scope><name>begin</name></member>
+      <member refid="classSubstring_1a5a223bd1f3483d1ee55f4b3997a48862" prot="public" virt="non-virtual"><scope>Substring</scope><name>end</name></member>
+      <member refid="classSubstring_1a5965b296a10e4a5fd874913f07754451" prot="public" virt="non-virtual"><scope>Substring</scope><name>next</name></member>
+      <member refid="classSubstring_1a992d0f85409426c420d243ac18d2bca5" prot="public" virt="non-virtual"><scope>Substring</scope><name>previous</name></member>
+      <member refid="classSubstring_1a217db9ee47a8cc5db31a671606e039b5" prot="public" virt="non-virtual"><scope>Substring</scope><name>print</name></member>
+      <member refid="classSubstring_1a84e0e55a0ecbd5f74d25441df0edc68e" prot="public" virt="non-virtual"><scope>Substring</scope><name>rollingHash</name></member>
+      <member refid="classSubstring_1a618432b07f7469537bd8de5c9dccc02f" prot="public" virt="non-virtual"><scope>Substring</scope><name>skip</name></member>
+      <member refid="classSubstring_1a8d1fd97efa348288f4b39bea36a8e879" prot="public" virt="non-virtual"><scope>Substring</scope><name>string</name></member>
+      <member refid="classSubstring_1a065a95aaacde32e5b623f0a52d3ca180" prot="public" virt="non-virtual"><scope>Substring</scope><name>Substring</name></member>
+      <member refid="classSubstring_1ac486fd7645e645efd9c5a07b5e664b20" prot="public" virt="non-virtual"><scope>Substring</scope><name>~Substring</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

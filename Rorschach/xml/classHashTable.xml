@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classHashTable" kind="class" prot="public">
+    <compoundname>HashTable</compoundname>
+    <includes refid="HashTable_8h" local="no">HashTable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classHashTable_1ac09c30fbbee3c3a526220ed51074b957" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HashTable&lt; TypeOfContent &gt;::hashTableSize</definition>
+        <argsstring></argsstring>
+        <name>hashTableSize</name>
+        <briefdescription>
+<para>quantidade de valores diferentes possiveis para o valor da hash </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" line="43" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHashTable_1a1772210583a06ad2f1039e7fecbc588c" prot="public" static="no" mutable="no">
+        <type><ref refid="classListOfSubstrings" kindref="compound">ListOfSubstrings</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>ListOfSubstrings&lt;TypeOfContent&gt;* HashTable&lt; TypeOfContent &gt;::table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <briefdescription>
+<para>vetor de listas de substrings (uma para cada possivel valor de hash) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" line="46" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHashTable_1a7eb799519445199cb568ea0c6dfe5e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HashTable&lt; TypeOfContent &gt;::HashTable</definition>
+        <argsstring>(int primeNumber)</argsstring>
+        <name>HashTable</name>
+        <param>
+          <type>int</type>
+          <declname>primeNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor da classe <ref refid="classHashTable" kindref="compound">HashTable</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>primeNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>número primo que define o limite superior para o valor de hash </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" line="52" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classHashTable_1a26d5ad659135103f261c4ded31fda22e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HashTable&lt; TypeOfContent &gt;::addHash</definition>
+        <argsstring>(Substring&lt; TypeOfContent &gt; *substring)</argsstring>
+        <name>addHash</name>
+        <param>
+          <type><ref refid="classSubstring" kindref="compound">Substring</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adiciona um novo termo na <ref refid="classHashTable" kindref="compound">HashTable</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>substring</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>estrutura que contém o termo a ser adicionado e seu respectivo valor de hash </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" line="62" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" bodystart="62" bodyend="65"/>
+        <references refid="classSubstring_1a84e0e55a0ecbd5f74d25441df0edc68e" compoundref="Substring_8h" startline="49">Substring&lt; TypeOfContent &gt;::rollingHash</references>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classHashTable_1a9575e866f5584fadffbcce7b7771c33c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HashTable&lt; TypeOfContent &gt;::printHashTable</definition>
+        <argsstring>()</argsstring>
+        <name>printHashTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Imprime o conteudo da tabela de hash </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" line="70" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" bodystart="70" bodyend="83"/>
+        <references refid="classSubstring_1a5965b296a10e4a5fd874913f07754451" compoundref="Substring_8h" startline="44">Substring&lt; TypeOfContent &gt;::next</references>
+        <references refid="classSubstring_1a217db9ee47a8cc5db31a671606e039b5" compoundref="Substring_8h" startline="124" endline="127">Substring&lt; TypeOfContent &gt;::print</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text Classe que implementa uma tabela de valores de hash </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classRollingHash" kindref="compound">RollingHash</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="classListOfSubstrings" kindref="compound">ListOfSubstrings</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" line="39" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/HashTable.h" bodystart="38" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classHashTable_1a26d5ad659135103f261c4ded31fda22e" prot="public" virt="non-virtual"><scope>HashTable</scope><name>addHash</name></member>
+      <member refid="classHashTable_1a7eb799519445199cb568ea0c6dfe5e9d" prot="public" virt="non-virtual"><scope>HashTable</scope><name>HashTable</name></member>
+      <member refid="classHashTable_1ac09c30fbbee3c3a526220ed51074b957" prot="public" virt="non-virtual"><scope>HashTable</scope><name>hashTableSize</name></member>
+      <member refid="classHashTable_1a9575e866f5584fadffbcce7b7771c33c" prot="public" virt="non-virtual"><scope>HashTable</scope><name>printHashTable</name></member>
+      <member refid="classHashTable_1a1772210583a06ad2f1039e7fecbc588c" prot="public" virt="non-virtual"><scope>HashTable</scope><name>table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

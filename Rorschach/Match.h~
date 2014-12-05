@@ -1,0 +1,30 @@
+#ifndef _Match
+	#define _Match
+#endif
+
+#include<iostream>
+
+using namespace std;
+class Match
+{
+	public:
+		int length;
+		int patternIndex;
+		int textIndex;
+
+		Match* next;
+		Match* previous;
+		Match(int length, int patternIndex, int textIndex)
+		{
+			this->length = length;
+			this->patternIndex = patternIndex;
+			this->textIndex = textIndex;
+			next = previous = 0;
+		}
+
+		void print()
+		{
+			cout << "length: " << length << "patternIndex: " << patternIndex << "textIndex: " << textIndex;
+		}
+
+};

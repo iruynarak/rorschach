@@ -1,0 +1,114 @@
+.TH "ListOfSubstrings< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ListOfSubstrings< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ListOfSubstrings\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBListOfSubstrings\fP ()"
+.br
+.RI "\fIConstrutor de \fBListOfSubstrings\fP\&. \fP"
+.ti -1c
+.RI "\fB~ListOfSubstrings\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddSubstring\fP (\fBSubstring\fP< TypeOfContent > *substring)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBnumberOfSubstrings\fP"
+.br
+.RI "\fINúmero de objetos da classe \fBSubstring\fP na lista\&. \fP"
+.ti -1c
+.RI "\fBSubstring\fP< TypeOfContent > * \fBbegin\fP"
+.br
+.RI "\fIPonteiro para o início da lista\&. \fP"
+.ti -1c
+.RI "\fBSubstring\fP< TypeOfContent > * \fBend\fP"
+.br
+.RI "\fIPonteiro para o fim da lista\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class ListOfSubstrings< TypeOfContent >"
+Lista de objetos da classe \fBSubstring\fP 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo dos termos da pattern e da text 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBSubstring\fP 
+.RE
+.PP
+
+.PP
+Definition at line 34 of file ListOfSubstrings\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBListOfSubstrings\fP< TypeOfContent >::\fBListOfSubstrings\fP ()\fC [inline]\fP"
+
+.PP
+Construtor de \fBListOfSubstrings\fP\&. 
+.PP
+Definition at line 48 of file ListOfSubstrings\&.h\&.
+.SS "template<typename TypeOfContent> \fBListOfSubstrings\fP< TypeOfContent >::~\fBListOfSubstrings\fP ()\fC [inline]\fP"
+Destrutor de \fBListOfSubstrings\fP\&. deletando cada um dos objetos da classe Substrings contidos na lista 
+.PP
+Definition at line 60 of file ListOfSubstrings\&.h\&.
+.PP
+References Substring< TypeOfContent >::next\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename TypeOfContent> void \fBListOfSubstrings\fP< TypeOfContent >::addSubstring (\fBSubstring\fP< TypeOfContent > *substring)\fC [inline]\fP"
+Adiciona uma nova substring a lista de substrings 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsubstring\fP substring que será adicionada\&. 
+.RE
+.PP
+
+.PP
+Definition at line 78 of file ListOfSubstrings\&.h\&.
+.PP
+References ListOfSubstrings< TypeOfContent >::end, Substring< TypeOfContent >::next, and Substring< TypeOfContent >::previous\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBSubstring\fP<TypeOfContent>* \fBListOfSubstrings\fP< TypeOfContent >::begin"
+
+.PP
+Ponteiro para o início da lista\&. 
+.PP
+Definition at line 42 of file ListOfSubstrings\&.h\&.
+.SS "template<typename TypeOfContent> \fBSubstring\fP<TypeOfContent>* \fBListOfSubstrings\fP< TypeOfContent >::end"
+
+.PP
+Ponteiro para o fim da lista\&. 
+.PP
+Definition at line 45 of file ListOfSubstrings\&.h\&.
+.PP
+Referenced by ListOfSubstrings< TypeOfContent >::addSubstring()\&.
+.SS "template<typename TypeOfContent> int \fBListOfSubstrings\fP< TypeOfContent >::numberOfSubstrings"
+
+.PP
+Número de objetos da classe \fBSubstring\fP na lista\&. 
+.PP
+Definition at line 39 of file ListOfSubstrings\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

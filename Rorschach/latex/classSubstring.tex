@@ -1,0 +1,312 @@
+\hypertarget{classSubstring}{\section{Substring$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classSubstring}\index{Substring$<$ Type\+Of\+Content $>$@{Substring$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$Substring.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSubstring_a065a95aaacde32e5b623f0a52d3ca180}{Substring} (\hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$\hyperlink{Main_8cpp_a4505c08c065b48840a30eedd9845cce2}{string}, int \hyperlink{classSubstring_a88e2864cc7847c7f57815de891246cfe}{begin}, int \hyperlink{classSubstring_a5a223bd1f3483d1ee55f4b3997a48862}{end}, int base\+Length, int prime\+Number)
+\item 
+\hyperlink{classSubstring_ac486fd7645e645efd9c5a07b5e664b20}{$\sim$\+Substring} ()
+\item 
+void \hyperlink{classSubstring_ae5eb3f9712352741b8bf65b2b231356c}{append} ()
+\item 
+void \hyperlink{classSubstring_a618432b07f7469537bd8de5c9dccc02f}{skip} ()
+\item 
+void \hyperlink{classSubstring_a217db9ee47a8cc5db31a671606e039b5}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classSubstring_a8d1fd97efa348288f4b39bea36a8e879}{string}
+\begin{DoxyCompactList}\small\item\em Ponteiro para a string que a contém. \end{DoxyCompactList}\item 
+\hyperlink{classSubstring}{Substring}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classSubstring_a5965b296a10e4a5fd874913f07754451}{next}
+\begin{DoxyCompactList}\small\item\em Ponteiro para a próxima substring na lista. \end{DoxyCompactList}\item 
+\hyperlink{classSubstring}{Substring}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classSubstring_a992d0f85409426c420d243ac18d2bca5}{previous}
+\begin{DoxyCompactList}\small\item\em Ponteiro para a substring anterior na lista. \end{DoxyCompactList}\item 
+\hyperlink{classRollingHash}{Rolling\+Hash}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classSubstring_a84e0e55a0ecbd5f74d25441df0edc68e}{rolling\+Hash}
+\begin{DoxyCompactList}\small\item\em ponteiro para a hash relativa ao seu conteúdo \end{DoxyCompactList}\item 
+int \hyperlink{classSubstring_a88e2864cc7847c7f57815de891246cfe}{begin}
+\begin{DoxyCompactList}\small\item\em Índice inicial da substring na sua string de origem. \end{DoxyCompactList}\item 
+int \hyperlink{classSubstring_a5a223bd1f3483d1ee55f4b3997a48862}{end}
+\begin{DoxyCompactList}\small\item\em Índice inicial da substring na sua string de origem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class Substring$<$ Type\+Of\+Content $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Type\+Of\+Content} & tipo da letra do alfabeto utilizado. Tipo do termo da substring. Classe referente a um candidato a \hyperlink{classTile}{Tile}. além do seu ponteiro para a string que contém, índice de início e de fim, também possui uma \hyperlink{classRollingHash}{Rolling\+Hash} para o seu conteúdo \\
+\hline
+\end{DoxyTemplParams}
+
+
+Definition at line 37 of file Substring.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classSubstring_a065a95aaacde32e5b623f0a52d3ca180}{\index{Substring@{Substring}!Substring@{Substring}}
+\index{Substring@{Substring}!Substring@{Substring}}
+\subsubsection[{Substring}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Substring}$<$ Type\+Of\+Content $>$\+::{\bf Substring} (
+\begin{DoxyParamCaption}
+\item[{{\bf Letter}$<$ Type\+Of\+Content $>$ $\ast$}]{string, }
+\item[{int}]{begin, }
+\item[{int}]{end, }
+\item[{int}]{base\+Length, }
+\item[{int}]{prime\+Number}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classSubstring_a065a95aaacde32e5b623f0a52d3ca180}
+Construtor da classe \hyperlink{classSubstring}{Substring} 
+\begin{DoxyParams}{Parameters}
+{\em string} & ponteiro para a string que a contém \\
+\hline
+{\em begin} & índice para sua posição inicial na string que a contém \\
+\hline
+{\em end} & índice para sua posição final na string que a contém \\
+\hline
+{\em base\+Length} & base do alfabeto ao qual pertence cada termo da string \\
+\hline
+{\em prime\+Number} & número primo usado para evitar overflow do valor de hash \\
+\hline
+{\em begin} & Índice inicial da substring na sua string de origem \\
+\hline
+{\em end} & Índice inicial da substring na sua string de origem \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 68 of file Substring.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::append(), Substring$<$ Type\+Of\+Content $>$\+::begin, Substring$<$ Type\+Of\+Content $>$\+::end, and Substring$<$ Type\+Of\+Content $>$\+::string.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classSubstring_a065a95aaacde32e5b623f0a52d3ca180_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classSubstring_ac486fd7645e645efd9c5a07b5e664b20}{\index{Substring@{Substring}!````~Substring@{$\sim$\+Substring}}
+\index{````~Substring@{$\sim$\+Substring}!Substring@{Substring}}
+\subsubsection[{$\sim$\+Substring}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Substring}$<$ Type\+Of\+Content $>$\+::$\sim${\bf Substring} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classSubstring_ac486fd7645e645efd9c5a07b5e664b20}
+Destrutor da classe \hyperlink{classSubstring}{Substring} 
+
+Definition at line 88 of file Substring.\+h.
+
+
+
+References Substring$<$ Type\+Of\+Content $>$\+::rolling\+Hash.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classSubstring_ae5eb3f9712352741b8bf65b2b231356c}{\index{Substring@{Substring}!append@{append}}
+\index{append@{append}!Substring@{Substring}}
+\subsubsection[{append}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Substring}$<$ Type\+Of\+Content $>$\+::append (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classSubstring_ae5eb3f9712352741b8bf65b2b231356c}
+Método que adiciona um novo termo a substring. Isto é feito através do ponteiro para a string que a contém. Adicionamos o termo posterior a substring. \begin{DoxySeeAlso}{See also}
+\hyperlink{classRollingHash}{Rolling\+Hash} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file Substring.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::append(), and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::end.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{classSubstring_ae5eb3f9712352741b8bf65b2b231356c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classSubstring_a217db9ee47a8cc5db31a671606e039b5}{\index{Substring@{Substring}!print@{print}}
+\index{print@{print}!Substring@{Substring}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Substring}$<$ Type\+Of\+Content $>$\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classSubstring_a217db9ee47a8cc5db31a671606e039b5}
+Imprimindo indices e valor de hash da substring \begin{DoxySeeAlso}{See also}
+\hyperlink{classRollingHash}{Rolling\+Hash} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 124 of file Substring.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::begin, Rolling\+Hash$<$ Type\+Of\+Content $>$\+::end, and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::hash\+Value.
+
+
+
+Referenced by Hash\+Table$<$ Type\+Of\+Content $>$\+::print\+Hash\+Table().
+
+\hypertarget{classSubstring_a618432b07f7469537bd8de5c9dccc02f}{\index{Substring@{Substring}!skip@{skip}}
+\index{skip@{skip}!Substring@{Substring}}
+\subsubsection[{skip}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Substring}$<$ Type\+Of\+Content $>$\+::skip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classSubstring_a618432b07f7469537bd8de5c9dccc02f}
+Método que remove um termo da substring. \begin{DoxySeeAlso}{See also}
+\hyperlink{classRollingHash}{Rolling\+Hash} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 112 of file Substring.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::skip().
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classSubstring_a618432b07f7469537bd8de5c9dccc02f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classSubstring_a88e2864cc7847c7f57815de891246cfe}{\index{Substring@{Substring}!begin@{begin}}
+\index{begin@{begin}!Substring@{Substring}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Substring}$<$ Type\+Of\+Content $>$\+::begin}}\label{classSubstring_a88e2864cc7847c7f57815de891246cfe}
+
+
+Índice inicial da substring na sua string de origem. 
+
+
+
+Definition at line 52 of file Substring.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern(), and Substring$<$ Type\+Of\+Content $>$\+::\+Substring().
+
+\hypertarget{classSubstring_a5a223bd1f3483d1ee55f4b3997a48862}{\index{Substring@{Substring}!end@{end}}
+\index{end@{end}!Substring@{Substring}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Substring}$<$ Type\+Of\+Content $>$\+::end}}\label{classSubstring_a5a223bd1f3483d1ee55f4b3997a48862}
+
+
+Índice inicial da substring na sua string de origem. 
+
+
+
+Definition at line 55 of file Substring.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), and Substring$<$ Type\+Of\+Content $>$\+::\+Substring().
+
+\hypertarget{classSubstring_a5965b296a10e4a5fd874913f07754451}{\index{Substring@{Substring}!next@{next}}
+\index{next@{next}!Substring@{Substring}}
+\subsubsection[{next}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Substring}$<$Type\+Of\+Content$>$$\ast$ {\bf Substring}$<$ Type\+Of\+Content $>$\+::next}}\label{classSubstring_a5965b296a10e4a5fd874913f07754451}
+
+
+Ponteiro para a próxima substring na lista. 
+
+
+
+Definition at line 44 of file Substring.\+h.
+
+
+
+Referenced by List\+Of\+Substrings$<$ Type\+Of\+Content $>$\+::add\+Substring(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), Hash\+Table$<$ Type\+Of\+Content $>$\+::print\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern(), and List\+Of\+Substrings$<$ Type\+Of\+Content $>$\+::$\sim$\+List\+Of\+Substrings().
+
+\hypertarget{classSubstring_a992d0f85409426c420d243ac18d2bca5}{\index{Substring@{Substring}!previous@{previous}}
+\index{previous@{previous}!Substring@{Substring}}
+\subsubsection[{previous}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Substring}$<$Type\+Of\+Content$>$$\ast$ {\bf Substring}$<$ Type\+Of\+Content $>$\+::previous}}\label{classSubstring_a992d0f85409426c420d243ac18d2bca5}
+
+
+Ponteiro para a substring anterior na lista. 
+
+
+
+Definition at line 46 of file Substring.\+h.
+
+
+
+Referenced by List\+Of\+Substrings$<$ Type\+Of\+Content $>$\+::add\+Substring(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table().
+
+\hypertarget{classSubstring_a84e0e55a0ecbd5f74d25441df0edc68e}{\index{Substring@{Substring}!rolling\+Hash@{rolling\+Hash}}
+\index{rolling\+Hash@{rolling\+Hash}!Substring@{Substring}}
+\subsubsection[{rolling\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Rolling\+Hash}$<$Type\+Of\+Content$>$$\ast$ {\bf Substring}$<$ Type\+Of\+Content $>$\+::rolling\+Hash}}\label{classSubstring_a84e0e55a0ecbd5f74d25441df0edc68e}
+
+
+ponteiro para a hash relativa ao seu conteúdo 
+
+
+
+Definition at line 49 of file Substring.\+h.
+
+
+
+Referenced by Hash\+Table$<$ Type\+Of\+Content $>$\+::add\+Hash(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern(), and Substring$<$ Type\+Of\+Content $>$\+::$\sim$\+Substring().
+
+\hypertarget{classSubstring_a8d1fd97efa348288f4b39bea36a8e879}{\index{Substring@{Substring}!string@{string}}
+\index{string@{string}!Substring@{Substring}}
+\subsubsection[{string}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Letter}$<$Type\+Of\+Content$>$$\ast$ {\bf Substring}$<$ Type\+Of\+Content $>$\+::{\bf string}}}\label{classSubstring_a8d1fd97efa348288f4b39bea36a8e879}
+
+
+Ponteiro para a string que a contém. 
+
+
+
+Definition at line 42 of file Substring.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern(), and Substring$<$ Type\+Of\+Content $>$\+::\+Substring().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Substring_8h}{Substring.\+h}\end{DoxyCompactItemize}

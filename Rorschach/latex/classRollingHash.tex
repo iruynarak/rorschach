@@ -1,0 +1,294 @@
+\hypertarget{classRollingHash}{\section{Rolling\+Hash$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classRollingHash}\index{Rolling\+Hash$<$ Type\+Of\+Content $>$@{Rolling\+Hash$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$Rolling\+Hash.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRollingHash_a23a92a45f616ddec85966845b5facb2e}{Rolling\+Hash} (int \hyperlink{classRollingHash_aea18bfbf983b35d528fa634d5f08c810}{base\+Length}, int random\+Prime, \hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$\hyperlink{Main_8cpp_a4505c08c065b48840a30eedd9845cce2}{string})
+\item 
+int \hyperlink{classRollingHash_a234a787077388a3825a9218702ce8647}{get\+Hash\+Value} ()
+\item 
+void \hyperlink{classRollingHash_a26ee45299e367c88ab8c80801dd007fc}{append} (int i)
+\item 
+void \hyperlink{classRollingHash_aa4f2a75c882a87d7cce490663c8e01be}{skip} ()
+\item 
+void \hyperlink{classRollingHash_a3a1b45d3adddedb05d92e89d5fd0f5ae}{print} ()
+\item 
+bool \hyperlink{classRollingHash_a2d7db74aad6ab8e34e1829c3ddf79989}{operator==} (const \hyperlink{classRollingHash}{Rolling\+Hash} \&other) const 
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long long \hyperlink{classRollingHash_af12ead08746ce29672d41151f0d3ac21}{hash\+Value}
+\begin{DoxyCompactList}\small\item\em valor da hash referente ao conteudo da fila \end{DoxyCompactList}\item 
+int \hyperlink{classRollingHash_a5b021104f9f93bb2265a2046d7edaaed}{prime\+Number}
+\item 
+int \hyperlink{classRollingHash_ae2e7e5cffeada00e493fbd9daed2a298}{length}
+\begin{DoxyCompactList}\small\item\em quantidade de termos sendo usados para construir a hash \end{DoxyCompactList}\item 
+int \hyperlink{classRollingHash_aea18bfbf983b35d528fa634d5f08c810}{base\+Length}
+\begin{DoxyCompactList}\small\item\em base do alfabeto utilizado na criação da hash \end{DoxyCompactList}\item 
+\hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classRollingHash_af85ff74e2d593d4bc48a9c73732d18ec}{string}
+\begin{DoxyCompactList}\small\item\em ponteiro para a palavra que será usada na Rolling Hash \end{DoxyCompactList}\item 
+int \hyperlink{classRollingHash_ae1516e16a6167fbe36b46af49614c6af}{begin}
+\begin{DoxyCompactList}\small\item\em índice do início do trecho para o qual a Rolling Hash se refere. \end{DoxyCompactList}\item 
+int \hyperlink{classRollingHash_aa3f8e695a18340a65fbe29abc46e90ff}{end}
+\begin{DoxyCompactList}\small\item\em índice do fim do trecho para o qual a Rolling Hash se refere. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class Rolling\+Hash$<$ Type\+Of\+Content $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Type\+Of\+Content} & tipo da letra do alfabeto utilizado. Tipo do termo adicionado a fila classe que realiza a implementação da Rolling Hash \\
+\hline
+\end{DoxyTemplParams}
+
+
+Definition at line 40 of file Rolling\+Hash.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRollingHash_a23a92a45f616ddec85966845b5facb2e}{\index{Rolling\+Hash@{Rolling\+Hash}!Rolling\+Hash@{Rolling\+Hash}}
+\index{Rolling\+Hash@{Rolling\+Hash}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{Rolling\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::{\bf Rolling\+Hash} (
+\begin{DoxyParamCaption}
+\item[{int}]{base\+Length, }
+\item[{int}]{random\+Prime, }
+\item[{{\bf Letter}$<$ Type\+Of\+Content $>$ $\ast$}]{string}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRollingHash_a23a92a45f616ddec85966845b5facb2e}
+Construtor da Rolling Hash 
+\begin{DoxyParams}{Parameters}
+{\em base\+Length} & base do alfabeto utilizado na criação da hash \\
+\hline
+{\em random\+Prime} & número primo utizado para limitar o valor da hash evitando overflow \\
+\hline
+{\em string} & ponteiro para a palavra que será usada na Rolling Hash \\
+\hline
+\end{DoxyParams}
+primo escolhido deve ser maior ou igual que tamanho da string, ou seja, prime\+Number $>$= length 
+
+Definition at line 74 of file Rolling\+Hash.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::base\+Length, and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::string.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classRollingHash_a26ee45299e367c88ab8c80801dd007fc}{\index{Rolling\+Hash@{Rolling\+Hash}!append@{append}}
+\index{append@{append}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{append}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::append (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRollingHash_a26ee45299e367c88ab8c80801dd007fc}
+adiciona uma nova letra a hash, atualizando o valor de hash, length e fila 
+\begin{DoxyParams}{Parameters}
+{\em i} & Ponteiro para a localização da letra cujo tipo é Type\+Of\+Content e que será adicionada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 107 of file Rolling\+Hash.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::base\+Length, Rolling\+Hash$<$ Type\+Of\+Content $>$\+::end, and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::prime\+Number.
+
+
+
+Referenced by Substring$<$ Type\+Of\+Content $>$\+::append(), and Substring$<$ Type\+Of\+Content $>$\+::\+Substring().
+
+\hypertarget{classRollingHash_a234a787077388a3825a9218702ce8647}{\index{Rolling\+Hash@{Rolling\+Hash}!get\+Hash\+Value@{get\+Hash\+Value}}
+\index{get\+Hash\+Value@{get\+Hash\+Value}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{get\+Hash\+Value}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::get\+Hash\+Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRollingHash_a234a787077388a3825a9218702ce8647}
+retorna o valor de hash atual \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 94 of file Rolling\+Hash.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::hash\+Value.
+
+\hypertarget{classRollingHash_a2d7db74aad6ab8e34e1829c3ddf79989}{\index{Rolling\+Hash@{Rolling\+Hash}!operator==@{operator==}}
+\index{operator==@{operator==}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ bool {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$ \&}]{other}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRollingHash_a2d7db74aad6ab8e34e1829c3ddf79989}
+sobreescrevendo o operador == para que possamos comparar o conteúdo da \hyperlink{classRollingHash}{Rolling\+Hash}, ou seja, o conteúdo guardado na fila. Isto é útil durante a verificação de igualdade entre duas \hyperlink{classRollingHash}{Rolling\+Hash} cujos valores de hash delas são iguais. 
+\begin{DoxyParams}{Parameters}
+{\em other} & a segunda \hyperlink{classRollingHash}{Rolling\+Hash} sendo comparada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna true caso os conteúdos delas sejam iguais. Falso caso contrário 
+\end{DoxyReturn}
+
+
+Definition at line 176 of file Rolling\+Hash.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::begin, Rolling\+Hash$<$ Type\+Of\+Content $>$\+::end, and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::string.
+
+\hypertarget{classRollingHash_a3a1b45d3adddedb05d92e89d5fd0f5ae}{\index{Rolling\+Hash@{Rolling\+Hash}!print@{print}}
+\index{print@{print}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRollingHash_a3a1b45d3adddedb05d92e89d5fd0f5ae}
+imprime o valor da hash atual e os termos que serviram para a sua criação \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 161 of file Rolling\+Hash.\+h.
+
+\hypertarget{classRollingHash_aa4f2a75c882a87d7cce490663c8e01be}{\index{Rolling\+Hash@{Rolling\+Hash}!skip@{skip}}
+\index{skip@{skip}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{skip}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::skip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRollingHash_aa4f2a75c882a87d7cce490663c8e01be}
+retira a primeira letra da fila, ou seja, a mais antiga \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 130 of file Rolling\+Hash.\+h.
+
+
+
+References Rolling\+Hash$<$ Type\+Of\+Content $>$\+::hash\+Value, and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::prime\+Number.
+
+
+
+Referenced by Substring$<$ Type\+Of\+Content $>$\+::skip().
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classRollingHash_aea18bfbf983b35d528fa634d5f08c810}{\index{Rolling\+Hash@{Rolling\+Hash}!base\+Length@{base\+Length}}
+\index{base\+Length@{base\+Length}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{base\+Length}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::base\+Length}}\label{classRollingHash_aea18bfbf983b35d528fa634d5f08c810}
+
+
+base do alfabeto utilizado na criação da hash 
+
+
+
+Definition at line 57 of file Rolling\+Hash.\+h.
+
+
+
+Referenced by Rolling\+Hash$<$ Type\+Of\+Content $>$\+::append(), and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::\+Rolling\+Hash().
+
+\hypertarget{classRollingHash_ae1516e16a6167fbe36b46af49614c6af}{\index{Rolling\+Hash@{Rolling\+Hash}!begin@{begin}}
+\index{begin@{begin}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::begin}}\label{classRollingHash_ae1516e16a6167fbe36b46af49614c6af}
+
+
+índice do início do trecho para o qual a Rolling Hash se refere. 
+
+
+
+Definition at line 63 of file Rolling\+Hash.\+h.
+
+
+
+Referenced by Rolling\+Hash$<$ Type\+Of\+Content $>$\+::operator==(), and Substring$<$ Type\+Of\+Content $>$\+::print().
+
+\hypertarget{classRollingHash_aa3f8e695a18340a65fbe29abc46e90ff}{\index{Rolling\+Hash@{Rolling\+Hash}!end@{end}}
+\index{end@{end}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::end}}\label{classRollingHash_aa3f8e695a18340a65fbe29abc46e90ff}
+
+
+índice do fim do trecho para o qual a Rolling Hash se refere. 
+
+
+
+Definition at line 66 of file Rolling\+Hash.\+h.
+
+
+
+Referenced by Substring$<$ Type\+Of\+Content $>$\+::append(), Rolling\+Hash$<$ Type\+Of\+Content $>$\+::append(), Rolling\+Hash$<$ Type\+Of\+Content $>$\+::operator==(), and Substring$<$ Type\+Of\+Content $>$\+::print().
+
+\hypertarget{classRollingHash_af12ead08746ce29672d41151f0d3ac21}{\index{Rolling\+Hash@{Rolling\+Hash}!hash\+Value@{hash\+Value}}
+\index{hash\+Value@{hash\+Value}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{hash\+Value}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ long long {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::hash\+Value}}\label{classRollingHash_af12ead08746ce29672d41151f0d3ac21}
+
+
+valor da hash referente ao conteudo da fila 
+
+
+
+Definition at line 46 of file Rolling\+Hash.\+h.
+
+
+
+Referenced by Rolling\+Hash$<$ Type\+Of\+Content $>$\+::get\+Hash\+Value(), Substring$<$ Type\+Of\+Content $>$\+::print(), and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::skip().
+
+\hypertarget{classRollingHash_ae2e7e5cffeada00e493fbd9daed2a298}{\index{Rolling\+Hash@{Rolling\+Hash}!length@{length}}
+\index{length@{length}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::length}}\label{classRollingHash_ae2e7e5cffeada00e493fbd9daed2a298}
+
+
+quantidade de termos sendo usados para construir a hash 
+
+
+
+Definition at line 54 of file Rolling\+Hash.\+h.
+
+\hypertarget{classRollingHash_a5b021104f9f93bb2265a2046d7edaaed}{\index{Rolling\+Hash@{Rolling\+Hash}!prime\+Number@{prime\+Number}}
+\index{prime\+Number@{prime\+Number}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{prime\+Number}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::prime\+Number}}\label{classRollingHash_a5b021104f9f93bb2265a2046d7edaaed}
+numero primo utilizado para limitar o valor da hash evitando overflow 
+
+Definition at line 51 of file Rolling\+Hash.\+h.
+
+
+
+Referenced by Rolling\+Hash$<$ Type\+Of\+Content $>$\+::append(), and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::skip().
+
+\hypertarget{classRollingHash_af85ff74e2d593d4bc48a9c73732d18ec}{\index{Rolling\+Hash@{Rolling\+Hash}!string@{string}}
+\index{string@{string}!Rolling\+Hash@{Rolling\+Hash}}
+\subsubsection[{string}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Letter}$<$Type\+Of\+Content$>$$\ast$ {\bf Rolling\+Hash}$<$ Type\+Of\+Content $>$\+::{\bf string}}}\label{classRollingHash_af85ff74e2d593d4bc48a9c73732d18ec}
+
+
+ponteiro para a palavra que será usada na Rolling Hash 
+
+
+
+Definition at line 60 of file Rolling\+Hash.\+h.
+
+
+
+Referenced by Rolling\+Hash$<$ Type\+Of\+Content $>$\+::operator==(), and Rolling\+Hash$<$ Type\+Of\+Content $>$\+::\+Rolling\+Hash().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{RollingHash_8h}{Rolling\+Hash.\+h}\end{DoxyCompactItemize}

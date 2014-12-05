@@ -1,0 +1,161 @@
+\hypertarget{classReader}{\section{Reader$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classReader}\index{Reader$<$ Type\+Of\+Content $>$@{Reader$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$Reader.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classReader_a8b5850f38fe8b78b426575da9c421ba3}{Reader} (\hyperlink{Main_8cpp_a4505c08c065b48840a30eedd9845cce2}{string} pattern\+File\+Name, \hyperlink{Main_8cpp_a4505c08c065b48840a30eedd9845cce2}{string} text\+File\+Name)
+\item 
+void \hyperlink{classReader_a481551db3ffcea967de48b4725cb8bcb}{print\+Files} ()
+\item 
+bool \hyperlink{classReader_a7fbe4bed605ebdd00ec00309cff2ca9d}{file\+Exist} (const \hyperlink{Reader_8h_a4505c08c065b48840a30eedd9845cce2}{std\+::string} \&name)
+\item 
+\hyperlink{classBox}{Box}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classReader_a8ef7d743eeaf83f2c47e56164145afb0}{files\+To\+Box} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::fstream \hyperlink{classReader_ab1b8cba2b947b66777f32cbf7743ba7e}{text\+File}
+\begin{DoxyCompactList}\small\item\em arquivo que contem o texto \end{DoxyCompactList}\item 
+std\+::fstream \hyperlink{classReader_ab38c2e4b4e9e31982fd77158fb88eeec}{pattern\+File}
+\begin{DoxyCompactList}\small\item\em arquivo que contem o pattern \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class Reader$<$ Type\+Of\+Content $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Type\+Of\+Content} & tipo da letra do alfabeto utilizado. Tipo dos termos de text e pattern tipo usado para a leitura dos arquivos que contem o texto \\
+\hline
+\end{DoxyTemplParams}
+
+
+Definition at line 45 of file Reader.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classReader_a8b5850f38fe8b78b426575da9c421ba3}{\index{Reader@{Reader}!Reader@{Reader}}
+\index{Reader@{Reader}!Reader@{Reader}}
+\subsubsection[{Reader}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Reader}$<$ Type\+Of\+Content $>$\+::{\bf Reader} (
+\begin{DoxyParamCaption}
+\item[{{\bf string}}]{pattern\+File\+Name, }
+\item[{{\bf string}}]{text\+File\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classReader_a8b5850f38fe8b78b426575da9c421ba3}
+Construtor que, atraves dos nomes dos arquivos, os abre. 
+\begin{DoxyParams}{Parameters}
+{\em pattern\+File\+Name} & nome do arquivo contendo pattern \\
+\hline
+{\em text\+File\+Name} & nome do arquivo contendo text \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 60 of file Reader.\+h.
+
+
+
+References Reader$<$ Type\+Of\+Content $>$\+::file\+Exist().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classReader_a8b5850f38fe8b78b426575da9c421ba3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classReader_a7fbe4bed605ebdd00ec00309cff2ca9d}{\index{Reader@{Reader}!file\+Exist@{file\+Exist}}
+\index{file\+Exist@{file\+Exist}!Reader@{Reader}}
+\subsubsection[{file\+Exist}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ bool {\bf Reader}$<$ Type\+Of\+Content $>$\+::file\+Exist (
+\begin{DoxyParamCaption}
+\item[{const {\bf std\+::string} \&}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classReader_a7fbe4bed605ebdd00ec00309cff2ca9d}
+
+
+Definition at line 117 of file Reader.\+h.
+
+
+
+Referenced by Reader$<$ Type\+Of\+Content $>$\+::\+Reader().
+
+\hypertarget{classReader_a8ef7d743eeaf83f2c47e56164145afb0}{\index{Reader@{Reader}!files\+To\+Box@{files\+To\+Box}}
+\index{files\+To\+Box@{files\+To\+Box}!Reader@{Reader}}
+\subsubsection[{files\+To\+Box}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Box}$<$Type\+Of\+Content$>$$\ast$ {\bf Reader}$<$ Type\+Of\+Content $>$\+::files\+To\+Box (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classReader_a8ef7d743eeaf83f2c47e56164145afb0}
+através dos arquivos encontrados no construtor, lê cada arquivo e para cada um adiciona seu respectivo conteúdo em um vetor de Letter$<$char$>$ diferente. Por fim, agrupa-\/os, junto aos seus tamanhos em um objeto do tipo \hyperlink{classBox}{Box} \begin{DoxyReturn}{Returns}
+box contendo os vetores de Letter$<$char$>$ criados e seus tamanhos 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classLetter}{Letter} 
+
+\hyperlink{classBox}{Box} 
+\end{DoxySeeAlso}
+
+
+Definition at line 141 of file Reader.\+h.
+
+
+
+Referenced by main().
+
+\hypertarget{classReader_a481551db3ffcea967de48b4725cb8bcb}{\index{Reader@{Reader}!print\+Files@{print\+Files}}
+\index{print\+Files@{print\+Files}!Reader@{Reader}}
+\subsubsection[{print\+Files}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Reader}$<$ Type\+Of\+Content $>$\+::print\+Files (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classReader_a481551db3ffcea967de48b4725cb8bcb}
+transforma os dados de um arquivo diretamente no tipo \hyperlink{classBox}{Box} Usado quando o dado a ser trabalho eh char. Quando for token, apos a leitura do arquivo eh necessario realizar um passo a mais para a tokenização \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file Reader.\+h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classReader_ab38c2e4b4e9e31982fd77158fb88eeec}{\index{Reader@{Reader}!pattern\+File@{pattern\+File}}
+\index{pattern\+File@{pattern\+File}!Reader@{Reader}}
+\subsubsection[{pattern\+File}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ std\+::fstream {\bf Reader}$<$ Type\+Of\+Content $>$\+::pattern\+File}}\label{classReader_ab38c2e4b4e9e31982fd77158fb88eeec}
+
+
+arquivo que contem o pattern 
+
+
+
+Definition at line 53 of file Reader.\+h.
+
+\hypertarget{classReader_ab1b8cba2b947b66777f32cbf7743ba7e}{\index{Reader@{Reader}!text\+File@{text\+File}}
+\index{text\+File@{text\+File}!Reader@{Reader}}
+\subsubsection[{text\+File}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ std\+::fstream {\bf Reader}$<$ Type\+Of\+Content $>$\+::text\+File}}\label{classReader_ab1b8cba2b947b66777f32cbf7743ba7e}
+
+
+arquivo que contem o texto 
+
+
+
+Definition at line 49 of file Reader.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Reader_8h}{Reader.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,143 @@
+\hypertarget{classListOfSubstrings}{\section{List\+Of\+Substrings$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classListOfSubstrings}\index{List\+Of\+Substrings$<$ Type\+Of\+Content $>$@{List\+Of\+Substrings$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$List\+Of\+Substrings.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classListOfSubstrings_ab8280100b0f6224eb4d36fc448d8eeb8}{List\+Of\+Substrings} ()
+\begin{DoxyCompactList}\small\item\em Construtor de \hyperlink{classListOfSubstrings}{List\+Of\+Substrings}. \end{DoxyCompactList}\item 
+\hyperlink{classListOfSubstrings_ae5aa0c336f8f5fab58a8d239cc5ab9d9}{$\sim$\+List\+Of\+Substrings} ()
+\item 
+void \hyperlink{classListOfSubstrings_a480372956993999a6e42e104cf264e32}{add\+Substring} (\hyperlink{classSubstring}{Substring}$<$ Type\+Of\+Content $>$ $\ast$substring)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classListOfSubstrings_afbd8ea432d107cd2f1285c9fe5dd9b96}{number\+Of\+Substrings}
+\begin{DoxyCompactList}\small\item\em Número de objetos da classe \hyperlink{classSubstring}{Substring} na lista. \end{DoxyCompactList}\item 
+\hyperlink{classSubstring}{Substring}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classListOfSubstrings_aca3c37e86411bf80050bece7a1ec0df0}{begin}
+\begin{DoxyCompactList}\small\item\em Ponteiro para o início da lista. \end{DoxyCompactList}\item 
+\hyperlink{classSubstring}{Substring}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classListOfSubstrings_a4b4c8edcbdf74d6c6b0e21551e504b98}{end}
+\begin{DoxyCompactList}\small\item\em Ponteiro para o fim da lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class List\+Of\+Substrings$<$ Type\+Of\+Content $>$}
+
+Lista de objetos da classe \hyperlink{classSubstring}{Substring} 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Type\+Of\+Content} & tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classSubstring}{Substring} 
+\end{DoxySeeAlso}
+
+
+Definition at line 34 of file List\+Of\+Substrings.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classListOfSubstrings_ab8280100b0f6224eb4d36fc448d8eeb8}{\index{List\+Of\+Substrings@{List\+Of\+Substrings}!List\+Of\+Substrings@{List\+Of\+Substrings}}
+\index{List\+Of\+Substrings@{List\+Of\+Substrings}!List\+Of\+Substrings@{List\+Of\+Substrings}}
+\subsubsection[{List\+Of\+Substrings}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf List\+Of\+Substrings}$<$ Type\+Of\+Content $>$\+::{\bf List\+Of\+Substrings} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfSubstrings_ab8280100b0f6224eb4d36fc448d8eeb8}
+
+
+Construtor de \hyperlink{classListOfSubstrings}{List\+Of\+Substrings}. 
+
+
+
+Definition at line 48 of file List\+Of\+Substrings.\+h.
+
+\hypertarget{classListOfSubstrings_ae5aa0c336f8f5fab58a8d239cc5ab9d9}{\index{List\+Of\+Substrings@{List\+Of\+Substrings}!````~List\+Of\+Substrings@{$\sim$\+List\+Of\+Substrings}}
+\index{````~List\+Of\+Substrings@{$\sim$\+List\+Of\+Substrings}!List\+Of\+Substrings@{List\+Of\+Substrings}}
+\subsubsection[{$\sim$\+List\+Of\+Substrings}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf List\+Of\+Substrings}$<$ Type\+Of\+Content $>$\+::$\sim${\bf List\+Of\+Substrings} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfSubstrings_ae5aa0c336f8f5fab58a8d239cc5ab9d9}
+Destrutor de \hyperlink{classListOfSubstrings}{List\+Of\+Substrings}. deletando cada um dos objetos da classe Substrings contidos na lista 
+
+Definition at line 60 of file List\+Of\+Substrings.\+h.
+
+
+
+References Substring$<$ Type\+Of\+Content $>$\+::next.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classListOfSubstrings_a480372956993999a6e42e104cf264e32}{\index{List\+Of\+Substrings@{List\+Of\+Substrings}!add\+Substring@{add\+Substring}}
+\index{add\+Substring@{add\+Substring}!List\+Of\+Substrings@{List\+Of\+Substrings}}
+\subsubsection[{add\+Substring}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf List\+Of\+Substrings}$<$ Type\+Of\+Content $>$\+::add\+Substring (
+\begin{DoxyParamCaption}
+\item[{{\bf Substring}$<$ Type\+Of\+Content $>$ $\ast$}]{substring}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfSubstrings_a480372956993999a6e42e104cf264e32}
+Adiciona uma nova substring a lista de substrings 
+\begin{DoxyParams}{Parameters}
+{\em substring} & substring que será adicionada. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 78 of file List\+Of\+Substrings.\+h.
+
+
+
+References List\+Of\+Substrings$<$ Type\+Of\+Content $>$\+::end, Substring$<$ Type\+Of\+Content $>$\+::next, and Substring$<$ Type\+Of\+Content $>$\+::previous.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classListOfSubstrings_aca3c37e86411bf80050bece7a1ec0df0}{\index{List\+Of\+Substrings@{List\+Of\+Substrings}!begin@{begin}}
+\index{begin@{begin}!List\+Of\+Substrings@{List\+Of\+Substrings}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Substring}$<$Type\+Of\+Content$>$$\ast$ {\bf List\+Of\+Substrings}$<$ Type\+Of\+Content $>$\+::begin}}\label{classListOfSubstrings_aca3c37e86411bf80050bece7a1ec0df0}
+
+
+Ponteiro para o início da lista. 
+
+
+
+Definition at line 42 of file List\+Of\+Substrings.\+h.
+
+\hypertarget{classListOfSubstrings_a4b4c8edcbdf74d6c6b0e21551e504b98}{\index{List\+Of\+Substrings@{List\+Of\+Substrings}!end@{end}}
+\index{end@{end}!List\+Of\+Substrings@{List\+Of\+Substrings}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Substring}$<$Type\+Of\+Content$>$$\ast$ {\bf List\+Of\+Substrings}$<$ Type\+Of\+Content $>$\+::end}}\label{classListOfSubstrings_a4b4c8edcbdf74d6c6b0e21551e504b98}
+
+
+Ponteiro para o fim da lista. 
+
+
+
+Definition at line 45 of file List\+Of\+Substrings.\+h.
+
+
+
+Referenced by List\+Of\+Substrings$<$ Type\+Of\+Content $>$\+::add\+Substring().
+
+\hypertarget{classListOfSubstrings_afbd8ea432d107cd2f1285c9fe5dd9b96}{\index{List\+Of\+Substrings@{List\+Of\+Substrings}!number\+Of\+Substrings@{number\+Of\+Substrings}}
+\index{number\+Of\+Substrings@{number\+Of\+Substrings}!List\+Of\+Substrings@{List\+Of\+Substrings}}
+\subsubsection[{number\+Of\+Substrings}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf List\+Of\+Substrings}$<$ Type\+Of\+Content $>$\+::number\+Of\+Substrings}}\label{classListOfSubstrings_afbd8ea432d107cd2f1285c9fe5dd9b96}
+
+
+Número de objetos da classe \hyperlink{classSubstring}{Substring} na lista. 
+
+
+
+Definition at line 39 of file List\+Of\+Substrings.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ListOfSubstrings_8h}{List\+Of\+Substrings.\+h}\end{DoxyCompactItemize}

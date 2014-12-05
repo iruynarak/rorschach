@@ -1,0 +1,97 @@
+.TH "ListOfMatches" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ListOfMatches \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ListOfMatches\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBListOfMatches\fP ()"
+.br
+.ti -1c
+.RI "void \fBinsert\fP (int length, int patternIndex, int textIndex)"
+.br
+.ti -1c
+.RI "\fBMatch\fP * \fBremove\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBnumberOfMatches\fP"
+.br
+.RI "\fINúmero de casamentos (objetos da classe \fBMatch\fP) na lista\&. \fP"
+.ti -1c
+.RI "\fBMatch\fP * \fBbegin\fP"
+.br
+.RI "\fIPonteiro para o início da lista\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Lista de casamentos (objetos da classe \fBMatch\fP) 
+.PP
+Definition at line 33 of file ListOfMatches\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ListOfMatches::ListOfMatches ()\fC [inline]\fP"
+Construtor de objeto da classe \fBListOfMatches\fP 
+.PP
+Definition at line 43 of file ListOfMatches\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void ListOfMatches::insert (intlength, intpatternIndex, inttextIndex)"
+Insere casamento (objeto da classe \fBMatch\fP) 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlength\fP Tamanho do casamento (objeto da classe \fBMatch\fP) a ser inserido\&. 
+.br
+\fIpatternIndex\fP Índice em pattern do casamento (objeto da classe \fBMatch\fP) a ser inserido\&. 
+.br
+\fItextIndex\fP Índice em text do casamento (objeto da classe \fBMatch\fP) a ser inserido\&. 
+.RE
+.PP
+
+.PP
+Definition at line 26 of file ListOfMatches\&.cpp\&.
+.PP
+References begin, Match::length, Match::next, numberOfMatches, and Match::previous\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::markArrays(), and RKRGST< TypeOfContent >::scanPattern()\&.
+.SS "\fBMatch\fP * ListOfMatches::remove ()"
+Remove um match da lista 
+.PP
+Definition at line 78 of file ListOfMatches\&.cpp\&.
+.PP
+References begin, Match::next, numberOfMatches, and Match::previous\&.
+.PP
+Referenced by main(), and RKRGST< TypeOfContent >::markArrays()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBMatch\fP* ListOfMatches::begin"
+
+.PP
+Ponteiro para o início da lista\&. 
+.PP
+Definition at line 39 of file ListOfMatches\&.h\&.
+.PP
+Referenced by insert(), and remove()\&.
+.SS "int ListOfMatches::numberOfMatches"
+
+.PP
+Número de casamentos (objetos da classe \fBMatch\fP) na lista\&. 
+.PP
+Definition at line 37 of file ListOfMatches\&.h\&.
+.PP
+Referenced by insert(), main(), RKRGST< TypeOfContent >::markArrays(), and remove()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classListOfMatches" kind="class" prot="public">
+    <compoundname>ListOfMatches</compoundname>
+    <includes refid="ListOfMatches_8h" local="no">ListOfMatches.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ListOfMatches::numberOfMatches</definition>
+        <argsstring></argsstring>
+        <name>numberOfMatches</name>
+        <briefdescription>
+<para>Número de casamentos (objetos da classe <ref refid="classMatch" kindref="compound">Match</ref>) na lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" line="37" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classListOfMatches_1a44472d7bbe64b949bf8ce289bda3134f" compoundref="ListOfMatches_8cpp" startline="26" endline="76">insert</referencedby>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+        <referencedby refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" compoundref="RKRGST_8h" startline="157" endline="183">RKRGST&lt; TypeOfContent &gt;::markArrays</referencedby>
+        <referencedby refid="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" compoundref="ListOfMatches_8cpp" startline="78" endline="90">remove</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classListOfMatches_1adc4925222fa338afdbbcdd7e5c37e2c9" prot="public" static="no" mutable="no">
+        <type><ref refid="classMatch" kindref="compound">Match</ref> *</type>
+        <definition>Match* ListOfMatches::begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Ponteiro para o início da lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" line="39" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classListOfMatches_1a44472d7bbe64b949bf8ce289bda3134f" compoundref="ListOfMatches_8cpp" startline="26" endline="76">insert</referencedby>
+        <referencedby refid="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" compoundref="ListOfMatches_8cpp" startline="78" endline="90">remove</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classListOfMatches_1a072714a38619e642eda703dfa94fa79c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListOfMatches::ListOfMatches</definition>
+        <argsstring>()</argsstring>
+        <name>ListOfMatches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor de objeto da classe <ref refid="classListOfMatches" kindref="compound">ListOfMatches</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" line="43" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classListOfMatches_1a44472d7bbe64b949bf8ce289bda3134f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListOfMatches::insert</definition>
+        <argsstring>(int length, int patternIndex, int textIndex)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>patternIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>textIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Insere casamento (objeto da classe <ref refid="classMatch" kindref="compound">Match</ref>) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho do casamento (objeto da classe <ref refid="classMatch" kindref="compound">Match</ref>) a ser inserido. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>patternIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice em pattern do casamento (objeto da classe <ref refid="classMatch" kindref="compound">Match</ref>) a ser inserido. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>textIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice em text do casamento (objeto da classe <ref refid="classMatch" kindref="compound">Match</ref>) a ser inserido. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" line="54" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.cpp" bodystart="26" bodyend="76"/>
+        <references refid="classListOfMatches_1adc4925222fa338afdbbcdd7e5c37e2c9" compoundref="ListOfMatches_8h" startline="39">begin</references>
+        <references refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" compoundref="Match_8h" startline="33">Match::length</references>
+        <references refid="classMatch_1a992c150265becb5f6806d09bad8cea0c" compoundref="Match_8h" startline="40">Match::next</references>
+        <references refid="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" compoundref="ListOfMatches_8h" startline="37">numberOfMatches</references>
+        <references refid="classMatch_1aec1e648b8eba83f2ed76182644ce91de" compoundref="Match_8h" startline="42">Match::previous</references>
+        <referencedby refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" compoundref="RKRGST_8h" startline="157" endline="183">RKRGST&lt; TypeOfContent &gt;::markArrays</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMatch" kindref="compound">Match</ref> *</type>
+        <definition>Match * ListOfMatches::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove um match da lista </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" line="59" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.cpp" bodystart="78" bodyend="90"/>
+        <references refid="classListOfMatches_1adc4925222fa338afdbbcdd7e5c37e2c9" compoundref="ListOfMatches_8h" startline="39">begin</references>
+        <references refid="classMatch_1a992c150265becb5f6806d09bad8cea0c" compoundref="Match_8h" startline="40">Match::next</references>
+        <references refid="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" compoundref="ListOfMatches_8h" startline="37">numberOfMatches</references>
+        <references refid="classMatch_1aec1e648b8eba83f2ed76182644ce91de" compoundref="Match_8h" startline="42">Match::previous</references>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+        <referencedby refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" compoundref="RKRGST_8h" startline="157" endline="183">RKRGST&lt; TypeOfContent &gt;::markArrays</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Lista de casamentos (objetos da classe <ref refid="classMatch" kindref="compound">Match</ref>) </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="42">
+        <label>ListOfMatches</label>
+        <link refid="classListOfMatches"/>
+        <childnode refid="43" relation="usage">
+          <edgelabel>begin</edgelabel>
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Match</label>
+        <link refid="classMatch"/>
+        <childnode refid="43" relation="usage">
+          <edgelabel>previous</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" line="34" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfMatches.h" bodystart="33" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classListOfMatches_1adc4925222fa338afdbbcdd7e5c37e2c9" prot="public" virt="non-virtual"><scope>ListOfMatches</scope><name>begin</name></member>
+      <member refid="classListOfMatches_1a44472d7bbe64b949bf8ce289bda3134f" prot="public" virt="non-virtual"><scope>ListOfMatches</scope><name>insert</name></member>
+      <member refid="classListOfMatches_1a072714a38619e642eda703dfa94fa79c" prot="public" virt="non-virtual"><scope>ListOfMatches</scope><name>ListOfMatches</name></member>
+      <member refid="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" prot="public" virt="non-virtual"><scope>ListOfMatches</scope><name>numberOfMatches</name></member>
+      <member refid="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" prot="public" virt="non-virtual"><scope>ListOfMatches</scope><name>remove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

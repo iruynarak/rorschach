@@ -1,0 +1,305 @@
+.TH "RKRGST< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RKRGST< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <RKRGST\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRKRGST\fP (\fBBox\fP< TypeOfContent > *\fBbox\fP, int \fBinitialSearchLength\fP, int \fBminimumSearchLength\fP, int \fBbaseLength\fP)"
+.br
+.ti -1c
+.RI "void \fBexecute\fP ()"
+.br
+.ti -1c
+.RI "void \fBmarkArrays\fP (int searchLength, \fBListOfMatches\fP *listOfMatches)"
+.br
+.ti -1c
+.RI "int \fBscanPattern\fP (int searchLength, \fBListOfMatches\fP *listOfMatches)"
+.br
+.ti -1c
+.RI "int \fBfindPatternSubstring\fP (int searchLength, \fBHashTable\fP< TypeOfContent > *textHashTable, int actualIndex)"
+.br
+.ti -1c
+.RI "void \fBfillTextHashTable\fP (int searchLength, \fBHashTable\fP< TypeOfContent > *textHashTable)"
+.br
+.ti -1c
+.RI "bool \fBoccluded\fP (\fBBox\fP< TypeOfContent > *\fBbox\fP, \fBMatch\fP *match)"
+.br
+.ti -1c
+.RI "void \fBmarkTokens\fP (\fBBox\fP< TypeOfContent > *\fBbox\fP, \fBMatch\fP *match)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBinitialSearchLength\fP"
+.br
+.RI "\fITamanho inicial do padrão buscado\&. \fP"
+.ti -1c
+.RI "int \fBminimumSearchLength\fP"
+.br
+.RI "\fITamanho mínimo a ser buscado\&. \fP"
+.ti -1c
+.RI "int \fBprimeNumber\fP"
+.br
+.RI "\fINúmero primo utilizado na hash\&. \fP"
+.ti -1c
+.RI "\fBBox\fP< TypeOfContent > * \fBbox\fP"
+.br
+.RI "\fIContainer de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos\&. \fP"
+.ti -1c
+.RI "\fBListOfTiles\fP * \fBlistOfPatternTiles\fP"
+.br
+.RI "\fIPonteiro para um objeto da classe \fBListOfTiles\fP que contém uma lista de objetos da classe \fBTile\fP relativos à Pattern\&. \fP"
+.ti -1c
+.RI "\fBListOfTiles\fP * \fBlistOfTextTiles\fP"
+.br
+.RI "\fIPonteiro para um objeto da classe \fBListOfTiles\fP que contém uma lista de objetos da classe \fBTile\fP relativos à Text\&. \fP"
+.ti -1c
+.RI "int \fBbaseLength\fP"
+.br
+.RI "\fITamanho da base dos números gerados pela \fBRollingHash\fP\&. \fP"
+.ti -1c
+.RI "int \fBlengthOfTokensTiled\fP"
+.br
+.ti -1c
+.RI "\fBListOfMatches\fP * \fBlistOfFinalTiles\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class RKRGST< TypeOfContent >"
+
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo dos termos da pattern e da text Classe contendo todos os algoritmos realizados pelo \fBRKRGST\fP 
+.RE
+.PP
+
+.PP
+Definition at line 48 of file RKRGST\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBRKRGST\fP< TypeOfContent >::\fBRKRGST\fP (\fBBox\fP< TypeOfContent > *box, intinitialSearchLength, intminimumSearchLength, intbaseLength)\fC [inline]\fP"
+Construtor de objeto da classe \fBRKRGST\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbox\fP Container de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos 
+.br
+\fIinitialSearchLength\fP Tamanho inicial do padrão buscado 
+.br
+\fIminimumSearchLength\fP Tamanho mínimo a ser buscado 
+.br
+\fIbaseLength\fP Tamanho da base dos números gerados pela \fBRollingHash\fP\&. 
+.RE
+.PP
+
+.PP
+Definition at line 86 of file RKRGST\&.h\&.
+.PP
+References RKRGST< TypeOfContent >::baseLength, RKRGST< TypeOfContent >::box, RKRGST< TypeOfContent >::initialSearchLength, RKRGST< TypeOfContent >::minimumSearchLength, and RandomPrime::newRandomPrime()\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename TypeOfContent> void \fBRKRGST\fP< TypeOfContent >::execute ()\fC [inline]\fP"
+Método que executa t odo o algoritmo \fBRKRGST\fP 
+.PP
+Definition at line 104 of file RKRGST\&.h\&.
+.PP
+References RKRGST< TypeOfContent >::initialSearchLength, RKRGST< TypeOfContent >::markArrays(), MAX_LENGTH, RKRGST< TypeOfContent >::minimumSearchLength, and RKRGST< TypeOfContent >::scanPattern()\&.
+.PP
+Referenced by main()\&.
+.SS "template<typename TypeOfContent> void \fBRKRGST\fP< TypeOfContent >::fillTextHashTable (intsearchLength, \fBHashTable\fP< TypeOfContent > *textHashTable)\fC [inline]\fP"
+Preenche a tabela de hash do texto com todas as substrings de tamanho searchLength não marcadas 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchLength\fP Tamanho das substrings buscadas\&. 
+.br
+\fItextHashTable\fP Tabela de Hash das subcadeias de text\&. 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBHashTable\fP 
+.RE
+.PP
+
+.PP
+Definition at line 397 of file RKRGST\&.h\&.
+.PP
+References HashTable< TypeOfContent >::addHash(), Substring< TypeOfContent >::append(), RKRGST< TypeOfContent >::baseLength, Tile::begin, ListOfTiles::begin, Substring< TypeOfContent >::begin, Tile::end, Substring< TypeOfContent >::end, Tile::next, Substring< TypeOfContent >::next, Substring< TypeOfContent >::previous, RKRGST< TypeOfContent >::primeNumber, Substring< TypeOfContent >::rollingHash, Substring< TypeOfContent >::skip(), Substring< TypeOfContent >::string, Box< TypeOfContent >::text, and Box< TypeOfContent >::textSize\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::scanPattern()\&.
+.SS "template<typename TypeOfContent> int \fBRKRGST\fP< TypeOfContent >::findPatternSubstring (intsearchLength, \fBHashTable\fP< TypeOfContent > *textHashTable, intactualIndex)\fC [inline]\fP"
+Encontra o índice do início de uma substring de tamanho searchLength\&. Nenhuma as suas letras podem estar marcadas\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchLength\fP Tamanho das substrings buscadas\&. 
+.br
+\fItextHashTable\fP Tabela de Hash das subcadeias de text\&. 
+.br
+\fIactualIndex\fP indice da letra do pattern 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Retorna o índice inicial da substring ou -1 caso não haja substring de tamanho searchLength sem letras marcadas\&. 
+.RE
+.PP
+
+.PP
+Definition at line 319 of file RKRGST\&.h\&.
+.PP
+References Tile::begin, ListOfTiles::begin, Tile::end, Tile::next, Box< TypeOfContent >::pattern, and Box< TypeOfContent >::patternSize\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::scanPattern()\&.
+.SS "template<typename TypeOfContent> void \fBRKRGST\fP< TypeOfContent >::markArrays (intsearchLength, \fBListOfMatches\fP *listOfMatches)\fC [inline]\fP"
+Método que marca as letras de um casamento 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchLength\fP Tamanho do casamento\&. 
+.br
+\fIlistOfMatches\fP Casamentos a serem marcados\&. 
+.RE
+.PP
+
+.PP
+Definition at line 157 of file RKRGST\&.h\&.
+.PP
+References ListOfMatches::insert(), Match::length, RKRGST< TypeOfContent >::markTokens(), ListOfMatches::numberOfMatches, RKRGST< TypeOfContent >::occluded(), Match::patternIndex, ListOfMatches::remove(), and Match::textIndex\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::execute()\&.
+.SS "template<typename TypeOfContent> void \fBRKRGST\fP< TypeOfContent >::markTokens (\fBBox\fP< TypeOfContent > *box, \fBMatch\fP *match)\fC [inline]\fP"
+Marca os tokens de um casamento 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbox\fP Objeto contendo text, pattern e seus respectivos tamanhos\&. 
+.br
+\fImatch\fP Casamento a ser marcado 
+.RE
+.PP
+
+.PP
+Definition at line 637 of file RKRGST\&.h\&.
+.PP
+References Match::length, Box< TypeOfContent >::pattern, Match::patternIndex, Box< TypeOfContent >::text, and Match::textIndex\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::markArrays()\&.
+.SS "template<typename TypeOfContent> bool \fBRKRGST\fP< TypeOfContent >::occluded (\fBBox\fP< TypeOfContent > *box, \fBMatch\fP *match)\fC [inline]\fP"
+Verifica se o casamento é ocluso por algum tile\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbox\fP Objeto contendo text, pattern e seus respectivos tamanhos\&. 
+.br
+\fImatch\fP Casamento a ser verificado 
+.RE
+.PP
+
+.PP
+Definition at line 616 of file RKRGST\&.h\&.
+.PP
+References Match::length, Box< TypeOfContent >::pattern, Match::patternIndex, Box< TypeOfContent >::text, and Match::textIndex\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::markArrays()\&.
+.SS "template<typename TypeOfContent> int \fBRKRGST\fP< TypeOfContent >::scanPattern (intsearchLength, \fBListOfMatches\fP *listOfMatches)\fC [inline]\fP"
+Buscando casamentos de tamanho searchLength 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchLength\fP Tamanho do casamento sendo buscado\&. 
+.br
+\fIlistOfMatches\fP Lista de casamentos encontrados na scanPattern\&. 
+.RE
+.PP
+Tabela de Hash contendo as substrings de Text 
+.PP
+Definition at line 190 of file RKRGST\&.h\&.
+.PP
+References RKRGST< TypeOfContent >::baseLength, Substring< TypeOfContent >::begin, RKRGST< TypeOfContent >::fillTextHashTable(), RKRGST< TypeOfContent >::findPatternSubstring(), ListOfMatches::insert(), MAX_LENGTH, Substring< TypeOfContent >::next, Box< TypeOfContent >::pattern, Box< TypeOfContent >::patternSize, RKRGST< TypeOfContent >::primeNumber, Substring< TypeOfContent >::rollingHash, Substring< TypeOfContent >::string, HashTable< TypeOfContent >::table, and Box< TypeOfContent >::textSize\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::execute()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> int \fBRKRGST\fP< TypeOfContent >::baseLength"
+
+.PP
+Tamanho da base dos números gerados pela \fBRollingHash\fP\&. 
+.PP
+Definition at line 71 of file RKRGST\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable(), RKRGST< TypeOfContent >::RKRGST(), and RKRGST< TypeOfContent >::scanPattern()\&.
+.SS "template<typename TypeOfContent> \fBBox\fP< TypeOfContent >* \fBRKRGST\fP< TypeOfContent >::box"
+
+.PP
+Container de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos\&. 
+.PP
+Definition at line 62 of file RKRGST\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::RKRGST()\&.
+.SS "template<typename TypeOfContent> int \fBRKRGST\fP< TypeOfContent >::initialSearchLength"
+
+.PP
+Tamanho inicial do padrão buscado\&. 
+.PP
+Definition at line 54 of file RKRGST\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::execute(), and RKRGST< TypeOfContent >::RKRGST()\&.
+.SS "template<typename TypeOfContent> int \fBRKRGST\fP< TypeOfContent >::lengthOfTokensTiled"
+
+.PP
+Definition at line 73 of file RKRGST\&.h\&.
+.PP
+Referenced by main()\&.
+.SS "template<typename TypeOfContent> \fBListOfMatches\fP* \fBRKRGST\fP< TypeOfContent >::listOfFinalTiles"
+
+.PP
+Definition at line 75 of file RKRGST\&.h\&.
+.PP
+Referenced by main()\&.
+.SS "template<typename TypeOfContent> \fBListOfTiles\fP* \fBRKRGST\fP< TypeOfContent >::listOfPatternTiles"
+
+.PP
+Ponteiro para um objeto da classe \fBListOfTiles\fP que contém uma lista de objetos da classe \fBTile\fP relativos à Pattern\&. 
+.PP
+Definition at line 65 of file RKRGST\&.h\&.
+.SS "template<typename TypeOfContent> \fBListOfTiles\fP* \fBRKRGST\fP< TypeOfContent >::listOfTextTiles"
+
+.PP
+Ponteiro para um objeto da classe \fBListOfTiles\fP que contém uma lista de objetos da classe \fBTile\fP relativos à Text\&. 
+.PP
+Definition at line 68 of file RKRGST\&.h\&.
+.SS "template<typename TypeOfContent> int \fBRKRGST\fP< TypeOfContent >::minimumSearchLength"
+
+.PP
+Tamanho mínimo a ser buscado\&. 
+.PP
+Definition at line 56 of file RKRGST\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::execute(), and RKRGST< TypeOfContent >::RKRGST()\&.
+.SS "template<typename TypeOfContent> int \fBRKRGST\fP< TypeOfContent >::primeNumber"
+
+.PP
+Número primo utilizado na hash\&. 
+.PP
+Definition at line 59 of file RKRGST\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable(), and RKRGST< TypeOfContent >::scanPattern()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

@@ -1,0 +1,220 @@
+.TH "Substring< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Substring< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Substring\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSubstring\fP (\fBLetter\fP< TypeOfContent > *\fBstring\fP, int \fBbegin\fP, int \fBend\fP, int baseLength, int primeNumber)"
+.br
+.ti -1c
+.RI "\fB~Substring\fP ()"
+.br
+.ti -1c
+.RI "void \fBappend\fP ()"
+.br
+.ti -1c
+.RI "void \fBskip\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBLetter\fP< TypeOfContent > * \fBstring\fP"
+.br
+.RI "\fIPonteiro para a string que a contém\&. \fP"
+.ti -1c
+.RI "\fBSubstring\fP< TypeOfContent > * \fBnext\fP"
+.br
+.RI "\fIPonteiro para a próxima substring na lista\&. \fP"
+.ti -1c
+.RI "\fBSubstring\fP< TypeOfContent > * \fBprevious\fP"
+.br
+.RI "\fIPonteiro para a substring anterior na lista\&. \fP"
+.ti -1c
+.RI "\fBRollingHash\fP< TypeOfContent > * \fBrollingHash\fP"
+.br
+.RI "\fIponteiro para a hash relativa ao seu conteúdo \fP"
+.ti -1c
+.RI "int \fBbegin\fP"
+.br
+.RI "\fIÍndice inicial da substring na sua string de origem\&. \fP"
+.ti -1c
+.RI "int \fBend\fP"
+.br
+.RI "\fIÍndice inicial da substring na sua string de origem\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class Substring< TypeOfContent >"
+
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo do termo da substring\&. Classe referente a um candidato a \fBTile\fP\&. além do seu ponteiro para a string que contém, índice de início e de fim, também possui uma \fBRollingHash\fP para o seu conteúdo 
+.RE
+.PP
+
+.PP
+Definition at line 37 of file Substring\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBSubstring\fP< TypeOfContent >::\fBSubstring\fP (\fBLetter\fP< TypeOfContent > *string, intbegin, intend, intbaseLength, intprimeNumber)\fC [inline]\fP"
+Construtor da classe \fBSubstring\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring\fP ponteiro para a string que a contém 
+.br
+\fIbegin\fP índice para sua posição inicial na string que a contém 
+.br
+\fIend\fP índice para sua posição final na string que a contém 
+.br
+\fIbaseLength\fP base do alfabeto ao qual pertence cada termo da string 
+.br
+\fIprimeNumber\fP número primo usado para evitar overflow do valor de hash 
+.br
+\fIbegin\fP Índice inicial da substring na sua string de origem 
+.br
+\fIend\fP Índice inicial da substring na sua string de origem 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file Substring\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::append(), Substring< TypeOfContent >::begin, Substring< TypeOfContent >::end, and Substring< TypeOfContent >::string\&.
+.SS "template<typename TypeOfContent> \fBSubstring\fP< TypeOfContent >::~\fBSubstring\fP ()\fC [inline]\fP"
+Destrutor da classe \fBSubstring\fP 
+.PP
+Definition at line 88 of file Substring\&.h\&.
+.PP
+References Substring< TypeOfContent >::rollingHash\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename TypeOfContent> void \fBSubstring\fP< TypeOfContent >::append ()\fC [inline]\fP"
+Método que adiciona um novo termo a substring\&. Isto é feito através do ponteiro para a string que a contém\&. Adicionamos o termo posterior a substring\&. 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBRollingHash\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 100 of file Substring\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::append(), and RollingHash< TypeOfContent >::end\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable()\&.
+.SS "template<typename TypeOfContent> void \fBSubstring\fP< TypeOfContent >::print ()\fC [inline]\fP"
+Imprimindo indices e valor de hash da substring 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBRollingHash\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 124 of file Substring\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::begin, RollingHash< TypeOfContent >::end, and RollingHash< TypeOfContent >::hashValue\&.
+.PP
+Referenced by HashTable< TypeOfContent >::printHashTable()\&.
+.SS "template<typename TypeOfContent> void \fBSubstring\fP< TypeOfContent >::skip ()\fC [inline]\fP"
+Método que remove um termo da substring\&. 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBRollingHash\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 112 of file Substring\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::skip()\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> int \fBSubstring\fP< TypeOfContent >::begin"
+
+.PP
+Índice inicial da substring na sua string de origem\&. 
+.PP
+Definition at line 52 of file Substring\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable(), RKRGST< TypeOfContent >::scanPattern(), and Substring< TypeOfContent >::Substring()\&.
+.SS "template<typename TypeOfContent> int \fBSubstring\fP< TypeOfContent >::end"
+
+.PP
+Índice inicial da substring na sua string de origem\&. 
+.PP
+Definition at line 55 of file Substring\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable(), and Substring< TypeOfContent >::Substring()\&.
+.SS "template<typename TypeOfContent> \fBSubstring\fP<TypeOfContent>* \fBSubstring\fP< TypeOfContent >::next"
+
+.PP
+Ponteiro para a próxima substring na lista\&. 
+.PP
+Definition at line 44 of file Substring\&.h\&.
+.PP
+Referenced by ListOfSubstrings< TypeOfContent >::addSubstring(), RKRGST< TypeOfContent >::fillTextHashTable(), HashTable< TypeOfContent >::printHashTable(), RKRGST< TypeOfContent >::scanPattern(), and ListOfSubstrings< TypeOfContent >::~ListOfSubstrings()\&.
+.SS "template<typename TypeOfContent> \fBSubstring\fP<TypeOfContent>* \fBSubstring\fP< TypeOfContent >::previous"
+
+.PP
+Ponteiro para a substring anterior na lista\&. 
+.PP
+Definition at line 46 of file Substring\&.h\&.
+.PP
+Referenced by ListOfSubstrings< TypeOfContent >::addSubstring(), and RKRGST< TypeOfContent >::fillTextHashTable()\&.
+.SS "template<typename TypeOfContent> \fBRollingHash\fP<TypeOfContent>* \fBSubstring\fP< TypeOfContent >::rollingHash"
+
+.PP
+ponteiro para a hash relativa ao seu conteúdo 
+.PP
+Definition at line 49 of file Substring\&.h\&.
+.PP
+Referenced by HashTable< TypeOfContent >::addHash(), RKRGST< TypeOfContent >::fillTextHashTable(), RKRGST< TypeOfContent >::scanPattern(), and Substring< TypeOfContent >::~Substring()\&.
+.SS "template<typename TypeOfContent> \fBLetter\fP<TypeOfContent>* \fBSubstring\fP< TypeOfContent >::\fBstring\fP"
+
+.PP
+Ponteiro para a string que a contém\&. 
+.PP
+Definition at line 42 of file Substring\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable(), RKRGST< TypeOfContent >::scanPattern(), and Substring< TypeOfContent >::Substring()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

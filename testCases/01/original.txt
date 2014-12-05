@@ -1,0 +1,25 @@
+Almost everything that we know about the distant reaches of the Universe has come to us via traditional cosmological messengers, such as photons, neutrinos and cosmic rays. One problem with this mechanism is that it only works when the messengers travel in a direct line to us from their source.
+
+Today, Abraham Loeb and James Guillochon at Harvard University in Cambridge, say there is another type of cosmological messenger that travels across the universe and so can also give us information about the distant reaches of the cosmos. These messengers are stars that have been flung out of their galaxies at such high speeds that they travel at more than half the speed of light and so can cover vast distances.
+
+But crucially, these stars don’t have to have travelled in a line towards us because they emit their own light, which we can study at a distance. That gives astronomers much greater reach in studying the universe.
+
+Stars in the Milky Way typically travel at a few hundred kilometres per second relative to their peers. But in 1988, the astronomer Jack Hills predicted that some stars could be accelerated by a kind of gravitational slingshot mechanism to speeds of 1000 kilometres per second.
+
+In recent years, astronomers have found a dozen of these so-called hyper velocity stars, many of them travelling fast enough to escape our galaxy entirely. This has provided strong evidence of a massive compact body at the centre of our galaxy, widely thought to be a supermassive black hole.
+
+Curiously, these hypervelocity stars travel at only a small fraction of the speed of the fastest known stars, which are those that are trapped orbiting the supermassive black hole itself. Some of these have velocities in excess of 10,000 kilometres per second or 3 per cent of the speed of light.
+
+Now, Loeb and Guillochon point out that if there was some mechanism for releasing the stars, then we ought to be able to see unbound stars travelling at these huge speeds. And sure enough, they have found such a mechanism. These guys say that when two galaxies collide, the supermassive black holes at their centres can interact in a way that flings any orbiting stars out of the merged galaxy at super high speeds.
+
+Loeb and Guillochon calculate that such stars could reach speeds of more than 100,000 kilometres per second, that’s one third speed of light. Consequently, they call them semi-relativistic hypervelocity stars. The pair go on to calculate that this mechanism should be common enough to have filled the universe with these ejected stars at a density of hundred thousand per cubic gigaparsec.
+
+As these stars evolve, they should become bigger and brighter, just like ordinary stars, and hence become easier to observe. And Loeb and Guillochon say the next generation of space telescopes should be able to detect them as they travel across intergalactic space.
+
+That’s something for astronomers to keep their eyes peeled for. The discovery would have important implications. By tracing these stars back to their origins, astronomers should be able to identify the parent galaxy, while the spectroscopic properties of the star should give them a sense of the conditions there and how much these differ from our own galaxy. That’s an entirely new way to study the distant reaches of the cosmos.
+
+These cosmological messengers also have biological implications. “Semi-relativistic hypervelocity stars could spread life beyond the boundaries of their host galaxies,” say Loeb and Guillochon. If so, these objects could become an important target for astrobiologists.
+
+Ref:
+arxiv.org/abs/1411.5022 : The Fastest Unbound Stars In The Universe
+arxiv.org/abs/1411.5030 : Observational Cosmology With Semi-Relativistic Stars

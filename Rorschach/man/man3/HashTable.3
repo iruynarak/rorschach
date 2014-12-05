@@ -1,0 +1,112 @@
+.TH "HashTable< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+HashTable< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <HashTable\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHashTable\fP (int primeNumber)"
+.br
+.ti -1c
+.RI "void \fBaddHash\fP (\fBSubstring\fP< TypeOfContent > *substring)"
+.br
+.ti -1c
+.RI "void \fBprintHashTable\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBhashTableSize\fP"
+.br
+.RI "\fIquantidade de valores diferentes possiveis para o valor da hash \fP"
+.ti -1c
+.RI "\fBListOfSubstrings\fP< TypeOfContent > * \fBtable\fP"
+.br
+.RI "\fIvetor de listas de substrings (uma para cada possivel valor de hash) \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class HashTable< TypeOfContent >"
+
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo dos termos da pattern e da text Classe que implementa uma tabela de valores de hash 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBRollingHash\fP 
+.PP
+\fBListOfSubstrings\fP 
+.RE
+.PP
+
+.PP
+Definition at line 38 of file HashTable\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBHashTable\fP< TypeOfContent >::\fBHashTable\fP (intprimeNumber)\fC [inline]\fP"
+Construtor da classe \fBHashTable\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIprimeNumber\fP número primo que define o limite superior para o valor de hash 
+.RE
+.PP
+
+.PP
+Definition at line 52 of file HashTable\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename TypeOfContent> void \fBHashTable\fP< TypeOfContent >::addHash (\fBSubstring\fP< TypeOfContent > *substring)\fC [inline]\fP"
+Adiciona um novo termo na \fBHashTable\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsubstring\fP estrutura que contém o termo a ser adicionado e seu respectivo valor de hash 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file HashTable\&.h\&.
+.PP
+References Substring< TypeOfContent >::rollingHash\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable()\&.
+.SS "template<typename TypeOfContent> void \fBHashTable\fP< TypeOfContent >::printHashTable ()\fC [inline]\fP"
+Imprime o conteudo da tabela de hash 
+.PP
+Definition at line 70 of file HashTable\&.h\&.
+.PP
+References Substring< TypeOfContent >::next, and Substring< TypeOfContent >::print()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> int \fBHashTable\fP< TypeOfContent >::hashTableSize"
+
+.PP
+quantidade de valores diferentes possiveis para o valor da hash 
+.PP
+Definition at line 43 of file HashTable\&.h\&.
+.SS "template<typename TypeOfContent> \fBListOfSubstrings\fP<TypeOfContent>* \fBHashTable\fP< TypeOfContent >::table"
+
+.PP
+vetor de listas de substrings (uma para cada possivel valor de hash) 
+.PP
+Definition at line 46 of file HashTable\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::scanPattern()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

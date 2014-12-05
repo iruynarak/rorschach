@@ -1,0 +1,55 @@
+.TH "RandomNumber" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RandomNumber \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <RandomNumber\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRandomNumber\fP ()"
+.br
+.RI "\fIConstrutor que inicializa a semente da função que gera o número aleatório\&. \fP"
+.ti -1c
+.RI "int \fBnewRandomNumber\fP (int min, int max)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Cria um número inteiro aleatório entre dois inteiros,min e max\&. 
+.PP
+Definition at line 30 of file RandomNumber\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "RandomNumber::RandomNumber ()\fC [inline]\fP"
+
+.PP
+Construtor que inicializa a semente da função que gera o número aleatório\&. 
+.PP
+Definition at line 34 of file RandomNumber\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int RandomNumber::newRandomNumber (intmin, intmax)\fC [inline]\fP"
+Gera um número aleatório x, sendo min <= x <= max 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImin\fP Valor mínimo possível de ser atribuído ao número criado 
+.br
+\fImax\fP Valor máximo possível de ser atribuído ao número criado 
+.RE
+.PP
+
+.PP
+Definition at line 44 of file RandomNumber\&.h\&.
+.PP
+Referenced by RandomPrime::newRandomPrime()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

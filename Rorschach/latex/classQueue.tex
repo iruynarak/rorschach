@@ -1,0 +1,91 @@
+\hypertarget{classQueue}{\section{Queue$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classQueue}\index{Queue$<$ Type\+Of\+Content $>$@{Queue$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$Queue.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classQueue_a4330d73db1c24e73176c59abfdaf61dd}{Queue} ()
+\item 
+\hyperlink{classQueue_a9921f306e120436c79c342b76f014b07}{$\sim$\+Queue} ()
+\item 
+void \hyperlink{classQueue_aad2963921777978c979e181e73ee4715}{insert} (Type\+Of\+Content c)
+\item 
+Type\+Of\+Content \hyperlink{classQueue_a2a9f7eb23107f724ffe894bd96ec4add}{remove} ()
+\item 
+void \hyperlink{classQueue_a2042a7f8fa12a5bc7042ed493f401c72}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classQueue_ae3ffe6f2a9b275643d3ffcc5f11cff19}{\hyperlink{classCell}{Cell}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classQueue_ae3ffe6f2a9b275643d3ffcc5f11cff19}{begin}}\label{classQueue_ae3ffe6f2a9b275643d3ffcc5f11cff19}
+
+\begin{DoxyCompactList}\small\item\em ponteiro para o primeiro objeto do tipo \hyperlink{classCell}{Cell} na fila \end{DoxyCompactList}\item 
+\hypertarget{classQueue_aad5593b7bf69ed85f24101d570d43816}{\hyperlink{classCell}{Cell}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classQueue_aad5593b7bf69ed85f24101d570d43816}{end}}\label{classQueue_aad5593b7bf69ed85f24101d570d43816}
+
+\begin{DoxyCompactList}\small\item\em ponteiro para o último objeto do tipo \hyperlink{classCell}{Cell} na fila \end{DoxyCompactList}\item 
+\hypertarget{classQueue_a839fc640b49b1b6e1c1646ab7cc6af95}{int \hyperlink{classQueue_a839fc640b49b1b6e1c1646ab7cc6af95}{number\+Of\+Cells}}\label{classQueue_a839fc640b49b1b6e1c1646ab7cc6af95}
+
+\begin{DoxyCompactList}\small\item\em número de células na fila \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class Queue$<$ Type\+Of\+Content $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Classe} & que adiciona objetos do tipo \hyperlink{classCell}{Cell} em uma fila. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classQueue_a4330d73db1c24e73176c59abfdaf61dd}{\index{Queue@{Queue}!Queue@{Queue}}
+\index{Queue@{Queue}!Queue@{Queue}}
+\subsubsection[{Queue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Queue}$<$ Type\+Of\+Content $>$\+::{\bf Queue} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classQueue_a4330d73db1c24e73176c59abfdaf61dd}
+Construtor de \hyperlink{classQueue}{Queue}. As variáveis begin e end começam apontando para null e number\+Of\+Cell começa zerado \hypertarget{classQueue_a9921f306e120436c79c342b76f014b07}{\index{Queue@{Queue}!````~Queue@{$\sim$\+Queue}}
+\index{````~Queue@{$\sim$\+Queue}!Queue@{Queue}}
+\subsubsection[{$\sim$\+Queue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Queue}$<$ Type\+Of\+Content $>$\+::$\sim${\bf Queue} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classQueue_a9921f306e120436c79c342b76f014b07}
+Destrutor de \hyperlink{classQueue}{Queue} 
+
+\subsection{Member Function Documentation}
+\hypertarget{classQueue_aad2963921777978c979e181e73ee4715}{\index{Queue@{Queue}!insert@{insert}}
+\index{insert@{insert}!Queue@{Queue}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Queue}$<$ Type\+Of\+Content $>$\+::insert (
+\begin{DoxyParamCaption}
+\item[{Type\+Of\+Content}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classQueue_aad2963921777978c979e181e73ee4715}
+Cria e insere um objeto da classe Cell$<$\+Type\+Of\+Content$>$ na \hyperlink{classQueue}{Queue} \hypertarget{classQueue_a2042a7f8fa12a5bc7042ed493f401c72}{\index{Queue@{Queue}!print@{print}}
+\index{print@{print}!Queue@{Queue}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Queue}$<$ Type\+Of\+Content $>$\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classQueue_a2042a7f8fa12a5bc7042ed493f401c72}
+imprime o conteúdo da fila. \hypertarget{classQueue_a2a9f7eb23107f724ffe894bd96ec4add}{\index{Queue@{Queue}!remove@{remove}}
+\index{remove@{remove}!Queue@{Queue}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ Type\+Of\+Content {\bf Queue}$<$ Type\+Of\+Content $>$\+::remove (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classQueue_a2a9f7eb23107f724ffe894bd96ec4add}
+Remove o objeto da classe Cell$<$\+Type\+Of\+Content$>$ posicionado no início da fila. \begin{DoxyReturn}{Returns}
+retorna o conteúdo da célula removida 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Queue.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,477 @@
+\hypertarget{classRKRGST}{\section{R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classRKRGST}\index{R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$@{R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$R\+K\+R\+G\+S\+T.\+h$>$}
+
+
+
+Collaboration diagram for R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{classRKRGST__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRKRGST_a66390e97e207872a55ea6ee0d3b2c0ee}{R\+K\+R\+G\+S\+T} (\hyperlink{classBox}{Box}$<$ Type\+Of\+Content $>$ $\ast$\hyperlink{classRKRGST_ae0737f82fb5c44b9edd663a9ed00a7fe}{box}, int \hyperlink{classRKRGST_ad4e450cff7656afab26be8eb27c4f87c}{initial\+Search\+Length}, int \hyperlink{classRKRGST_aaf28410e7b3c34bcfbffd17cd0d014b2}{minimum\+Search\+Length}, int \hyperlink{classRKRGST_a49054fd9d1f1fc34a5c2dedaba5e6f14}{base\+Length})
+\item 
+void \hyperlink{classRKRGST_aef01e8fd6c0e17482724c0f3fd7ad89f}{execute} ()
+\item 
+void \hyperlink{classRKRGST_a469647a68dc845b14b01d37505eee6d1}{mark\+Arrays} (int search\+Length, \hyperlink{classListOfMatches}{List\+Of\+Matches} $\ast$list\+Of\+Matches)
+\item 
+int \hyperlink{classRKRGST_a4ef9cf20505986d0f023a5384fdf844c}{scan\+Pattern} (int search\+Length, \hyperlink{classListOfMatches}{List\+Of\+Matches} $\ast$list\+Of\+Matches)
+\item 
+int \hyperlink{classRKRGST_a37cf8598f504f175035a83a69cfeaa08}{find\+Pattern\+Substring} (int search\+Length, \hyperlink{classHashTable}{Hash\+Table}$<$ Type\+Of\+Content $>$ $\ast$text\+Hash\+Table, int actual\+Index)
+\item 
+void \hyperlink{classRKRGST_a12e85e53ee2298818cead4ffe76eb8b3}{fill\+Text\+Hash\+Table} (int search\+Length, \hyperlink{classHashTable}{Hash\+Table}$<$ Type\+Of\+Content $>$ $\ast$text\+Hash\+Table)
+\item 
+bool \hyperlink{classRKRGST_aa2b3943e1897025c9f8293ee98edabca}{occluded} (\hyperlink{classBox}{Box}$<$ Type\+Of\+Content $>$ $\ast$\hyperlink{classRKRGST_ae0737f82fb5c44b9edd663a9ed00a7fe}{box}, \hyperlink{classMatch}{Match} $\ast$match)
+\item 
+void \hyperlink{classRKRGST_af44ddce704c698ee3cb38a7262a36874}{mark\+Tokens} (\hyperlink{classBox}{Box}$<$ Type\+Of\+Content $>$ $\ast$\hyperlink{classRKRGST_ae0737f82fb5c44b9edd663a9ed00a7fe}{box}, \hyperlink{classMatch}{Match} $\ast$match)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classRKRGST_ad4e450cff7656afab26be8eb27c4f87c}{initial\+Search\+Length}
+\begin{DoxyCompactList}\small\item\em Tamanho inicial do padrão buscado. \end{DoxyCompactList}\item 
+int \hyperlink{classRKRGST_aaf28410e7b3c34bcfbffd17cd0d014b2}{minimum\+Search\+Length}
+\begin{DoxyCompactList}\small\item\em Tamanho mínimo a ser buscado. \end{DoxyCompactList}\item 
+int \hyperlink{classRKRGST_aea66b780697be63c91342029335ad8ef}{prime\+Number}
+\begin{DoxyCompactList}\small\item\em Número primo utilizado na hash. \end{DoxyCompactList}\item 
+\hyperlink{classBox}{Box}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classRKRGST_ae0737f82fb5c44b9edd663a9ed00a7fe}{box}
+\begin{DoxyCompactList}\small\item\em Container de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos. \end{DoxyCompactList}\item 
+\hyperlink{classListOfTiles}{List\+Of\+Tiles} $\ast$ \hyperlink{classRKRGST_ad2335f6d83faf621a99b66c680f32b5d}{list\+Of\+Pattern\+Tiles}
+\begin{DoxyCompactList}\small\item\em Ponteiro para um objeto da classe \hyperlink{classListOfTiles}{List\+Of\+Tiles} que contém uma lista de objetos da classe \hyperlink{classTile}{Tile} relativos à Pattern. \end{DoxyCompactList}\item 
+\hyperlink{classListOfTiles}{List\+Of\+Tiles} $\ast$ \hyperlink{classRKRGST_a03afdb90a534a2420da654ddadb032c2}{list\+Of\+Text\+Tiles}
+\begin{DoxyCompactList}\small\item\em Ponteiro para um objeto da classe \hyperlink{classListOfTiles}{List\+Of\+Tiles} que contém uma lista de objetos da classe \hyperlink{classTile}{Tile} relativos à Text. \end{DoxyCompactList}\item 
+int \hyperlink{classRKRGST_a49054fd9d1f1fc34a5c2dedaba5e6f14}{base\+Length}
+\begin{DoxyCompactList}\small\item\em Tamanho da base dos números gerados pela \hyperlink{classRollingHash}{Rolling\+Hash}. \end{DoxyCompactList}\item 
+int \hyperlink{classRKRGST_aaebf5b2da8490b6fc1ea06300914256e}{length\+Of\+Tokens\+Tiled}
+\item 
+\hyperlink{classListOfMatches}{List\+Of\+Matches} $\ast$ \hyperlink{classRKRGST_a1ae736b742c0cbcdd6d30c5201d4181b}{list\+Of\+Final\+Tiles}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Type\+Of\+Content} & tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text Classe contendo todos os algoritmos realizados pelo \hyperlink{classRKRGST}{R\+K\+R\+G\+S\+T} \\
+\hline
+\end{DoxyTemplParams}
+
+
+Definition at line 48 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRKRGST_a66390e97e207872a55ea6ee0d3b2c0ee}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{R\+K\+R\+G\+S\+T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::{\bf R\+K\+R\+G\+S\+T} (
+\begin{DoxyParamCaption}
+\item[{{\bf Box}$<$ Type\+Of\+Content $>$ $\ast$}]{box, }
+\item[{int}]{initial\+Search\+Length, }
+\item[{int}]{minimum\+Search\+Length, }
+\item[{int}]{base\+Length}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_a66390e97e207872a55ea6ee0d3b2c0ee}
+Construtor de objeto da classe \hyperlink{classRKRGST}{R\+K\+R\+G\+S\+T} 
+\begin{DoxyParams}{Parameters}
+{\em box} & Container de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos \\
+\hline
+{\em initial\+Search\+Length} & Tamanho inicial do padrão buscado \\
+\hline
+{\em minimum\+Search\+Length} & Tamanho mínimo a ser buscado \\
+\hline
+{\em base\+Length} & Tamanho da base dos números gerados pela \hyperlink{classRollingHash}{Rolling\+Hash}. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 86 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::base\+Length, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::box, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::initial\+Search\+Length, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::minimum\+Search\+Length, and Random\+Prime\+::new\+Random\+Prime().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRKRGST_a66390e97e207872a55ea6ee0d3b2c0ee_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classRKRGST_aef01e8fd6c0e17482724c0f3fd7ad89f}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!execute@{execute}}
+\index{execute@{execute}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::execute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_aef01e8fd6c0e17482724c0f3fd7ad89f}
+Método que executa t odo o algoritmo \hyperlink{classRKRGST}{R\+K\+R\+G\+S\+T} 
+
+Definition at line 104 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::initial\+Search\+Length, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays(), M\+A\+X\+\_\+\+L\+E\+N\+G\+T\+H, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::minimum\+Search\+Length, and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+
+
+Referenced by main().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRKRGST_aef01e8fd6c0e17482724c0f3fd7ad89f_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classRKRGST_a12e85e53ee2298818cead4ffe76eb8b3}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!fill\+Text\+Hash\+Table@{fill\+Text\+Hash\+Table}}
+\index{fill\+Text\+Hash\+Table@{fill\+Text\+Hash\+Table}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{fill\+Text\+Hash\+Table}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table (
+\begin{DoxyParamCaption}
+\item[{int}]{search\+Length, }
+\item[{{\bf Hash\+Table}$<$ Type\+Of\+Content $>$ $\ast$}]{text\+Hash\+Table}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_a12e85e53ee2298818cead4ffe76eb8b3}
+Preenche a tabela de hash do texto com todas as substrings de tamanho search\+Length não marcadas 
+\begin{DoxyParams}{Parameters}
+{\em search\+Length} & Tamanho das substrings buscadas. \\
+\hline
+{\em text\+Hash\+Table} & Tabela de Hash das subcadeias de text. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classHashTable}{Hash\+Table} 
+\end{DoxySeeAlso}
+
+
+Definition at line 397 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References Hash\+Table$<$ Type\+Of\+Content $>$\+::add\+Hash(), Substring$<$ Type\+Of\+Content $>$\+::append(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::base\+Length, Tile\+::begin, List\+Of\+Tiles\+::begin, Substring$<$ Type\+Of\+Content $>$\+::begin, Tile\+::end, Substring$<$ Type\+Of\+Content $>$\+::end, Tile\+::next, Substring$<$ Type\+Of\+Content $>$\+::next, Substring$<$ Type\+Of\+Content $>$\+::previous, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::prime\+Number, Substring$<$ Type\+Of\+Content $>$\+::rolling\+Hash, Substring$<$ Type\+Of\+Content $>$\+::skip(), Substring$<$ Type\+Of\+Content $>$\+::string, Box$<$ Type\+Of\+Content $>$\+::text, and Box$<$ Type\+Of\+Content $>$\+::text\+Size.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRKRGST_a12e85e53ee2298818cead4ffe76eb8b3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classRKRGST_a37cf8598f504f175035a83a69cfeaa08}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!find\+Pattern\+Substring@{find\+Pattern\+Substring}}
+\index{find\+Pattern\+Substring@{find\+Pattern\+Substring}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{find\+Pattern\+Substring}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::find\+Pattern\+Substring (
+\begin{DoxyParamCaption}
+\item[{int}]{search\+Length, }
+\item[{{\bf Hash\+Table}$<$ Type\+Of\+Content $>$ $\ast$}]{text\+Hash\+Table, }
+\item[{int}]{actual\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_a37cf8598f504f175035a83a69cfeaa08}
+Encontra o índice do início de uma substring de tamanho search\+Length. Nenhuma as suas letras podem estar marcadas. 
+\begin{DoxyParams}{Parameters}
+{\em search\+Length} & Tamanho das substrings buscadas. \\
+\hline
+{\em text\+Hash\+Table} & Tabela de Hash das subcadeias de text. \\
+\hline
+{\em actual\+Index} & indice da letra do pattern \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o índice inicial da substring ou -\/1 caso não haja substring de tamanho search\+Length sem letras marcadas. 
+\end{DoxyReturn}
+
+
+Definition at line 319 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References Tile\+::begin, List\+Of\+Tiles\+::begin, Tile\+::end, Tile\+::next, Box$<$ Type\+Of\+Content $>$\+::pattern, and Box$<$ Type\+Of\+Content $>$\+::pattern\+Size.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+\hypertarget{classRKRGST_a469647a68dc845b14b01d37505eee6d1}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!mark\+Arrays@{mark\+Arrays}}
+\index{mark\+Arrays@{mark\+Arrays}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{mark\+Arrays}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::mark\+Arrays (
+\begin{DoxyParamCaption}
+\item[{int}]{search\+Length, }
+\item[{{\bf List\+Of\+Matches} $\ast$}]{list\+Of\+Matches}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_a469647a68dc845b14b01d37505eee6d1}
+Método que marca as letras de um casamento 
+\begin{DoxyParams}{Parameters}
+{\em search\+Length} & Tamanho do casamento. \\
+\hline
+{\em list\+Of\+Matches} & Casamentos a serem marcados. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 157 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References List\+Of\+Matches\+::insert(), Match\+::length, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Tokens(), List\+Of\+Matches\+::number\+Of\+Matches, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::occluded(), Match\+::pattern\+Index, List\+Of\+Matches\+::remove(), and Match\+::text\+Index.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::execute().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRKRGST_a469647a68dc845b14b01d37505eee6d1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classRKRGST_af44ddce704c698ee3cb38a7262a36874}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!mark\+Tokens@{mark\+Tokens}}
+\index{mark\+Tokens@{mark\+Tokens}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{mark\+Tokens}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::mark\+Tokens (
+\begin{DoxyParamCaption}
+\item[{{\bf Box}$<$ Type\+Of\+Content $>$ $\ast$}]{box, }
+\item[{{\bf Match} $\ast$}]{match}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_af44ddce704c698ee3cb38a7262a36874}
+Marca os tokens de um casamento 
+\begin{DoxyParams}{Parameters}
+{\em box} & Objeto contendo text, pattern e seus respectivos tamanhos. \\
+\hline
+{\em match} & Casamento a ser marcado \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 637 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References Match\+::length, Box$<$ Type\+Of\+Content $>$\+::pattern, Match\+::pattern\+Index, Box$<$ Type\+Of\+Content $>$\+::text, and Match\+::text\+Index.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays().
+
+\hypertarget{classRKRGST_aa2b3943e1897025c9f8293ee98edabca}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!occluded@{occluded}}
+\index{occluded@{occluded}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{occluded}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ bool {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::occluded (
+\begin{DoxyParamCaption}
+\item[{{\bf Box}$<$ Type\+Of\+Content $>$ $\ast$}]{box, }
+\item[{{\bf Match} $\ast$}]{match}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_aa2b3943e1897025c9f8293ee98edabca}
+Verifica se o casamento é ocluso por algum tile. 
+\begin{DoxyParams}{Parameters}
+{\em box} & Objeto contendo text, pattern e seus respectivos tamanhos. \\
+\hline
+{\em match} & Casamento a ser verificado \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 616 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References Match\+::length, Box$<$ Type\+Of\+Content $>$\+::pattern, Match\+::pattern\+Index, Box$<$ Type\+Of\+Content $>$\+::text, and Match\+::text\+Index.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays().
+
+\hypertarget{classRKRGST_a4ef9cf20505986d0f023a5384fdf844c}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!scan\+Pattern@{scan\+Pattern}}
+\index{scan\+Pattern@{scan\+Pattern}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{scan\+Pattern}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::scan\+Pattern (
+\begin{DoxyParamCaption}
+\item[{int}]{search\+Length, }
+\item[{{\bf List\+Of\+Matches} $\ast$}]{list\+Of\+Matches}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRKRGST_a4ef9cf20505986d0f023a5384fdf844c}
+Buscando casamentos de tamanho search\+Length 
+\begin{DoxyParams}{Parameters}
+{\em search\+Length} & Tamanho do casamento sendo buscado. \\
+\hline
+{\em list\+Of\+Matches} & Lista de casamentos encontrados na scan\+Pattern. \\
+\hline
+\end{DoxyParams}
+Tabela de Hash contendo as substrings de Text 
+
+Definition at line 190 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+References R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::base\+Length, Substring$<$ Type\+Of\+Content $>$\+::begin, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::find\+Pattern\+Substring(), List\+Of\+Matches\+::insert(), M\+A\+X\+\_\+\+L\+E\+N\+G\+T\+H, Substring$<$ Type\+Of\+Content $>$\+::next, Box$<$ Type\+Of\+Content $>$\+::pattern, Box$<$ Type\+Of\+Content $>$\+::pattern\+Size, R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::prime\+Number, Substring$<$ Type\+Of\+Content $>$\+::rolling\+Hash, Substring$<$ Type\+Of\+Content $>$\+::string, Hash\+Table$<$ Type\+Of\+Content $>$\+::table, and Box$<$ Type\+Of\+Content $>$\+::text\+Size.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::execute().
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRKRGST_a4ef9cf20505986d0f023a5384fdf844c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classRKRGST_a49054fd9d1f1fc34a5c2dedaba5e6f14}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!base\+Length@{base\+Length}}
+\index{base\+Length@{base\+Length}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{base\+Length}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::base\+Length}}\label{classRKRGST_a49054fd9d1f1fc34a5c2dedaba5e6f14}
+
+
+Tamanho da base dos números gerados pela \hyperlink{classRollingHash}{Rolling\+Hash}. 
+
+
+
+Definition at line 71 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::\+R\+K\+R\+G\+S\+T(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+\hypertarget{classRKRGST_ae0737f82fb5c44b9edd663a9ed00a7fe}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!box@{box}}
+\index{box@{box}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{box}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Box}$<$ Type\+Of\+Content $>$$\ast$ {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::box}}\label{classRKRGST_ae0737f82fb5c44b9edd663a9ed00a7fe}
+
+
+Container de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos. 
+
+
+
+Definition at line 62 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::\+R\+K\+R\+G\+S\+T().
+
+\hypertarget{classRKRGST_ad4e450cff7656afab26be8eb27c4f87c}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!initial\+Search\+Length@{initial\+Search\+Length}}
+\index{initial\+Search\+Length@{initial\+Search\+Length}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{initial\+Search\+Length}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::initial\+Search\+Length}}\label{classRKRGST_ad4e450cff7656afab26be8eb27c4f87c}
+
+
+Tamanho inicial do padrão buscado. 
+
+
+
+Definition at line 54 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::execute(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::\+R\+K\+R\+G\+S\+T().
+
+\hypertarget{classRKRGST_aaebf5b2da8490b6fc1ea06300914256e}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!length\+Of\+Tokens\+Tiled@{length\+Of\+Tokens\+Tiled}}
+\index{length\+Of\+Tokens\+Tiled@{length\+Of\+Tokens\+Tiled}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{length\+Of\+Tokens\+Tiled}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::length\+Of\+Tokens\+Tiled}}\label{classRKRGST_aaebf5b2da8490b6fc1ea06300914256e}
+
+
+Definition at line 73 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+Referenced by main().
+
+\hypertarget{classRKRGST_a1ae736b742c0cbcdd6d30c5201d4181b}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!list\+Of\+Final\+Tiles@{list\+Of\+Final\+Tiles}}
+\index{list\+Of\+Final\+Tiles@{list\+Of\+Final\+Tiles}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{list\+Of\+Final\+Tiles}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf List\+Of\+Matches}$\ast$ {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::list\+Of\+Final\+Tiles}}\label{classRKRGST_a1ae736b742c0cbcdd6d30c5201d4181b}
+
+
+Definition at line 75 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+Referenced by main().
+
+\hypertarget{classRKRGST_ad2335f6d83faf621a99b66c680f32b5d}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!list\+Of\+Pattern\+Tiles@{list\+Of\+Pattern\+Tiles}}
+\index{list\+Of\+Pattern\+Tiles@{list\+Of\+Pattern\+Tiles}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{list\+Of\+Pattern\+Tiles}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf List\+Of\+Tiles}$\ast$ {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::list\+Of\+Pattern\+Tiles}}\label{classRKRGST_ad2335f6d83faf621a99b66c680f32b5d}
+
+
+Ponteiro para um objeto da classe \hyperlink{classListOfTiles}{List\+Of\+Tiles} que contém uma lista de objetos da classe \hyperlink{classTile}{Tile} relativos à Pattern. 
+
+
+
+Definition at line 65 of file R\+K\+R\+G\+S\+T.\+h.
+
+\hypertarget{classRKRGST_a03afdb90a534a2420da654ddadb032c2}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!list\+Of\+Text\+Tiles@{list\+Of\+Text\+Tiles}}
+\index{list\+Of\+Text\+Tiles@{list\+Of\+Text\+Tiles}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{list\+Of\+Text\+Tiles}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf List\+Of\+Tiles}$\ast$ {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::list\+Of\+Text\+Tiles}}\label{classRKRGST_a03afdb90a534a2420da654ddadb032c2}
+
+
+Ponteiro para um objeto da classe \hyperlink{classListOfTiles}{List\+Of\+Tiles} que contém uma lista de objetos da classe \hyperlink{classTile}{Tile} relativos à Text. 
+
+
+
+Definition at line 68 of file R\+K\+R\+G\+S\+T.\+h.
+
+\hypertarget{classRKRGST_aaf28410e7b3c34bcfbffd17cd0d014b2}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!minimum\+Search\+Length@{minimum\+Search\+Length}}
+\index{minimum\+Search\+Length@{minimum\+Search\+Length}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{minimum\+Search\+Length}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::minimum\+Search\+Length}}\label{classRKRGST_aaf28410e7b3c34bcfbffd17cd0d014b2}
+
+
+Tamanho mínimo a ser buscado. 
+
+
+
+Definition at line 56 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::execute(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::\+R\+K\+R\+G\+S\+T().
+
+\hypertarget{classRKRGST_aea66b780697be63c91342029335ad8ef}{\index{R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}!prime\+Number@{prime\+Number}}
+\index{prime\+Number@{prime\+Number}!R\+K\+R\+G\+S\+T@{R\+K\+R\+G\+S\+T}}
+\subsubsection[{prime\+Number}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf R\+K\+R\+G\+S\+T}$<$ Type\+Of\+Content $>$\+::prime\+Number}}\label{classRKRGST_aea66b780697be63c91342029335ad8ef}
+
+
+Número primo utilizado na hash. 
+
+
+
+Definition at line 59 of file R\+K\+R\+G\+S\+T.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{RKRGST_8h}{R\+K\+R\+G\+S\+T.\+h}\end{DoxyCompactItemize}

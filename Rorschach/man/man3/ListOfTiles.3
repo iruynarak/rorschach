@@ -1,0 +1,150 @@
+.TH "ListOfTiles" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ListOfTiles \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ListOfTiles\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBListOfTiles\fP ()"
+.br
+.ti -1c
+.RI "\fB~ListOfTiles\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddTile\fP (\fBTile\fP *tile)"
+.br
+.ti -1c
+.RI "void \fBprint\fP ()"
+.br
+.ti -1c
+.RI "void \fBremoveTile\fP (int tileBeginIndex, int tileEndIndex)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBTile\fP * \fBbegin\fP"
+.br
+.RI "\fIPonteiro para o primeiro objeto do tipo \fBTile\fP na lista\&. \fP"
+.ti -1c
+.RI "\fBTile\fP * \fBend\fP"
+.br
+.RI "\fIPonteiro para o último objeto do tipo \fBTile\fP na lista\&. \fP"
+.ti -1c
+.RI "int \fBnumberOfTiles\fP"
+.br
+.RI "\fIQuantidade de objetos do tipo \fBTile\fP na lista\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe que guarda objetos do tipo \fBTile\fP 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBTile\fP 
+.RE
+.PP
+
+.PP
+Definition at line 39 of file ListOfTiles\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ListOfTiles::ListOfTiles ()\fC [inline]\fP"
+Construtor de um objeto da classe \fBListOfTiles\fP 
+.PP
+Definition at line 56 of file ListOfTiles\&.h\&.
+.SS "ListOfTiles::~ListOfTiles ()\fC [inline]\fP"
+Destrutor de um objeto da classe \fBListOfTiles\fP 
+.PP
+Definition at line 66 of file ListOfTiles\&.h\&.
+.PP
+References begin, and Tile::next\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void ListOfTiles::addTile (\fBTile\fP *tile)\fC [inline]\fP"
+Adiciona um novo objeto da classe \fBTile\fP na lista 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItile\fP Ponteiro para o objeto da classe \fBTile\fP a ser adicionado 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Não há retorno 
+.RE
+.PP
+
+.PP
+Definition at line 89 of file ListOfTiles\&.h\&.
+.PP
+References end, Tile::next, and Tile::previous\&.
+.SS "void ListOfTiles::print ()\fC [inline]\fP"
+Imprime, para cada objeto da classe \fBTile\fP na lista, o seu índice de início e de fim\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+Não há retorno 
+.RE
+.PP
+
+.PP
+Definition at line 113 of file ListOfTiles\&.h\&.
+.PP
+References Tile::begin, begin, Tile::end, and Tile::next\&.
+.SS "void ListOfTiles::removeTile (inttileBeginIndex, inttileEndIndex)\fC [inline]\fP"
+Remove objeto da classe \fBTile\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItileBeginIndex\fP Índice da primeira posição da tile a ser removida 
+.br
+\fItileEndIndex\fP Índice da última posição da tile a ser removida 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Não há retorno 
+.RE
+.PP
+
+.PP
+Definition at line 130 of file ListOfTiles\&.h\&.
+.PP
+References Tile::begin, begin, Tile::end, Tile::next, and Tile::previous\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBTile\fP* ListOfTiles::begin"
+
+.PP
+Ponteiro para o primeiro objeto do tipo \fBTile\fP na lista\&. 
+.PP
+Definition at line 45 of file ListOfTiles\&.h\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::fillTextHashTable(), RKRGST< TypeOfContent >::findPatternSubstring(), print(), removeTile(), and ~ListOfTiles()\&.
+.SS "\fBTile\fP* ListOfTiles::end"
+
+.PP
+Ponteiro para o último objeto do tipo \fBTile\fP na lista\&. 
+.PP
+Definition at line 48 of file ListOfTiles\&.h\&.
+.PP
+Referenced by addTile()\&.
+.SS "int ListOfTiles::numberOfTiles"
+
+.PP
+Quantidade de objetos do tipo \fBTile\fP na lista\&. 
+.PP
+Definition at line 51 of file ListOfTiles\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

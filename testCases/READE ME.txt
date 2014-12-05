@@ -1,0 +1,33 @@
+- Grupo 1:
+	
+	- Sumário: http://science-beta.slashdot.org/story/14/12/01/1821238/stars-traveling-close-to-light-speed-could-spread-life-through-the-universe
+	
+	- Redundância: http://tech-beta.slashdot.org/story/14/12/04/1546250/windows-10-adds-battery-saver-feature
+
+- Grupo 2:
+	- Sumário: http://mobile-beta.slashdot.org/story/14/12/01/1456243/how-the-rollout-of-5g-will-change-everything
+	
+	-Redundância: http://www.cs.cmu.edu/~dnaylor/CostOfTheS.pdf
+
+- Grupo 3
+	
+	- Sumário: http://science-beta.slashdot.org/story/14/12/01/046240/who-needs-nasa-exoplanet-detected-using-a-dslr
+
+	- Redundância: http://yro-beta.slashdot.org/story/14/12/04/1619220/moneyball-approach-reduces-crime-in-new-york-city
+
+- Grupo 4
+	
+	- Sumário: http://science-beta.slashdot.org/story/14/11/30/2257220/game-theory-analysis-shows-how-evolution-favors-cooperations-collapse
+
+	- Redundância: http://www.businessinsider.com/apple-co-founder-steve-wozniak-famous-garage-is-a-myth-2014-12#ixzz3Kx1SqWAX
+
+- Grupo 5:
+
+	- Sumário: http://tech-beta.slashdot.org/story/14/12/03/2237247/google-hopes-to-one-day-replace-gmail-with-inbox
+
+	- Redundância: http://motherboard.vice.com/read/the-fastest-camera-ever-created-will-be-used-to-study-invisibility-cloaks
+
+- Grupo 6:
+	- Sumário: http://tech-beta.slashdot.org/story/14/12/03/2114259/what-canada-can-teach-the-us-about-net-neutrality
+
+	- Redundância: http://www.dailydot.com/politics/hillary-clinton-ted-cruz-social-data-2016/

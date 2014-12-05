@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classListOfTiles" kind="class" prot="public">
+    <compoundname>ListOfTiles</compoundname>
+    <includes refid="ListOfTiles_8h" local="no">ListOfTiles.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" prot="public" static="no" mutable="no">
+        <type><ref refid="classTile" kindref="compound">Tile</ref> *</type>
+        <definition>Tile* ListOfTiles::begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Ponteiro para o primeiro objeto do tipo <ref refid="classTile" kindref="compound">Tile</ref> na lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="45" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classRKRGST_1a37cf8598f504f175035a83a69cfeaa08" compoundref="RKRGST_8h" startline="319" endline="389">RKRGST&lt; TypeOfContent &gt;::findPatternSubstring</referencedby>
+        <referencedby refid="classListOfTiles_1a72a1b46b241ee17dc6f6ff9e5f291521" compoundref="ListOfTiles_8h" startline="113" endline="122">print</referencedby>
+        <referencedby refid="classListOfTiles_1ac824d0c735f0f975663740da8d827511" compoundref="ListOfTiles_8h" startline="130" endline="161">removeTile</referencedby>
+        <referencedby refid="classListOfTiles_1aff2ecd909d48a815199b949f0a0556cc" compoundref="ListOfTiles_8h" startline="66" endline="82">~ListOfTiles</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classListOfTiles_1adebd46c83a63f0e0f385cc0170def3b3" prot="public" static="no" mutable="no">
+        <type><ref refid="classTile" kindref="compound">Tile</ref> *</type>
+        <definition>Tile* ListOfTiles::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>Ponteiro para o último objeto do tipo <ref refid="classTile" kindref="compound">Tile</ref> na lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="48" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classListOfTiles_1a0d8226cb5174084dd6bc7d8854c1e3aa" compoundref="ListOfTiles_8h" startline="89" endline="107">addTile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classListOfTiles_1a6d6a5a454a10f1a9ea1fd4bc4dedf290" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ListOfTiles::numberOfTiles</definition>
+        <argsstring></argsstring>
+        <name>numberOfTiles</name>
+        <briefdescription>
+<para>Quantidade de objetos do tipo <ref refid="classTile" kindref="compound">Tile</ref> na lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="51" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classListOfTiles_1ad87132d4a7c3eb474797f3e3be24232c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListOfTiles::ListOfTiles</definition>
+        <argsstring>()</argsstring>
+        <name>ListOfTiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor de um objeto da classe <ref refid="classListOfTiles" kindref="compound">ListOfTiles</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="56" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classListOfTiles_1aff2ecd909d48a815199b949f0a0556cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListOfTiles::~ListOfTiles</definition>
+        <argsstring>()</argsstring>
+        <name>~ListOfTiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destrutor de um objeto da classe <ref refid="classListOfTiles" kindref="compound">ListOfTiles</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="66" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="66" bodyend="82"/>
+        <references refid="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" compoundref="ListOfTiles_8h" startline="45">begin</references>
+        <references refid="classTile_1a3c9f5e6070368625c8bfc8b9d30282ca" compoundref="Tile_8h" startline="35">Tile::next</references>
+      </memberdef>
+      <memberdef kind="function" id="classListOfTiles_1a0d8226cb5174084dd6bc7d8854c1e3aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListOfTiles::addTile</definition>
+        <argsstring>(Tile *tile)</argsstring>
+        <name>addTile</name>
+        <param>
+          <type><ref refid="classTile" kindref="compound">Tile</ref> *</type>
+          <declname>tile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adiciona um novo objeto da classe <ref refid="classTile" kindref="compound">Tile</ref> na lista <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ponteiro para o objeto da classe <ref refid="classTile" kindref="compound">Tile</ref> a ser adicionado </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Não há retorno </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="89" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="89" bodyend="107"/>
+        <references refid="classListOfTiles_1adebd46c83a63f0e0f385cc0170def3b3" compoundref="ListOfTiles_8h" startline="48">end</references>
+        <references refid="classTile_1a3c9f5e6070368625c8bfc8b9d30282ca" compoundref="Tile_8h" startline="35">Tile::next</references>
+        <references refid="classTile_1ac5e5e631733d14196575bd39d5df8923" compoundref="Tile_8h" startline="37">Tile::previous</references>
+      </memberdef>
+      <memberdef kind="function" id="classListOfTiles_1a72a1b46b241ee17dc6f6ff9e5f291521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListOfTiles::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Imprime, para cada objeto da classe <ref refid="classTile" kindref="compound">Tile</ref> na lista, o seu índice de início e de fim. <simplesect kind="return"><para>Não há retorno </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="113" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="113" bodyend="122"/>
+        <references refid="classTile_1abf2eb9ed61ada2b1a35386e5f20bd350" compoundref="Tile_8h" startline="40">Tile::begin</references>
+        <references refid="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" compoundref="ListOfTiles_8h" startline="45">begin</references>
+        <references refid="classTile_1a39ee840ddb65bf9ad1fb12667e92993c" compoundref="Tile_8h" startline="43">Tile::end</references>
+        <references refid="classTile_1a3c9f5e6070368625c8bfc8b9d30282ca" compoundref="Tile_8h" startline="35">Tile::next</references>
+      </memberdef>
+      <memberdef kind="function" id="classListOfTiles_1ac824d0c735f0f975663740da8d827511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListOfTiles::removeTile</definition>
+        <argsstring>(int tileBeginIndex, int tileEndIndex)</argsstring>
+        <name>removeTile</name>
+        <param>
+          <type>int</type>
+          <declname>tileBeginIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tileEndIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove objeto da classe <ref refid="classTile" kindref="compound">Tile</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tileBeginIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice da primeira posição da tile a ser removida </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tileEndIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice da última posição da tile a ser removida </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Não há retorno </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="130" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="130" bodyend="161"/>
+        <references refid="classTile_1abf2eb9ed61ada2b1a35386e5f20bd350" compoundref="Tile_8h" startline="40">Tile::begin</references>
+        <references refid="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" compoundref="ListOfTiles_8h" startline="45">begin</references>
+        <references refid="classTile_1a39ee840ddb65bf9ad1fb12667e92993c" compoundref="Tile_8h" startline="43">Tile::end</references>
+        <references refid="classTile_1a3c9f5e6070368625c8bfc8b9d30282ca" compoundref="Tile_8h" startline="35">Tile::next</references>
+        <references refid="classTile_1ac5e5e631733d14196575bd39d5df8923" compoundref="Tile_8h" startline="37">Tile::previous</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe que guarda objetos do tipo <ref refid="classTile" kindref="compound">Tile</ref> <simplesect kind="see"><para><ref refid="classTile" kindref="compound">Tile</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="48">
+        <label>Tile</label>
+        <link refid="classTile"/>
+        <childnode refid="48" relation="usage">
+          <edgelabel>previous</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="47">
+        <label>ListOfTiles</label>
+        <link refid="classListOfTiles"/>
+        <childnode refid="48" relation="usage">
+          <edgelabel>begin</edgelabel>
+          <edgelabel>end</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" line="40" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfTiles.h" bodystart="39" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classListOfTiles_1a0d8226cb5174084dd6bc7d8854c1e3aa" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>addTile</name></member>
+      <member refid="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>begin</name></member>
+      <member refid="classListOfTiles_1adebd46c83a63f0e0f385cc0170def3b3" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>end</name></member>
+      <member refid="classListOfTiles_1ad87132d4a7c3eb474797f3e3be24232c" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>ListOfTiles</name></member>
+      <member refid="classListOfTiles_1a6d6a5a454a10f1a9ea1fd4bc4dedf290" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>numberOfTiles</name></member>
+      <member refid="classListOfTiles_1a72a1b46b241ee17dc6f6ff9e5f291521" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>print</name></member>
+      <member refid="classListOfTiles_1ac824d0c735f0f975663740da8d827511" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>removeTile</name></member>
+      <member refid="classListOfTiles_1aff2ecd909d48a815199b949f0a0556cc" prot="public" virt="non-virtual"><scope>ListOfTiles</scope><name>~ListOfTiles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

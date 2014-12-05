@@ -1,0 +1,177 @@
+\hypertarget{classBox}{\section{Box$<$ Type\+Of\+Content $>$ Class Template Reference}
+\label{classBox}\index{Box$<$ Type\+Of\+Content $>$@{Box$<$ Type\+Of\+Content $>$}}
+}
+
+
+{\ttfamily \#include $<$Box.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classBox_a0946e5527494183bd61672e12bca5cbc}{Box} (\hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$\hyperlink{classBox_aa1b857944564f517d12997289e5987ba}{pattern}, int \hyperlink{classBox_acadd4d6b43a90560a093cb64aa77b7e9}{pattern\+Size}, \hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$\hyperlink{classBox_a5c23fcbcde78ac65c62127c2b272ac30}{text}, int \hyperlink{classBox_a2bfb2b656e74bc0f87f8acda76afbc86}{text\+Size})
+\item 
+\hyperlink{classBox_a5eeacaebc9bab0e00cd0b0d80635c6ec}{$\sim$\+Box} ()
+\item 
+void \hyperlink{classBox_a0c6759886250c36ed1b6a2d6915585e3}{print\+Box} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classBox_aa1b857944564f517d12997289e5987ba}{pattern}
+\begin{DoxyCompactList}\small\item\em Vetor de \hyperlink{classLetter}{Letter} alocada dinamicamente contendo pattern. \end{DoxyCompactList}\item 
+int \hyperlink{classBox_acadd4d6b43a90560a093cb64aa77b7e9}{pattern\+Size}
+\begin{DoxyCompactList}\small\item\em Tamanho do vetor de \hyperlink{classLetter}{Letter} contendo o padrão. \end{DoxyCompactList}\item 
+\hyperlink{classLetter}{Letter}$<$ Type\+Of\+Content $>$ $\ast$ \hyperlink{classBox_a5c23fcbcde78ac65c62127c2b272ac30}{text}
+\begin{DoxyCompactList}\small\item\em Vetor contendo o texto onde será realizada a busca do padrão. \end{DoxyCompactList}\item 
+int \hyperlink{classBox_a2bfb2b656e74bc0f87f8acda76afbc86}{text\+Size}
+\begin{DoxyCompactList}\small\item\em Tamanho do vetor de \hyperlink{classLetter}{Letter} contendo o texto onde será realizada a busca do padrão. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Type\+Of\+Content$>$class Box$<$ Type\+Of\+Content $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Type\+Of\+Content} & tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text Classe criada para facilitar a administracao dos dados. Isto diminuira o tamanho do construtor do \hyperlink{classRKRGST}{R\+K\+R\+G\+S\+T} ao menos tempo que agrupara estes dados. \\
+\hline
+\end{DoxyTemplParams}
+
+
+Definition at line 35 of file Box.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classBox_a0946e5527494183bd61672e12bca5cbc}{\index{Box@{Box}!Box@{Box}}
+\index{Box@{Box}!Box@{Box}}
+\subsubsection[{Box}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Box}$<$ Type\+Of\+Content $>$\+::{\bf Box} (
+\begin{DoxyParamCaption}
+\item[{{\bf Letter}$<$ Type\+Of\+Content $>$ $\ast$}]{pattern, }
+\item[{int}]{pattern\+Size, }
+\item[{{\bf Letter}$<$ Type\+Of\+Content $>$ $\ast$}]{text, }
+\item[{int}]{text\+Size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classBox_a0946e5527494183bd61672e12bca5cbc}
+Construtor da classe \hyperlink{classBox}{Box} 
+\begin{DoxyParams}{Parameters}
+{\em pattern} & vetor de \hyperlink{classLetter}{Letter} contendo o padrão \\
+\hline
+{\em pattern\+Size} & tamanho do vetor de \hyperlink{classLetter}{Letter} contendo o padrão \\
+\hline
+{\em text} & vetor contendo o texto onde será realizada a busca do padrão \\
+\hline
+{\em text\+Size} & tamanho do vetor de \hyperlink{classLetter}{Letter} contendo o texto onde será realizada a busca do padrão \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 58 of file Box.\+h.
+
+
+
+References Box$<$ Type\+Of\+Content $>$\+::pattern, Box$<$ Type\+Of\+Content $>$\+::pattern\+Size, Box$<$ Type\+Of\+Content $>$\+::text, and Box$<$ Type\+Of\+Content $>$\+::text\+Size.
+
+\hypertarget{classBox_a5eeacaebc9bab0e00cd0b0d80635c6ec}{\index{Box@{Box}!````~Box@{$\sim$\+Box}}
+\index{````~Box@{$\sim$\+Box}!Box@{Box}}
+\subsubsection[{$\sim$\+Box}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Box}$<$ Type\+Of\+Content $>$\+::$\sim${\bf Box} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classBox_a5eeacaebc9bab0e00cd0b0d80635c6ec}
+Destrutor da classe \hyperlink{classBox}{Box} 
+
+Definition at line 69 of file Box.\+h.
+
+
+
+References Box$<$ Type\+Of\+Content $>$\+::pattern, and Box$<$ Type\+Of\+Content $>$\+::text.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classBox_a0c6759886250c36ed1b6a2d6915585e3}{\index{Box@{Box}!print\+Box@{print\+Box}}
+\index{print\+Box@{print\+Box}!Box@{Box}}
+\subsubsection[{print\+Box}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ void {\bf Box}$<$ Type\+Of\+Content $>$\+::print\+Box (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classBox_a0c6759886250c36ed1b6a2d6915585e3}
+Método que imprime o conteúdo de pattern e text \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file Box.\+h.
+
+
+
+References Box$<$ Type\+Of\+Content $>$\+::pattern\+Size, and Box$<$ Type\+Of\+Content $>$\+::text\+Size.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classBox_aa1b857944564f517d12997289e5987ba}{\index{Box@{Box}!pattern@{pattern}}
+\index{pattern@{pattern}!Box@{Box}}
+\subsubsection[{pattern}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Letter}$<$Type\+Of\+Content$>$$\ast$ {\bf Box}$<$ Type\+Of\+Content $>$\+::pattern}}\label{classBox_aa1b857944564f517d12997289e5987ba}
+
+
+Vetor de \hyperlink{classLetter}{Letter} alocada dinamicamente contendo pattern. 
+
+
+
+Definition at line 39 of file Box.\+h.
+
+
+
+Referenced by Box$<$ Type\+Of\+Content $>$\+::\+Box(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::find\+Pattern\+Substring(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Tokens(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::occluded(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern(), and Box$<$ Type\+Of\+Content $>$\+::$\sim$\+Box().
+
+\hypertarget{classBox_acadd4d6b43a90560a093cb64aa77b7e9}{\index{Box@{Box}!pattern\+Size@{pattern\+Size}}
+\index{pattern\+Size@{pattern\+Size}!Box@{Box}}
+\subsubsection[{pattern\+Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Box}$<$ Type\+Of\+Content $>$\+::pattern\+Size}}\label{classBox_acadd4d6b43a90560a093cb64aa77b7e9}
+
+
+Tamanho do vetor de \hyperlink{classLetter}{Letter} contendo o padrão. 
+
+
+
+Definition at line 42 of file Box.\+h.
+
+
+
+Referenced by Box$<$ Type\+Of\+Content $>$\+::\+Box(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::find\+Pattern\+Substring(), Box$<$ Type\+Of\+Content $>$\+::print\+Box(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+\hypertarget{classBox_a5c23fcbcde78ac65c62127c2b272ac30}{\index{Box@{Box}!text@{text}}
+\index{text@{text}!Box@{Box}}
+\subsubsection[{text}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ {\bf Letter}$<$Type\+Of\+Content$>$$\ast$ {\bf Box}$<$ Type\+Of\+Content $>$\+::text}}\label{classBox_a5c23fcbcde78ac65c62127c2b272ac30}
+
+
+Vetor contendo o texto onde será realizada a busca do padrão. 
+
+
+
+Definition at line 45 of file Box.\+h.
+
+
+
+Referenced by Box$<$ Type\+Of\+Content $>$\+::\+Box(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Tokens(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::occluded(), and Box$<$ Type\+Of\+Content $>$\+::$\sim$\+Box().
+
+\hypertarget{classBox_a2bfb2b656e74bc0f87f8acda76afbc86}{\index{Box@{Box}!text\+Size@{text\+Size}}
+\index{text\+Size@{text\+Size}!Box@{Box}}
+\subsubsection[{text\+Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type\+Of\+Content$>$ int {\bf Box}$<$ Type\+Of\+Content $>$\+::text\+Size}}\label{classBox_a2bfb2b656e74bc0f87f8acda76afbc86}
+
+
+Tamanho do vetor de \hyperlink{classLetter}{Letter} contendo o texto onde será realizada a busca do padrão. 
+
+
+
+Definition at line 48 of file Box.\+h.
+
+
+
+Referenced by Box$<$ Type\+Of\+Content $>$\+::\+Box(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), Box$<$ Type\+Of\+Content $>$\+::print\+Box(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Box_8h}{Box.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classRandomPrime" kind="class" prot="public">
+    <compoundname>RandomPrime</compoundname>
+    <includes refid="RandomPrime_8h" local="no">RandomPrime.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classRandomPrime_1aed4cde44e5f33444c1d0e02d061a6a22" prot="public" static="no" mutable="no">
+        <type><ref refid="classRandomNumber" kindref="compound">RandomNumber</ref> *</type>
+        <definition>RandomNumber* RandomPrime::randomNumber</definition>
+        <argsstring></argsstring>
+        <name>randomNumber</name>
+        <briefdescription>
+<para>Ponteiro para a classe que cria um número aleatório, primo ou não. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" line="35" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classRandomPrime_1a5c42d9687ece6ea0cdee8ac0dd949f51" compoundref="RandomPrime_8h" startline="48" endline="51">~RandomPrime</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRandomPrime_1a941dadf444034d5cd4918f0f9ec6c1f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RandomPrime::RandomPrime</definition>
+        <argsstring>()</argsstring>
+        <name>RandomPrime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor da classe <ref refid="classRandomPrime" kindref="compound">RandomPrime</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" line="40" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classRandomPrime_1a5c42d9687ece6ea0cdee8ac0dd949f51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RandomPrime::~RandomPrime</definition>
+        <argsstring>()</argsstring>
+        <name>~RandomPrime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destrutor da classe <ref refid="classRandomPrime" kindref="compound">RandomPrime</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" line="48" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" bodystart="48" bodyend="51"/>
+        <references refid="classRandomPrime_1aed4cde44e5f33444c1d0e02d061a6a22" compoundref="RandomPrime_8h" startline="35">randomNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classRandomPrime_1ad5dcc20963dcb83120db6e2c93749585" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RandomPrime::isPrime</definition>
+        <argsstring>(int number)</argsstring>
+        <name>isPrime</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Verifica se um certo número é primo ou não <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- número que será verificado </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool - true caso seja primo e false caso contrário </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" line="58" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" bodystart="58" bodyend="68"/>
+        <referencedby refid="classRandomPrime_1a322ce83f7af45e67d009ff3ed19d0047" compoundref="RandomPrime_8h" startline="76" endline="91">newRandomPrime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRandomPrime_1a322ce83f7af45e67d009ff3ed19d0047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RandomPrime::newRandomPrime</definition>
+        <argsstring>(int min, int max)</argsstring>
+        <name>newRandomPrime</name>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gera um número primo aleatório <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- menor número possível de ser retornado </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- maior número possível de ser retornado </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>número primo gerado </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" line="76" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" bodystart="76" bodyend="91"/>
+        <references refid="classRandomPrime_1ad5dcc20963dcb83120db6e2c93749585" compoundref="RandomPrime_8h" startline="58" endline="68">isPrime</references>
+        <references refid="classRandomNumber_1ada5063d81ac44b99407ae29cc2faec6e" compoundref="RandomNumber_8h" startline="44" endline="51">RandomNumber::newRandomNumber</references>
+        <referencedby refid="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" compoundref="RKRGST_8h" startline="86" endline="99">RKRGST&lt; TypeOfContent &gt;::RKRGST</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe que cria um número primo aleatório </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="54">
+        <label>RandomPrime</label>
+        <link refid="classRandomPrime"/>
+        <childnode refid="55" relation="usage">
+          <edgelabel>randomNumber</edgelabel>
+        </childnode>
+      </node>
+      <node id="55">
+        <label>RandomNumber</label>
+        <link refid="classRandomNumber"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" line="31" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomPrime.h" bodystart="30" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classRandomPrime_1ad5dcc20963dcb83120db6e2c93749585" prot="public" virt="non-virtual"><scope>RandomPrime</scope><name>isPrime</name></member>
+      <member refid="classRandomPrime_1a322ce83f7af45e67d009ff3ed19d0047" prot="public" virt="non-virtual"><scope>RandomPrime</scope><name>newRandomPrime</name></member>
+      <member refid="classRandomPrime_1aed4cde44e5f33444c1d0e02d061a6a22" prot="public" virt="non-virtual"><scope>RandomPrime</scope><name>randomNumber</name></member>
+      <member refid="classRandomPrime_1a941dadf444034d5cd4918f0f9ec6c1f5" prot="public" virt="non-virtual"><scope>RandomPrime</scope><name>RandomPrime</name></member>
+      <member refid="classRandomPrime_1a5c42d9687ece6ea0cdee8ac0dd949f51" prot="public" virt="non-virtual"><scope>RandomPrime</scope><name>~RandomPrime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

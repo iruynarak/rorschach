@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classLetter" kind="class" prot="public">
+    <compoundname>Letter</compoundname>
+    <includes refid="Letter_8h" local="no">Letter.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classLetter_1a88ed419ad80a3c9e773f2c2dd0fafe97" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Letter&lt; TypeOfContent &gt;::nextUnmarked</definition>
+        <argsstring></argsstring>
+        <name>nextUnmarked</name>
+        <briefdescription>
+<para>Índice da <ref refid="classLetter" kindref="compound">Letter</ref> não marcada posterior a esta. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" line="37" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLetter_1a8b0435db39f7a35dd3874f981d7f19e6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Letter&lt; TypeOfContent &gt;::previousUnmarked</definition>
+        <argsstring></argsstring>
+        <name>previousUnmarked</name>
+        <briefdescription>
+<para>Índice da <ref refid="classLetter" kindref="compound">Letter</ref> não marcada anterior a esta. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" line="39" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLetter_1a720835d4e8e538b206ce5cb93da530a8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Letter&lt; TypeOfContent &gt;::marked</definition>
+        <argsstring></argsstring>
+        <name>marked</name>
+        <briefdescription>
+<para>True caso esta <ref refid="classLetter" kindref="compound">Letter</ref> está marcada e false caso contrário. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" line="42" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLetter_1a9b3d3b6fe677bf9e96a034f71beda5c4" prot="public" static="no" mutable="no">
+        <type>TypeOfContent</type>
+        <definition>TypeOfContent Letter&lt; TypeOfContent &gt;::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+<para>Conteúdo da <ref refid="classLetter" kindref="compound">Letter</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" line="45" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text Classe que armazena cada letra lida do alfabeto em questão </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" line="30" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Letter.h" bodystart="29" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classLetter_1a9b3d3b6fe677bf9e96a034f71beda5c4" prot="public" virt="non-virtual"><scope>Letter</scope><name>content</name></member>
+      <member refid="classLetter_1a720835d4e8e538b206ce5cb93da530a8" prot="public" virt="non-virtual"><scope>Letter</scope><name>marked</name></member>
+      <member refid="classLetter_1a88ed419ad80a3c9e773f2c2dd0fafe97" prot="public" virt="non-virtual"><scope>Letter</scope><name>nextUnmarked</name></member>
+      <member refid="classLetter_1a8b0435db39f7a35dd3874f981d7f19e6" prot="public" virt="non-virtual"><scope>Letter</scope><name>previousUnmarked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

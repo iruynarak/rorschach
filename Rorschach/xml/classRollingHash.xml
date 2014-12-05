@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classRollingHash" kind="class" prot="public">
+    <compoundname>RollingHash</compoundname>
+    <includes refid="RollingHash_8h" local="no">RollingHash.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classRollingHash_1af12ead08746ce29672d41151f0d3ac21" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long RollingHash&lt; TypeOfContent &gt;::hashValue</definition>
+        <argsstring></argsstring>
+        <name>hashValue</name>
+        <briefdescription>
+<para>valor da hash referente ao conteudo da fila </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="46" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classRollingHash_1a234a787077388a3825a9218702ce8647" compoundref="RollingHash_8h" startline="94" endline="99">RollingHash&lt; TypeOfContent &gt;::getHashValue</referencedby>
+        <referencedby refid="classSubstring_1a217db9ee47a8cc5db31a671606e039b5" compoundref="Substring_8h" startline="124" endline="127">Substring&lt; TypeOfContent &gt;::print</referencedby>
+        <referencedby refid="classRollingHash_1aa4f2a75c882a87d7cce490663c8e01be" compoundref="RollingHash_8h" startline="130" endline="155">RollingHash&lt; TypeOfContent &gt;::skip</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRollingHash_1a5b021104f9f93bb2265a2046d7edaaed" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RollingHash&lt; TypeOfContent &gt;::primeNumber</definition>
+        <argsstring></argsstring>
+        <name>primeNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>numero primo utilizado para limitar o valor da hash evitando overflow </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="51" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" compoundref="RollingHash_8h" startline="107" endline="123">RollingHash&lt; TypeOfContent &gt;::append</referencedby>
+        <referencedby refid="classRollingHash_1aa4f2a75c882a87d7cce490663c8e01be" compoundref="RollingHash_8h" startline="130" endline="155">RollingHash&lt; TypeOfContent &gt;::skip</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRollingHash_1ae2e7e5cffeada00e493fbd9daed2a298" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RollingHash&lt; TypeOfContent &gt;::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+<para>quantidade de termos sendo usados para construir a hash </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="54" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRollingHash_1aea18bfbf983b35d528fa634d5f08c810" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RollingHash&lt; TypeOfContent &gt;::baseLength</definition>
+        <argsstring></argsstring>
+        <name>baseLength</name>
+        <briefdescription>
+<para>base do alfabeto utilizado na criação da hash </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="57" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" compoundref="RollingHash_8h" startline="107" endline="123">RollingHash&lt; TypeOfContent &gt;::append</referencedby>
+        <referencedby refid="classRollingHash_1a23a92a45f616ddec85966845b5facb2e" compoundref="RollingHash_8h" startline="74" endline="88">RollingHash&lt; TypeOfContent &gt;::RollingHash</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRollingHash_1af85ff74e2d593d4bc48a9c73732d18ec" prot="public" static="no" mutable="no">
+        <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Letter&lt;TypeOfContent&gt;* RollingHash&lt; TypeOfContent &gt;::string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+<para>ponteiro para a palavra que será usada na Rolling Hash </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="60" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classRollingHash_1a2d7db74aad6ab8e34e1829c3ddf79989" compoundref="RollingHash_8h" startline="176" endline="186">RollingHash&lt; TypeOfContent &gt;::operator==</referencedby>
+        <referencedby refid="classRollingHash_1a23a92a45f616ddec85966845b5facb2e" compoundref="RollingHash_8h" startline="74" endline="88">RollingHash&lt; TypeOfContent &gt;::RollingHash</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRollingHash_1ae1516e16a6167fbe36b46af49614c6af" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RollingHash&lt; TypeOfContent &gt;::begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>índice do início do trecho para o qual a Rolling Hash se refere. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="63" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classRollingHash_1a2d7db74aad6ab8e34e1829c3ddf79989" compoundref="RollingHash_8h" startline="176" endline="186">RollingHash&lt; TypeOfContent &gt;::operator==</referencedby>
+        <referencedby refid="classSubstring_1a217db9ee47a8cc5db31a671606e039b5" compoundref="Substring_8h" startline="124" endline="127">Substring&lt; TypeOfContent &gt;::print</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRollingHash_1aa3f8e695a18340a65fbe29abc46e90ff" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RollingHash&lt; TypeOfContent &gt;::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>índice do fim do trecho para o qual a Rolling Hash se refere. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="66" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classSubstring_1ae5eb3f9712352741b8bf65b2b231356c" compoundref="Substring_8h" startline="100" endline="104">Substring&lt; TypeOfContent &gt;::append</referencedby>
+        <referencedby refid="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" compoundref="RollingHash_8h" startline="107" endline="123">RollingHash&lt; TypeOfContent &gt;::append</referencedby>
+        <referencedby refid="classRollingHash_1a2d7db74aad6ab8e34e1829c3ddf79989" compoundref="RollingHash_8h" startline="176" endline="186">RollingHash&lt; TypeOfContent &gt;::operator==</referencedby>
+        <referencedby refid="classSubstring_1a217db9ee47a8cc5db31a671606e039b5" compoundref="Substring_8h" startline="124" endline="127">Substring&lt; TypeOfContent &gt;::print</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRollingHash_1a23a92a45f616ddec85966845b5facb2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RollingHash&lt; TypeOfContent &gt;::RollingHash</definition>
+        <argsstring>(int baseLength, int randomPrime, Letter&lt; TypeOfContent &gt; *string)</argsstring>
+        <name>RollingHash</name>
+        <param>
+          <type>int</type>
+          <declname>baseLength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>randomPrime</declname>
+        </param>
+        <param>
+          <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor da Rolling Hash <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>baseLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>base do alfabeto utilizado na criação da hash </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>randomPrime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>número primo utizado para limitar o valor da hash evitando overflow </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ponteiro para a palavra que será usada na Rolling Hash </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>primo escolhido deve ser maior ou igual que tamanho da string, ou seja, primeNumber &gt;= length </para>        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="74" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="74" bodyend="88"/>
+        <references refid="classRollingHash_1aea18bfbf983b35d528fa634d5f08c810" compoundref="RollingHash_8h" startline="57">RollingHash&lt; TypeOfContent &gt;::baseLength</references>
+        <references refid="classRollingHash_1af85ff74e2d593d4bc48a9c73732d18ec" compoundref="RollingHash_8h" startline="60">RollingHash&lt; TypeOfContent &gt;::string</references>
+      </memberdef>
+      <memberdef kind="function" id="classRollingHash_1a234a787077388a3825a9218702ce8647" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RollingHash&lt; TypeOfContent &gt;::getHashValue</definition>
+        <argsstring>()</argsstring>
+        <name>getHashValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>retorna o valor de hash atual <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="94" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="94" bodyend="99"/>
+        <references refid="classRollingHash_1af12ead08746ce29672d41151f0d3ac21" compoundref="RollingHash_8h" startline="46">RollingHash&lt; TypeOfContent &gt;::hashValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RollingHash&lt; TypeOfContent &gt;::append</definition>
+        <argsstring>(int i)</argsstring>
+        <name>append</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adiciona uma nova letra a hash, atualizando o valor de hash, length e fila <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ponteiro para a localização da letra cujo tipo é TypeOfContent e que será adicionada </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="107" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="107" bodyend="123"/>
+        <references refid="classRollingHash_1aea18bfbf983b35d528fa634d5f08c810" compoundref="RollingHash_8h" startline="57">RollingHash&lt; TypeOfContent &gt;::baseLength</references>
+        <references refid="classRollingHash_1aa3f8e695a18340a65fbe29abc46e90ff" compoundref="RollingHash_8h" startline="66">RollingHash&lt; TypeOfContent &gt;::end</references>
+        <references refid="classRollingHash_1a5b021104f9f93bb2265a2046d7edaaed" compoundref="RollingHash_8h" startline="51">RollingHash&lt; TypeOfContent &gt;::primeNumber</references>
+        <referencedby refid="classSubstring_1ae5eb3f9712352741b8bf65b2b231356c" compoundref="Substring_8h" startline="100" endline="104">Substring&lt; TypeOfContent &gt;::append</referencedby>
+        <referencedby refid="classSubstring_1a065a95aaacde32e5b623f0a52d3ca180" compoundref="Substring_8h" startline="68" endline="82">Substring&lt; TypeOfContent &gt;::Substring</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRollingHash_1aa4f2a75c882a87d7cce490663c8e01be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RollingHash&lt; TypeOfContent &gt;::skip</definition>
+        <argsstring>()</argsstring>
+        <name>skip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>retira a primeira letra da fila, ou seja, a mais antiga <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="130" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="130" bodyend="155"/>
+        <references refid="classRollingHash_1af12ead08746ce29672d41151f0d3ac21" compoundref="RollingHash_8h" startline="46">RollingHash&lt; TypeOfContent &gt;::hashValue</references>
+        <references refid="classRollingHash_1a5b021104f9f93bb2265a2046d7edaaed" compoundref="RollingHash_8h" startline="51">RollingHash&lt; TypeOfContent &gt;::primeNumber</references>
+        <referencedby refid="classSubstring_1a618432b07f7469537bd8de5c9dccc02f" compoundref="Substring_8h" startline="112" endline="116">Substring&lt; TypeOfContent &gt;::skip</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRollingHash_1a3a1b45d3adddedb05d92e89d5fd0f5ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RollingHash&lt; TypeOfContent &gt;::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>imprime o valor da hash atual e os termos que serviram para a sua criação <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="161" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="161" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classRollingHash_1a2d7db74aad6ab8e34e1829c3ddf79989" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RollingHash&lt; TypeOfContent &gt;::operator==</definition>
+        <argsstring>(const RollingHash &amp;other) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classRollingHash" kindref="compound">RollingHash</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sobreescrevendo o operador == para que possamos comparar o conteúdo da <ref refid="classRollingHash" kindref="compound">RollingHash</ref>, ou seja, o conteúdo guardado na fila. Isto é útil durante a verificação de igualdade entre duas <ref refid="classRollingHash" kindref="compound">RollingHash</ref> cujos valores de hash delas são iguais. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a segunda <ref refid="classRollingHash" kindref="compound">RollingHash</ref> sendo comparada </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna true caso os conteúdos delas sejam iguais. Falso caso contrário </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="176" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="176" bodyend="186"/>
+        <references refid="classRollingHash_1ae1516e16a6167fbe36b46af49614c6af" compoundref="RollingHash_8h" startline="63">RollingHash&lt; TypeOfContent &gt;::begin</references>
+        <references refid="classRollingHash_1aa3f8e695a18340a65fbe29abc46e90ff" compoundref="RollingHash_8h" startline="66">RollingHash&lt; TypeOfContent &gt;::end</references>
+        <references refid="classRollingHash_1af85ff74e2d593d4bc48a9c73732d18ec" compoundref="RollingHash_8h" startline="60">RollingHash&lt; TypeOfContent &gt;::string</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo do termo adicionado a fila classe que realiza a implementação da Rolling Hash </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" line="41" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RollingHash.h" bodystart="40" bodyend="192"/>
+    <listofallmembers>
+      <member refid="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>append</name></member>
+      <member refid="classRollingHash_1aea18bfbf983b35d528fa634d5f08c810" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>baseLength</name></member>
+      <member refid="classRollingHash_1ae1516e16a6167fbe36b46af49614c6af" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>begin</name></member>
+      <member refid="classRollingHash_1aa3f8e695a18340a65fbe29abc46e90ff" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>end</name></member>
+      <member refid="classRollingHash_1a234a787077388a3825a9218702ce8647" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>getHashValue</name></member>
+      <member refid="classRollingHash_1af12ead08746ce29672d41151f0d3ac21" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>hashValue</name></member>
+      <member refid="classRollingHash_1ae2e7e5cffeada00e493fbd9daed2a298" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>length</name></member>
+      <member refid="classRollingHash_1a2d7db74aad6ab8e34e1829c3ddf79989" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>operator==</name></member>
+      <member refid="classRollingHash_1a5b021104f9f93bb2265a2046d7edaaed" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>primeNumber</name></member>
+      <member refid="classRollingHash_1a3a1b45d3adddedb05d92e89d5fd0f5ae" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>print</name></member>
+      <member refid="classRollingHash_1a23a92a45f616ddec85966845b5facb2e" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>RollingHash</name></member>
+      <member refid="classRollingHash_1aa4f2a75c882a87d7cce490663c8e01be" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>skip</name></member>
+      <member refid="classRollingHash_1af85ff74e2d593d4bc48a9c73732d18ec" prot="public" virt="non-virtual"><scope>RollingHash</scope><name>string</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="Main_8cpp" kind="file">
+    <compoundname>Main.cpp</compoundname>
+    <includes refid="ListOfSubstrings_8h" local="yes">ListOfSubstrings.h</includes>
+    <includes refid="Reader_8h" local="yes">Reader.h</includes>
+    <includes refid="RKRGST_8h" local="yes">RKRGST.h</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">sys/time.h</includes>
+    <incdepgraph>
+      <node id="273">
+        <label>ListOfTiles.h</label>
+        <link refid="ListOfTiles_8h"/>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>iomanip</label>
+      </node>
+      <node id="261">
+        <label>limits</label>
+      </node>
+      <node id="275">
+        <label>HashTable.h</label>
+        <link refid="HashTable_8h"/>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>Main.cpp</label>
+        <link refid="Main.cpp"/>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>stdlib.h</label>
+      </node>
+      <node id="271">
+        <label>stdexcept</label>
+      </node>
+      <node id="264">
+        <label>RandomNumber.h</label>
+        <link refid="RandomNumber_8h"/>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="274">
+        <label>Tile.h</label>
+        <link refid="Tile_8h"/>
+      </node>
+      <node id="270">
+        <label>fstream</label>
+      </node>
+      <node id="272">
+        <label>RKRGST.h</label>
+        <link refid="RKRGST_8h"/>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>Match.h</label>
+        <link refid="Match_8h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+      <node id="269">
+        <label>Box.h</label>
+        <link refid="Box_8h"/>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>Letter.h</label>
+        <link refid="Letter_8h"/>
+      </node>
+      <node id="276">
+        <label>ListOfMatches.h</label>
+        <link refid="ListOfMatches_8h"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+      <node id="263">
+        <label>RandomPrime.h</label>
+        <link refid="RandomPrime_8h"/>
+        <childnode refid="264" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>ListOfSubstrings.h</label>
+        <link refid="ListOfSubstrings_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>time.h</label>
+      </node>
+      <node id="260">
+        <label>math.h</label>
+      </node>
+      <node id="279">
+        <label>sys/time.h</label>
+      </node>
+      <node id="267">
+        <label>iostream</label>
+      </node>
+      <node id="266">
+        <label>stdio.h</label>
+      </node>
+      <node id="268">
+        <label>Reader.h</label>
+        <link refid="Reader_8h"/>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>Substring.h</label>
+        <link refid="Substring_8h"/>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>RollingHash.h</label>
+        <link refid="RollingHash_8h"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Main_8cpp_1a79bcfb6bde984f42d1124b068a509af7" prot="public" static="no">
+        <name>BASE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" line="35" column="9" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" bodystart="35" bodyend="-1"/>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="Main_8cpp_1a4505c08c065b48840a30eedd9845cce2" prot="public" static="no">
+        <type>char *</type>
+        <definition>typedef char* string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" line="38" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="Main_8cpp_1a4437edd7fd2832790c13ba3179bcc64d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double getTime</definition>
+        <argsstring>()</argsstring>
+        <name>getTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" line="50" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" bodystart="50" bodyend="56"/>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" line="58" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp" bodystart="58" bodyend="120"/>
+        <references refid="Main_8cpp_1a79bcfb6bde984f42d1124b068a509af7" compoundref="Main_8cpp" startline="35">BASE</references>
+        <references refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" compoundref="RKRGST_8h" startline="104" endline="150">RKRGST&lt; TypeOfContent &gt;::execute</references>
+        <references refid="classReader_1a8ef7d743eeaf83f2c47e56164145afb0" compoundref="Reader_8h" startline="141" endline="216">Reader&lt; TypeOfContent &gt;::filesToBox</references>
+        <references refid="Main_8cpp_1a4437edd7fd2832790c13ba3179bcc64d" compoundref="Main_8cpp" startline="50" endline="56">getTime</references>
+        <references refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" compoundref="Match_8h" startline="33">Match::length</references>
+        <references refid="classRKRGST_1aaebf5b2da8490b6fc1ea06300914256e" compoundref="RKRGST_8h" startline="73">RKRGST&lt; TypeOfContent &gt;::lengthOfTokensTiled</references>
+        <references refid="classRKRGST_1a1ae736b742c0cbcdd6d30c5201d4181b" compoundref="RKRGST_8h" startline="75">RKRGST&lt; TypeOfContent &gt;::listOfFinalTiles</references>
+        <references refid="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" compoundref="ListOfMatches_8h" startline="37">ListOfMatches::numberOfMatches</references>
+        <references refid="classMatch_1ac673bad1075e5499f0d857ed0a526fa2" compoundref="Match_8h" startline="35">Match::patternIndex</references>
+        <references refid="classMatch_1a4f14830202018dc00166f78572c11c8f" compoundref="Match_8h" startline="61" endline="64">Match::print</references>
+        <references refid="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" compoundref="ListOfMatches_8cpp" startline="78" endline="90">ListOfMatches::remove</references>
+        <references refid="classMatch_1aee534a2e3d23f7d069a618e1cb7b6343" compoundref="Match_8h" startline="37">Match::textIndex</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">Rorschach</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">Copyright<sp/>(C)<sp/>2014<sp/><sp/>Yuri<sp/>Karan<sp/>Benevides<sp/>Tomas</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment">Rorschach<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment">Rorschach<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"></highlight></codeline>
+<codeline lineno="15"><highlight class="comment">You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">along<sp/>with<sp/>this<sp/>program.<sp/><sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_ListOfSubstrings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ListOfSubstrings_8h" kindref="compound">ListOfSubstrings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_Reader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;<ref refid="Reader_8h" kindref="compound">Reader.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_RKRGST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;<ref refid="RKRGST_8h" kindref="compound">RKRGST.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;sys/time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="Main_8cpp_1a79bcfb6bde984f42d1124b068a509af7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BASE<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="Main_8cpp_1a4505c08c065b48840a30eedd9845cce2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="Main_8cpp_1a4505c08c065b48840a30eedd9845cce2" kindref="member">string</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>g++<sp/>-Wall<sp/>-o<sp/>teste<sp/>*.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//valgrind<sp/><sp/>./Rorschach<sp/>../stringMatchingInput/oldTests/03/pattern.txt<sp/>../stringMatchingInput/oldTests/03/text.txt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>getTime:<sp/>devolve<sp/>o<sp/>tempo<sp/>atual<sp/>em<sp/>segundos.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="Main_8cpp_1a4437edd7fd2832790c13ba3179bcc64d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="Main_8cpp_1a4437edd7fd2832790c13ba3179bcc64d" kindref="member">getTime</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeval<sp/>tv;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>gettimeofday(&amp;tv,<sp/>0);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tv.tv_sec<sp/>+<sp/>tv.tv_usec/1e6;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>resultTime;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(argc<sp/>!=<sp/>3)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Parameters:<sp/>&lt;patternFile&gt;<sp/>&lt;textFile&gt;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>resultTime<sp/>=<sp/><ref refid="Main_8cpp_1a4437edd7fd2832790c13ba3179bcc64d" kindref="member">getTime</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classReader" kindref="compound">Reader&lt;unsigned char&gt;</ref>*<sp/>reader<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classReader" kindref="compound">Reader&lt;unsigned char&gt;</ref>(argv[1],<sp/>argv[2]);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//reader-&gt;printFiles();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classBox" kindref="compound">Box&lt;unsigned char&gt;</ref>*<sp/>box<sp/>=<sp/>reader-&gt;<ref refid="classReader_1a8ef7d743eeaf83f2c47e56164145afb0" kindref="member">filesToBox</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>box-&gt;printBox();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>initialSearchLength<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minimumSearchLength<sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classRKRGST" kindref="compound">RKRGST&lt;unsigned char&gt;</ref>*<sp/>rkrgst<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classRKRGST" kindref="compound">RKRGST&lt;unsigned char&gt;</ref><sp/>(<sp/><sp/>box,<sp/>initialSearchLength,<sp/>minimumSearchLength,<sp/><sp/><ref refid="Main_8cpp_1a79bcfb6bde984f42d1124b068a509af7" kindref="member">BASE</ref>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>rkrgst-&gt;<ref refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" kindref="member">execute</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//resposta:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n\n\n___________________________________________\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nlengthOfTokensTiled:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>rkrgst-&gt;<ref refid="classRKRGST_1aaebf5b2da8490b6fc1ea06300914256e" kindref="member">lengthOfTokensTiled</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(rkrgst-&gt;<ref refid="classRKRGST_1a1ae736b742c0cbcdd6d30c5201d4181b" kindref="member">listOfFinalTiles</ref>-&gt;<ref refid="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" kindref="member">numberOfMatches</ref><sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMatch" kindref="compound">Match</ref>*<sp/>match<sp/>=<sp/>rkrgst-&gt;<ref refid="classRKRGST_1a1ae736b742c0cbcdd6d30c5201d4181b" kindref="member">listOfFinalTiles</ref>-&gt;<ref refid="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" kindref="member">remove</ref>();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>match-&gt;<ref refid="classMatch_1a4f14830202018dc00166f78572c11c8f" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>match-&gt;<ref refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" kindref="member">length</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>(box-&gt;pattern)[match-&gt;<ref refid="classMatch_1ac673bad1075e5499f0d857ed0a526fa2" kindref="member">patternIndex</ref><sp/>+<sp/>i].content;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>match-&gt;<ref refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" kindref="member">length</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>(box-&gt;text)[match-&gt;<ref refid="classMatch_1aee534a2e3d23f7d069a618e1cb7b6343" kindref="member">textIndex</ref><sp/>+<sp/>i].content;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nlengthOfTokensTiled:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>rkrgst-&gt;<ref refid="classRKRGST_1aaebf5b2da8490b6fc1ea06300914256e" kindref="member">lengthOfTokensTiled</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>similarity<sp/>=<sp/>((2<sp/>*<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rkrgst-&gt;<ref refid="classRKRGST_1aaebf5b2da8490b6fc1ea06300914256e" kindref="member">lengthOfTokensTiled</ref>))<sp/>/<sp/>(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(box-&gt;patternSize)<sp/>+<sp/>static_cast&lt;float&gt;(box-&gt;textSize)))*100;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Similaridade:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>setprecision<sp/>(5)<sp/><sp/>&lt;&lt;<sp/>similarity<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;%\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>resultTime<sp/>=<sp/><ref refid="Main_8cpp_1a4437edd7fd2832790c13ba3179bcc64d" kindref="member">getTime</ref>()<sp/>-<sp/>resultTime;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Tempo<sp/>gasto:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>setprecision<sp/>(5)<sp/>&lt;&lt;<sp/>resultTime<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>segundos\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Main.cpp"/>
+  </compounddef>
+</doxygen>

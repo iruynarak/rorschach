@@ -1,0 +1,293 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#a26d5ad659135103f261c4ded31fda22e"><param name="Name" value="addHash"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#a480372956993999a6e42e104cf264e32"><param name="Name" value="addSubstring"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a0d8226cb5174084dd6bc7d8854c1e3aa"><param name="Name" value="addTile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a26ee45299e367c88ab8c80801dd007fc"><param name="Name" value="append"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a26ee45299e367c88ab8c80801dd007fc"><param name="Name" value="RollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#ae5eb3f9712352741b8bf65b2b231356c"><param name="Name" value="Substring"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a79bcfb6bde984f42d1124b068a509af7"><param name="Name" value="BASE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a49054fd9d1f1fc34a5c2dedaba5e6f14"><param name="Name" value="baseLength"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a49054fd9d1f1fc34a5c2dedaba5e6f14"><param name="Name" value="RKRGST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#aea18bfbf983b35d528fa634d5f08c810"><param name="Name" value="RollingHash"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#adc4925222fa338afdbbcdd7e5c37e2c9"><param name="Name" value="begin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#adc4925222fa338afdbbcdd7e5c37e2c9"><param name="Name" value="ListOfMatches"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#aca3c37e86411bf80050bece7a1ec0df0"><param name="Name" value="ListOfSubstrings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a19f2f2aac9802594a1080a199fa5b3b7"><param name="Name" value="ListOfTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#ae1516e16a6167fbe36b46af49614c6af"><param name="Name" value="RollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a88e2864cc7847c7f57815de891246cfe"><param name="Name" value="Substring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#abf2eb9ed61ada2b1a35386e5f20bd350"><param name="Name" value="Tile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html"><param name="Name" value="Box"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a0946e5527494183bd61672e12bca5cbc"><param name="Name" value="Box"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#aa1b857944564f517d12997289e5987ba"><param name="Name" value="pattern"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#acadd4d6b43a90560a093cb64aa77b7e9"><param name="Name" value="patternSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a0c6759886250c36ed1b6a2d6915585e3"><param name="Name" value="printBox"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#ae0737f82fb5c44b9edd663a9ed00a7fe"><param name="Name" value="box"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html"><param name="Name" value="Box"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a5c23fcbcde78ac65c62127c2b272ac30"><param name="Name" value="text"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a2bfb2b656e74bc0f87f8acda76afbc86"><param name="Name" value="textSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a5eeacaebc9bab0e00cd0b0d80635c6ec"><param name="Name" value="~Box"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a9b3d3b6fe677bf9e96a034f71beda5c4"><param name="Name" value="content"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#a4b4c8edcbdf74d6c6b0e21551e504b98"><param name="Name" value="end"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#a4b4c8edcbdf74d6c6b0e21551e504b98"><param name="Name" value="ListOfSubstrings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#adebd46c83a63f0e0f385cc0170def3b3"><param name="Name" value="ListOfTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#aa3f8e695a18340a65fbe29abc46e90ff"><param name="Name" value="RollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a5a223bd1f3483d1ee55f4b3997a48862"><param name="Name" value="Substring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#a39ee840ddb65bf9ad1fb12667e92993c"><param name="Name" value="Tile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aef01e8fd6c0e17482724c0f3fd7ad89f"><param name="Name" value="execute"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#a7fbe4bed605ebdd00ec00309cff2ca9d"><param name="Name" value="fileExist"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#a8ef7d743eeaf83f2c47e56164145afb0"><param name="Name" value="filesToBox"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a12e85e53ee2298818cead4ffe76eb8b3"><param name="Name" value="fillTextHashTable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a37cf8598f504f175035a83a69cfeaa08"><param name="Name" value="findPatternSubstring"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a234a787077388a3825a9218702ce8647"><param name="Name" value="getHashValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a4437edd7fd2832790c13ba3179bcc64d"><param name="Name" value="getTime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html"><param name="Name" value="HashTable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#a26d5ad659135103f261c4ded31fda22e"><param name="Name" value="addHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#a7eb799519445199cb568ea0c6dfe5e9d"><param name="Name" value="HashTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#ac09c30fbbee3c3a526220ed51074b957"><param name="Name" value="hashTableSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#a9575e866f5584fadffbcce7b7771c33c"><param name="Name" value="printHashTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#a1772210583a06ad2f1039e7fecbc588c"><param name="Name" value="table"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#ac09c30fbbee3c3a526220ed51074b957"><param name="Name" value="hashTableSize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#af12ead08746ce29672d41151f0d3ac21"><param name="Name" value="hashValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#ad4e450cff7656afab26be8eb27c4f87c"><param name="Name" value="initialSearchLength"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#a44472d7bbe64b949bf8ce289bda3134f"><param name="Name" value="insert"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#ad5dcc20963dcb83120db6e2c93749585"><param name="Name" value="isPrime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aa7e6b74eb7831de7a921ef7d3655d19a"><param name="Name" value="length"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aa7e6b74eb7831de7a921ef7d3655d19a"><param name="Name" value="Match"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#ae2e7e5cffeada00e493fbd9daed2a298"><param name="Name" value="RollingHash"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aaebf5b2da8490b6fc1ea06300914256e"><param name="Name" value="lengthOfTokensTiled"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html"><param name="Name" value="Letter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a9b3d3b6fe677bf9e96a034f71beda5c4"><param name="Name" value="content"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a720835d4e8e538b206ce5cb93da530a8"><param name="Name" value="marked"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a88ed419ad80a3c9e773f2c2dd0fafe97"><param name="Name" value="nextUnmarked"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a8b0435db39f7a35dd3874f981d7f19e6"><param name="Name" value="previousUnmarked"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a1ae736b742c0cbcdd6d30c5201d4181b"><param name="Name" value="listOfFinalTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html"><param name="Name" value="ListOfMatches"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#adc4925222fa338afdbbcdd7e5c37e2c9"><param name="Name" value="begin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#a44472d7bbe64b949bf8ce289bda3134f"><param name="Name" value="insert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#a072714a38619e642eda703dfa94fa79c"><param name="Name" value="ListOfMatches"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#ab5b4c972df3758bed3fd5ace4d78a4c8"><param name="Name" value="numberOfMatches"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#a58a6a1649e3731b0e9af20211e4fd03f"><param name="Name" value="remove"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#ad2335f6d83faf621a99b66c680f32b5d"><param name="Name" value="listOfPatternTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html"><param name="Name" value="ListOfSubstrings"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#a480372956993999a6e42e104cf264e32"><param name="Name" value="addSubstring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#aca3c37e86411bf80050bece7a1ec0df0"><param name="Name" value="begin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#a4b4c8edcbdf74d6c6b0e21551e504b98"><param name="Name" value="end"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#ab8280100b0f6224eb4d36fc448d8eeb8"><param name="Name" value="ListOfSubstrings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#afbd8ea432d107cd2f1285c9fe5dd9b96"><param name="Name" value="numberOfSubstrings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#ae5aa0c336f8f5fab58a8d239cc5ab9d9"><param name="Name" value="~ListOfSubstrings"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a03afdb90a534a2420da654ddadb032c2"><param name="Name" value="listOfTextTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html"><param name="Name" value="ListOfTiles"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a0d8226cb5174084dd6bc7d8854c1e3aa"><param name="Name" value="addTile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a19f2f2aac9802594a1080a199fa5b3b7"><param name="Name" value="begin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#adebd46c83a63f0e0f385cc0170def3b3"><param name="Name" value="end"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#ad87132d4a7c3eb474797f3e3be24232c"><param name="Name" value="ListOfTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a6d6a5a454a10f1a9ea1fd4bc4dedf290"><param name="Name" value="numberOfTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a72a1b46b241ee17dc6f6ff9e5f291521"><param name="Name" value="print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#ac824d0c735f0f975663740da8d827511"><param name="Name" value="removeTile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#aff2ecd909d48a815199b949f0a0556cc"><param name="Name" value="~ListOfTiles"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html"><param name="Name" value="Main.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a79bcfb6bde984f42d1124b068a509af7"><param name="Name" value="BASE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a4437edd7fd2832790c13ba3179bcc64d"><param name="Name" value="getTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="Name" value="main"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a4505c08c065b48840a30eedd9845cce2"><param name="Name" value="string"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a469647a68dc845b14b01d37505eee6d1"><param name="Name" value="markArrays"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a720835d4e8e538b206ce5cb93da530a8"><param name="Name" value="marked"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#af44ddce704c698ee3cb38a7262a36874"><param name="Name" value="markTokens"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html"><param name="Name" value="Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aa7e6b74eb7831de7a921ef7d3655d19a"><param name="Name" value="length"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#a05b81a2405d43e106a8b2488a4108c56"><param name="Name" value="Match"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#a992c150265becb5f6806d09bad8cea0c"><param name="Name" value="next"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#ac673bad1075e5499f0d857ed0a526fa2"><param name="Name" value="patternIndex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aec1e648b8eba83f2ed76182644ce91de"><param name="Name" value="previous"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#a4f14830202018dc00166f78572c11c8f"><param name="Name" value="print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aee534a2e3d23f7d069a618e1cb7b6343"><param name="Name" value="textIndex"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="RKRGST_8h.html#a7a9a231e30b47bc0345749c8bd1e5077"><param name="Name" value="MAX_LENGTH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aaf28410e7b3c34bcfbffd17cd0d014b2"><param name="Name" value="minimumSearchLength"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomNumber.html#ada5063d81ac44b99407ae29cc2faec6e"><param name="Name" value="newRandomNumber"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#a322ce83f7af45e67d009ff3ed19d0047"><param name="Name" value="newRandomPrime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#a992c150265becb5f6806d09bad8cea0c"><param name="Name" value="next"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#a992c150265becb5f6806d09bad8cea0c"><param name="Name" value="Match"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a5965b296a10e4a5fd874913f07754451"><param name="Name" value="Substring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#a3c9f5e6070368625c8bfc8b9d30282ca"><param name="Name" value="Tile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a88ed419ad80a3c9e773f2c2dd0fafe97"><param name="Name" value="nextUnmarked"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#ab5b4c972df3758bed3fd5ace4d78a4c8"><param name="Name" value="numberOfMatches"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#afbd8ea432d107cd2f1285c9fe5dd9b96"><param name="Name" value="numberOfSubstrings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a6d6a5a454a10f1a9ea1fd4bc4dedf290"><param name="Name" value="numberOfTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aa2b3943e1897025c9f8293ee98edabca"><param name="Name" value="occluded"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a2d7db74aad6ab8e34e1829c3ddf79989"><param name="Name" value="operator=="></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#aa1b857944564f517d12997289e5987ba"><param name="Name" value="pattern"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#ab38c2e4b4e9e31982fd77158fb88eeec"><param name="Name" value="patternFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#ac673bad1075e5499f0d857ed0a526fa2"><param name="Name" value="patternIndex"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#acadd4d6b43a90560a093cb64aa77b7e9"><param name="Name" value="patternSize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aec1e648b8eba83f2ed76182644ce91de"><param name="Name" value="previous"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aec1e648b8eba83f2ed76182644ce91de"><param name="Name" value="Match"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a992d0f85409426c420d243ac18d2bca5"><param name="Name" value="Substring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#ac5e5e631733d14196575bd39d5df8923"><param name="Name" value="Tile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLetter.html#a8b0435db39f7a35dd3874f981d7f19e6"><param name="Name" value="previousUnmarked"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aea66b780697be63c91342029335ad8ef"><param name="Name" value="primeNumber"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aea66b780697be63c91342029335ad8ef"><param name="Name" value="RKRGST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a5b021104f9f93bb2265a2046d7edaaed"><param name="Name" value="RollingHash"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a72a1b46b241ee17dc6f6ff9e5f291521"><param name="Name" value="print"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#a72a1b46b241ee17dc6f6ff9e5f291521"><param name="Name" value="ListOfTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#a4f14830202018dc00166f78572c11c8f"><param name="Name" value="Match"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a3a1b45d3adddedb05d92e89d5fd0f5ae"><param name="Name" value="RollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a217db9ee47a8cc5db31a671606e039b5"><param name="Name" value="Substring"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a0c6759886250c36ed1b6a2d6915585e3"><param name="Name" value="printBox"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#a481551db3ffcea967de48b4725cb8bcb"><param name="Name" value="printFiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#a9575e866f5584fadffbcce7b7771c33c"><param name="Name" value="printHashTable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomNumber.html"><param name="Name" value="RandomNumber"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomNumber.html#ada5063d81ac44b99407ae29cc2faec6e"><param name="Name" value="newRandomNumber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomNumber.html#a70176ac091c4e563d19658432b504fb3"><param name="Name" value="RandomNumber"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#aed4cde44e5f33444c1d0e02d061a6a22"><param name="Name" value="randomNumber"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html"><param name="Name" value="RandomPrime"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#ad5dcc20963dcb83120db6e2c93749585"><param name="Name" value="isPrime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#a322ce83f7af45e67d009ff3ed19d0047"><param name="Name" value="newRandomPrime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#aed4cde44e5f33444c1d0e02d061a6a22"><param name="Name" value="randomNumber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#a941dadf444034d5cd4918f0f9ec6c1f5"><param name="Name" value="RandomPrime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#a5c42d9687ece6ea0cdee8ac0dd949f51"><param name="Name" value="~RandomPrime"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html"><param name="Name" value="Reader"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Reader_8h.html"><param name="Name" value="Reader.h"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html"><param name="Name" value="Reader"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#a7fbe4bed605ebdd00ec00309cff2ca9d"><param name="Name" value="fileExist"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#a8ef7d743eeaf83f2c47e56164145afb0"><param name="Name" value="filesToBox"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#ab38c2e4b4e9e31982fd77158fb88eeec"><param name="Name" value="patternFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#a481551db3ffcea967de48b4725cb8bcb"><param name="Name" value="printFiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#a8b5850f38fe8b78b426575da9c421ba3"><param name="Name" value="Reader"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#ab1b8cba2b947b66777f32cbf7743ba7e"><param name="Name" value="textFile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfMatches.html#a58a6a1649e3731b0e9af20211e4fd03f"><param name="Name" value="remove"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#ac824d0c735f0f975663740da8d827511"><param name="Name" value="removeTile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html"><param name="Name" value="RKRGST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="RKRGST_8h.html"><param name="Name" value="RKRGST.h"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html"><param name="Name" value="RKRGST"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a49054fd9d1f1fc34a5c2dedaba5e6f14"><param name="Name" value="baseLength"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#ae0737f82fb5c44b9edd663a9ed00a7fe"><param name="Name" value="box"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aef01e8fd6c0e17482724c0f3fd7ad89f"><param name="Name" value="execute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a12e85e53ee2298818cead4ffe76eb8b3"><param name="Name" value="fillTextHashTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a37cf8598f504f175035a83a69cfeaa08"><param name="Name" value="findPatternSubstring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#ad4e450cff7656afab26be8eb27c4f87c"><param name="Name" value="initialSearchLength"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aaebf5b2da8490b6fc1ea06300914256e"><param name="Name" value="lengthOfTokensTiled"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a1ae736b742c0cbcdd6d30c5201d4181b"><param name="Name" value="listOfFinalTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#ad2335f6d83faf621a99b66c680f32b5d"><param name="Name" value="listOfPatternTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a03afdb90a534a2420da654ddadb032c2"><param name="Name" value="listOfTextTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a469647a68dc845b14b01d37505eee6d1"><param name="Name" value="markArrays"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#af44ddce704c698ee3cb38a7262a36874"><param name="Name" value="markTokens"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aaf28410e7b3c34bcfbffd17cd0d014b2"><param name="Name" value="minimumSearchLength"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aa2b3943e1897025c9f8293ee98edabca"><param name="Name" value="occluded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#aea66b780697be63c91342029335ad8ef"><param name="Name" value="primeNumber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a66390e97e207872a55ea6ee0d3b2c0ee"><param name="Name" value="RKRGST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a4ef9cf20505986d0f023a5384fdf844c"><param name="Name" value="scanPattern"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html"><param name="Name" value="RollingHash"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a26ee45299e367c88ab8c80801dd007fc"><param name="Name" value="append"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#aea18bfbf983b35d528fa634d5f08c810"><param name="Name" value="baseLength"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#ae1516e16a6167fbe36b46af49614c6af"><param name="Name" value="begin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#aa3f8e695a18340a65fbe29abc46e90ff"><param name="Name" value="end"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a234a787077388a3825a9218702ce8647"><param name="Name" value="getHashValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#af12ead08746ce29672d41151f0d3ac21"><param name="Name" value="hashValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#ae2e7e5cffeada00e493fbd9daed2a298"><param name="Name" value="length"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a2d7db74aad6ab8e34e1829c3ddf79989"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a5b021104f9f93bb2265a2046d7edaaed"><param name="Name" value="primeNumber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a3a1b45d3adddedb05d92e89d5fd0f5ae"><param name="Name" value="print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#a23a92a45f616ddec85966845b5facb2e"><param name="Name" value="RollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#aa4f2a75c882a87d7cce490663c8e01be"><param name="Name" value="skip"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#af85ff74e2d593d4bc48a9c73732d18ec"><param name="Name" value="string"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a84e0e55a0ecbd5f74d25441df0edc68e"><param name="Name" value="rollingHash"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRKRGST.html#a4ef9cf20505986d0f023a5384fdf844c"><param name="Name" value="scanPattern"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#aa4f2a75c882a87d7cce490663c8e01be"><param name="Name" value="skip"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#aa4f2a75c882a87d7cce490663c8e01be"><param name="Name" value="RollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a618432b07f7469537bd8de5c9dccc02f"><param name="Name" value="Substring"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a4505c08c065b48840a30eedd9845cce2"><param name="Name" value="string"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Main_8cpp.html#a4505c08c065b48840a30eedd9845cce2"><param name="Name" value="Main.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Reader_8h.html#a4505c08c065b48840a30eedd9845cce2"><param name="Name" value="Reader.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRollingHash.html#af85ff74e2d593d4bc48a9c73732d18ec"><param name="Name" value="RollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a8d1fd97efa348288f4b39bea36a8e879"><param name="Name" value="Substring"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html"><param name="Name" value="Substring"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#ae5eb3f9712352741b8bf65b2b231356c"><param name="Name" value="append"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a88e2864cc7847c7f57815de891246cfe"><param name="Name" value="begin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a5a223bd1f3483d1ee55f4b3997a48862"><param name="Name" value="end"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a5965b296a10e4a5fd874913f07754451"><param name="Name" value="next"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a992d0f85409426c420d243ac18d2bca5"><param name="Name" value="previous"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a217db9ee47a8cc5db31a671606e039b5"><param name="Name" value="print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a84e0e55a0ecbd5f74d25441df0edc68e"><param name="Name" value="rollingHash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a618432b07f7469537bd8de5c9dccc02f"><param name="Name" value="skip"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a8d1fd97efa348288f4b39bea36a8e879"><param name="Name" value="string"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#a065a95aaacde32e5b623f0a52d3ca180"><param name="Name" value="Substring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#ac486fd7645e645efd9c5a07b5e664b20"><param name="Name" value="~Substring"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classHashTable.html#a1772210583a06ad2f1039e7fecbc588c"><param name="Name" value="table"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a5c23fcbcde78ac65c62127c2b272ac30"><param name="Name" value="text"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classReader.html#ab1b8cba2b947b66777f32cbf7743ba7e"><param name="Name" value="textFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMatch.html#aee534a2e3d23f7d069a618e1cb7b6343"><param name="Name" value="textIndex"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a2bfb2b656e74bc0f87f8acda76afbc86"><param name="Name" value="textSize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html"><param name="Name" value="Tile"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#abf2eb9ed61ada2b1a35386e5f20bd350"><param name="Name" value="begin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#a39ee840ddb65bf9ad1fb12667e92993c"><param name="Name" value="end"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#a3c9f5e6070368625c8bfc8b9d30282ca"><param name="Name" value="next"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#ac5e5e631733d14196575bd39d5df8923"><param name="Name" value="previous"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTile.html#a4f59f006f6a5e1cd5cc5b269a29d067b"><param name="Name" value="Tile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classBox.html#a5eeacaebc9bab0e00cd0b0d80635c6ec"><param name="Name" value="~Box"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfSubstrings.html#ae5aa0c336f8f5fab58a8d239cc5ab9d9"><param name="Name" value="~ListOfSubstrings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classListOfTiles.html#aff2ecd909d48a815199b949f0a0556cc"><param name="Name" value="~ListOfTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRandomPrime.html#a5c42d9687ece6ea0cdee8ac0dd949f51"><param name="Name" value="~RandomPrime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSubstring.html#ac486fd7645e645efd9c5a07b5e664b20"><param name="Name" value="~Substring"></OBJECT>
+</UL>
+</BODY>
+</HTML>

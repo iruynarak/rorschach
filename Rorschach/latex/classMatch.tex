@@ -1,0 +1,169 @@
+\hypertarget{classMatch}{\section{Match Class Reference}
+\label{classMatch}\index{Match@{Match}}
+}
+
+
+{\ttfamily \#include $<$Match.\+h$>$}
+
+
+
+Collaboration diagram for Match\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{classMatch__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMatch_a05b81a2405d43e106a8b2488a4108c56}{Match} (int \hyperlink{classMatch_aa7e6b74eb7831de7a921ef7d3655d19a}{length}, int \hyperlink{classMatch_ac673bad1075e5499f0d857ed0a526fa2}{pattern\+Index}, int \hyperlink{classMatch_aee534a2e3d23f7d069a618e1cb7b6343}{text\+Index})
+\item 
+void \hyperlink{classMatch_a4f14830202018dc00166f78572c11c8f}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classMatch_aa7e6b74eb7831de7a921ef7d3655d19a}{length}
+\begin{DoxyCompactList}\small\item\em tamanho do casamento \end{DoxyCompactList}\item 
+int \hyperlink{classMatch_ac673bad1075e5499f0d857ed0a526fa2}{pattern\+Index}
+\begin{DoxyCompactList}\small\item\em indice em pattern da primeira letra pertencente ao casamento \end{DoxyCompactList}\item 
+int \hyperlink{classMatch_aee534a2e3d23f7d069a618e1cb7b6343}{text\+Index}
+\begin{DoxyCompactList}\small\item\em indice em text da primeira letra pertencente ao casamento \end{DoxyCompactList}\item 
+\hyperlink{classMatch}{Match} $\ast$ \hyperlink{classMatch_a992c150265becb5f6806d09bad8cea0c}{next}
+\begin{DoxyCompactList}\small\item\em Ponteiro para o proximo casamento em uma estrutura que engloba um objeto desta classe. \end{DoxyCompactList}\item 
+\hyperlink{classMatch}{Match} $\ast$ \hyperlink{classMatch_aec1e648b8eba83f2ed76182644ce91de}{previous}
+\begin{DoxyCompactList}\small\item\em Ponteiro para o casamento anterior em uma estrutura que engloba um objeto desta classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe que representa um casamento. 
+
+Definition at line 29 of file Match.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classMatch_a05b81a2405d43e106a8b2488a4108c56}{\index{Match@{Match}!Match@{Match}}
+\index{Match@{Match}!Match@{Match}}
+\subsubsection[{Match}]{\setlength{\rightskip}{0pt plus 5cm}Match\+::\+Match (
+\begin{DoxyParamCaption}
+\item[{int}]{length, }
+\item[{int}]{pattern\+Index, }
+\item[{int}]{text\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classMatch_a05b81a2405d43e106a8b2488a4108c56}
+Construtor de um objeto da classe \hyperlink{classMatch}{Match} 
+\begin{DoxyParams}{Parameters}
+{\em length} & Tamanho do casamento. \\
+\hline
+{\em pattern\+Index} & Indice em pattern da primeira letra pertencente ao casamento. \\
+\hline
+{\em text\+Index} & Indice em pattern da primeira letra pertencente ao casamento. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 50 of file Match.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classMatch_a4f14830202018dc00166f78572c11c8f}{\index{Match@{Match}!print@{print}}
+\index{print@{print}!Match@{Match}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void Match\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classMatch_a4f14830202018dc00166f78572c11c8f}
+Método que imprime o conteúdo do objeto da classe \hyperlink{classMatch}{Match}. 
+
+Definition at line 61 of file Match.\+h.
+
+
+
+Referenced by main().
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classMatch_aa7e6b74eb7831de7a921ef7d3655d19a}{\index{Match@{Match}!length@{length}}
+\index{length@{length}!Match@{Match}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}int Match\+::length}}\label{classMatch_aa7e6b74eb7831de7a921ef7d3655d19a}
+
+
+tamanho do casamento 
+
+
+
+Definition at line 33 of file Match.\+h.
+
+
+
+Referenced by List\+Of\+Matches\+::insert(), main(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Tokens(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::occluded().
+
+\hypertarget{classMatch_a992c150265becb5f6806d09bad8cea0c}{\index{Match@{Match}!next@{next}}
+\index{next@{next}!Match@{Match}}
+\subsubsection[{next}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Match}$\ast$ Match\+::next}}\label{classMatch_a992c150265becb5f6806d09bad8cea0c}
+
+
+Ponteiro para o proximo casamento em uma estrutura que engloba um objeto desta classe. 
+
+
+
+Definition at line 40 of file Match.\+h.
+
+
+
+Referenced by List\+Of\+Matches\+::insert(), and List\+Of\+Matches\+::remove().
+
+\hypertarget{classMatch_ac673bad1075e5499f0d857ed0a526fa2}{\index{Match@{Match}!pattern\+Index@{pattern\+Index}}
+\index{pattern\+Index@{pattern\+Index}!Match@{Match}}
+\subsubsection[{pattern\+Index}]{\setlength{\rightskip}{0pt plus 5cm}int Match\+::pattern\+Index}}\label{classMatch_ac673bad1075e5499f0d857ed0a526fa2}
+
+
+indice em pattern da primeira letra pertencente ao casamento 
+
+
+
+Definition at line 35 of file Match.\+h.
+
+
+
+Referenced by main(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Tokens(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::occluded().
+
+\hypertarget{classMatch_aec1e648b8eba83f2ed76182644ce91de}{\index{Match@{Match}!previous@{previous}}
+\index{previous@{previous}!Match@{Match}}
+\subsubsection[{previous}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Match}$\ast$ Match\+::previous}}\label{classMatch_aec1e648b8eba83f2ed76182644ce91de}
+
+
+Ponteiro para o casamento anterior em uma estrutura que engloba um objeto desta classe. 
+
+
+
+Definition at line 42 of file Match.\+h.
+
+
+
+Referenced by List\+Of\+Matches\+::insert(), and List\+Of\+Matches\+::remove().
+
+\hypertarget{classMatch_aee534a2e3d23f7d069a618e1cb7b6343}{\index{Match@{Match}!text\+Index@{text\+Index}}
+\index{text\+Index@{text\+Index}!Match@{Match}}
+\subsubsection[{text\+Index}]{\setlength{\rightskip}{0pt plus 5cm}int Match\+::text\+Index}}\label{classMatch_aee534a2e3d23f7d069a618e1cb7b6343}
+
+
+indice em text da primeira letra pertencente ao casamento 
+
+
+
+Definition at line 37 of file Match.\+h.
+
+
+
+Referenced by main(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Tokens(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::occluded().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Match_8h}{Match.\+h}\end{DoxyCompactItemize}

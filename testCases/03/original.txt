@@ -1,0 +1,16 @@
+Your DSLR can do much more than just take a few nice portraits or the occasional vacation photos – with some DIY magic you can actually turn it into a device which can detect planets outside our solar system – something that 20 years ago was impossible even with the most sophisticated telescopes.
+
+
+ So how can you achieve this? David Schneider who you can see in the video above was able to use his Canon EOS Rebel XS (a.k.a Canon 1000D) camera. With old manual-focus 300mm Nikon telephoto lens he got from eBay for under a $100 with a $17 adapter
+
+After he had his camera setup Schneider needed a way to track stars in a very precise way. There are of course very expensive options that you can buy, However as a DIY enthusiast he decided to create something on his own based on a device called a barn door tracker (a relatively simple device that will allow you to shoot longer exposures and track the stars to compensate for the Earth’s rotation).
+
+Looking online you can find many different designs for creating a barn door tracker  (see for example here and here) – some are very basic and manual and some are more advanced and use a computer – which is exactly what Schneider decided to do (using arduino) – costing him another few dollars (including an inexpensive power adapter that can run his camera for hours).
+
+Buying and building the hardware you see in the video was actually the easy part. The hard part was finding a way to look for a target star, track it and be able to measure the brightness of the star changing as a planet passes by it. Now it is important to realize at this point that the star chosen for this task – called simply HD 189733 (about 63 light-years away from us in the constellation of Vulpecula) is known to have an exoplanet orbiting it since 2005 – so Schneider did not actually discover a planet outside our solar system but was “only” able to confirm its existence. However given the very basic and inexpensive equipment he used – this is still a pretty impressive achievement. Finding a new expoplanet this way will probably require a lot more patience but it might not be impossible if you have the right information from other observations of the same region of space.
+
+All this makes us wonder if NASA can actually do something that will significantly improve our ability to detect expoplanets and cost a fraction of any existing observatory. By funding a competition between companies and entrepreneurs to create a low cost but functional hardware that will be sold at a relatively low price to the consumer (say below $300 or so) and use any DSLR with a telephoto lens and a simple distributed computing software along the lines of SETI@home or Orbit@home that will coordinate worldwide efforts to locate, track and confirm the existence and orbits of exoplanets – it can drastically improve the rate in which we discover and confirm the existence of planets outside our solar system (and help raise a new generation interested in Astronomy).
+
+Astrophotography is nothing new of course and we have covered the topic in the past including How To Photograph The Milky Way (or Die Trying) and PBS: The Beauty of Space Photography.
+
+http://lensvid.com/gear/diy-exoplanet-detector-using-dslr/

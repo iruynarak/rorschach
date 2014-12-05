@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classReader" kind="class" prot="public">
+    <compoundname>Reader</compoundname>
+    <includes refid="Reader_8h" local="no">Reader.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classReader_1ab1b8cba2b947b66777f32cbf7743ba7e" prot="public" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Reader&lt; TypeOfContent &gt;::textFile</definition>
+        <argsstring></argsstring>
+        <name>textFile</name>
+        <briefdescription>
+<para>arquivo que contem o texto </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" line="49" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReader_1ab38c2e4b4e9e31982fd77158fb88eeec" prot="public" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Reader&lt; TypeOfContent &gt;::patternFile</definition>
+        <argsstring></argsstring>
+        <name>patternFile</name>
+        <briefdescription>
+<para>arquivo que contem o pattern </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" line="53" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classReader_1a8b5850f38fe8b78b426575da9c421ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Reader&lt; TypeOfContent &gt;::Reader</definition>
+        <argsstring>(string patternFileName, string textFileName)</argsstring>
+        <name>Reader</name>
+        <param>
+          <type><ref refid="Main_8cpp_1a4505c08c065b48840a30eedd9845cce2" kindref="member">string</ref></type>
+          <declname>patternFileName</declname>
+        </param>
+        <param>
+          <type><ref refid="Main_8cpp_1a4505c08c065b48840a30eedd9845cce2" kindref="member">string</ref></type>
+          <declname>textFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor que, atraves dos nomes dos arquivos, os abre. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>patternFileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do arquivo contendo pattern </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>textFileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do arquivo contendo text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" line="60" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" bodystart="60" bodyend="76"/>
+        <references refid="classReader_1a7fbe4bed605ebdd00ec00309cff2ca9d" compoundref="Reader_8h" startline="117" endline="130">Reader&lt; TypeOfContent &gt;::fileExist</references>
+      </memberdef>
+      <memberdef kind="function" id="classReader_1a481551db3ffcea967de48b4725cb8bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Reader&lt; TypeOfContent &gt;::printFiles</definition>
+        <argsstring>()</argsstring>
+        <name>printFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transforma os dados de um arquivo diretamente no tipo <ref refid="classBox" kindref="compound">Box</ref> Usado quando o dado a ser trabalho eh char. Quando for token, apos a leitura do arquivo eh necessario realizar um passo a mais para a tokenização <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" line="85" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" bodystart="85" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classReader_1a7fbe4bed605ebdd00ec00309cff2ca9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Reader&lt; TypeOfContent &gt;::fileExist</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>fileExist</name>
+        <param>
+          <type>const <ref refid="Reader_8h_1a4505c08c065b48840a30eedd9845cce2" kindref="member">std::string</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" line="117" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" bodystart="117" bodyend="130"/>
+        <referencedby refid="classReader_1a8b5850f38fe8b78b426575da9c421ba3" compoundref="Reader_8h" startline="60" endline="76">Reader&lt; TypeOfContent &gt;::Reader</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classReader_1a8ef7d743eeaf83f2c47e56164145afb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classBox" kindref="compound">Box</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Box&lt;TypeOfContent&gt;* Reader&lt; TypeOfContent &gt;::filesToBox</definition>
+        <argsstring>()</argsstring>
+        <name>filesToBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>através dos arquivos encontrados no construtor, lê cada arquivo e para cada um adiciona seu respectivo conteúdo em um vetor de Letter&lt;char&gt; diferente. Por fim, agrupa-os, junto aos seus tamanhos em um objeto do tipo <ref refid="classBox" kindref="compound">Box</ref> <simplesect kind="return"><para>box contendo os vetores de Letter&lt;char&gt; criados e seus tamanhos </para></simplesect>
+<simplesect kind="see"><para><ref refid="classLetter" kindref="compound">Letter</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="classBox" kindref="compound">Box</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" line="141" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" bodystart="141" bodyend="216"/>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo dos termos de text e pattern tipo usado para a leitura dos arquivos que contem o texto </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" line="46" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Reader.h" bodystart="45" bodyend="218"/>
+    <listofallmembers>
+      <member refid="classReader_1a7fbe4bed605ebdd00ec00309cff2ca9d" prot="public" virt="non-virtual"><scope>Reader</scope><name>fileExist</name></member>
+      <member refid="classReader_1a8ef7d743eeaf83f2c47e56164145afb0" prot="public" virt="non-virtual"><scope>Reader</scope><name>filesToBox</name></member>
+      <member refid="classReader_1ab38c2e4b4e9e31982fd77158fb88eeec" prot="public" virt="non-virtual"><scope>Reader</scope><name>patternFile</name></member>
+      <member refid="classReader_1a481551db3ffcea967de48b4725cb8bcb" prot="public" virt="non-virtual"><scope>Reader</scope><name>printFiles</name></member>
+      <member refid="classReader_1a8b5850f38fe8b78b426575da9c421ba3" prot="public" virt="non-virtual"><scope>Reader</scope><name>Reader</name></member>
+      <member refid="classReader_1ab1b8cba2b947b66777f32cbf7743ba7e" prot="public" virt="non-virtual"><scope>Reader</scope><name>textFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

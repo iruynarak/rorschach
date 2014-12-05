@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.8">
+  <compound refid="classBox" kind="class"><name>Box</name>
+    <member refid="classBox_1aa1b857944564f517d12997289e5987ba" kind="variable"><name>pattern</name></member>
+    <member refid="classBox_1acadd4d6b43a90560a093cb64aa77b7e9" kind="variable"><name>patternSize</name></member>
+    <member refid="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" kind="variable"><name>text</name></member>
+    <member refid="classBox_1a2bfb2b656e74bc0f87f8acda76afbc86" kind="variable"><name>textSize</name></member>
+    <member refid="classBox_1a0946e5527494183bd61672e12bca5cbc" kind="function"><name>Box</name></member>
+    <member refid="classBox_1a5eeacaebc9bab0e00cd0b0d80635c6ec" kind="function"><name>~Box</name></member>
+    <member refid="classBox_1a0c6759886250c36ed1b6a2d6915585e3" kind="function"><name>printBox</name></member>
+  </compound>
+  <compound refid="classHashTable" kind="class"><name>HashTable</name>
+    <member refid="classHashTable_1ac09c30fbbee3c3a526220ed51074b957" kind="variable"><name>hashTableSize</name></member>
+    <member refid="classHashTable_1a1772210583a06ad2f1039e7fecbc588c" kind="variable"><name>table</name></member>
+    <member refid="classHashTable_1a7eb799519445199cb568ea0c6dfe5e9d" kind="function"><name>HashTable</name></member>
+    <member refid="classHashTable_1a26d5ad659135103f261c4ded31fda22e" kind="function"><name>addHash</name></member>
+    <member refid="classHashTable_1a9575e866f5584fadffbcce7b7771c33c" kind="function"><name>printHashTable</name></member>
+  </compound>
+  <compound refid="classLetter" kind="class"><name>Letter</name>
+    <member refid="classLetter_1a88ed419ad80a3c9e773f2c2dd0fafe97" kind="variable"><name>nextUnmarked</name></member>
+    <member refid="classLetter_1a8b0435db39f7a35dd3874f981d7f19e6" kind="variable"><name>previousUnmarked</name></member>
+    <member refid="classLetter_1a720835d4e8e538b206ce5cb93da530a8" kind="variable"><name>marked</name></member>
+    <member refid="classLetter_1a9b3d3b6fe677bf9e96a034f71beda5c4" kind="variable"><name>content</name></member>
+  </compound>
+  <compound refid="classListOfMatches" kind="class"><name>ListOfMatches</name>
+    <member refid="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" kind="variable"><name>numberOfMatches</name></member>
+    <member refid="classListOfMatches_1adc4925222fa338afdbbcdd7e5c37e2c9" kind="variable"><name>begin</name></member>
+    <member refid="classListOfMatches_1a072714a38619e642eda703dfa94fa79c" kind="function"><name>ListOfMatches</name></member>
+    <member refid="classListOfMatches_1a44472d7bbe64b949bf8ce289bda3134f" kind="function"><name>insert</name></member>
+    <member refid="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" kind="function"><name>remove</name></member>
+  </compound>
+  <compound refid="classListOfSubstrings" kind="class"><name>ListOfSubstrings</name>
+    <member refid="classListOfSubstrings_1afbd8ea432d107cd2f1285c9fe5dd9b96" kind="variable"><name>numberOfSubstrings</name></member>
+    <member refid="classListOfSubstrings_1aca3c37e86411bf80050bece7a1ec0df0" kind="variable"><name>begin</name></member>
+    <member refid="classListOfSubstrings_1a4b4c8edcbdf74d6c6b0e21551e504b98" kind="variable"><name>end</name></member>
+    <member refid="classListOfSubstrings_1ab8280100b0f6224eb4d36fc448d8eeb8" kind="function"><name>ListOfSubstrings</name></member>
+    <member refid="classListOfSubstrings_1ae5aa0c336f8f5fab58a8d239cc5ab9d9" kind="function"><name>~ListOfSubstrings</name></member>
+    <member refid="classListOfSubstrings_1a480372956993999a6e42e104cf264e32" kind="function"><name>addSubstring</name></member>
+  </compound>
+  <compound refid="classListOfTiles" kind="class"><name>ListOfTiles</name>
+    <member refid="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" kind="variable"><name>begin</name></member>
+    <member refid="classListOfTiles_1adebd46c83a63f0e0f385cc0170def3b3" kind="variable"><name>end</name></member>
+    <member refid="classListOfTiles_1a6d6a5a454a10f1a9ea1fd4bc4dedf290" kind="variable"><name>numberOfTiles</name></member>
+    <member refid="classListOfTiles_1ad87132d4a7c3eb474797f3e3be24232c" kind="function"><name>ListOfTiles</name></member>
+    <member refid="classListOfTiles_1aff2ecd909d48a815199b949f0a0556cc" kind="function"><name>~ListOfTiles</name></member>
+    <member refid="classListOfTiles_1a0d8226cb5174084dd6bc7d8854c1e3aa" kind="function"><name>addTile</name></member>
+    <member refid="classListOfTiles_1a72a1b46b241ee17dc6f6ff9e5f291521" kind="function"><name>print</name></member>
+    <member refid="classListOfTiles_1ac824d0c735f0f975663740da8d827511" kind="function"><name>removeTile</name></member>
+  </compound>
+  <compound refid="classMatch" kind="class"><name>Match</name>
+    <member refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" kind="variable"><name>length</name></member>
+    <member refid="classMatch_1ac673bad1075e5499f0d857ed0a526fa2" kind="variable"><name>patternIndex</name></member>
+    <member refid="classMatch_1aee534a2e3d23f7d069a618e1cb7b6343" kind="variable"><name>textIndex</name></member>
+    <member refid="classMatch_1a992c150265becb5f6806d09bad8cea0c" kind="variable"><name>next</name></member>
+    <member refid="classMatch_1aec1e648b8eba83f2ed76182644ce91de" kind="variable"><name>previous</name></member>
+    <member refid="classMatch_1a05b81a2405d43e106a8b2488a4108c56" kind="function"><name>Match</name></member>
+    <member refid="classMatch_1a4f14830202018dc00166f78572c11c8f" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="classRandomNumber" kind="class"><name>RandomNumber</name>
+    <member refid="classRandomNumber_1a70176ac091c4e563d19658432b504fb3" kind="function"><name>RandomNumber</name></member>
+    <member refid="classRandomNumber_1ada5063d81ac44b99407ae29cc2faec6e" kind="function"><name>newRandomNumber</name></member>
+  </compound>
+  <compound refid="classRandomPrime" kind="class"><name>RandomPrime</name>
+    <member refid="classRandomPrime_1aed4cde44e5f33444c1d0e02d061a6a22" kind="variable"><name>randomNumber</name></member>
+    <member refid="classRandomPrime_1a941dadf444034d5cd4918f0f9ec6c1f5" kind="function"><name>RandomPrime</name></member>
+    <member refid="classRandomPrime_1a5c42d9687ece6ea0cdee8ac0dd949f51" kind="function"><name>~RandomPrime</name></member>
+    <member refid="classRandomPrime_1ad5dcc20963dcb83120db6e2c93749585" kind="function"><name>isPrime</name></member>
+    <member refid="classRandomPrime_1a322ce83f7af45e67d009ff3ed19d0047" kind="function"><name>newRandomPrime</name></member>
+  </compound>
+  <compound refid="classReader" kind="class"><name>Reader</name>
+    <member refid="classReader_1ab1b8cba2b947b66777f32cbf7743ba7e" kind="variable"><name>textFile</name></member>
+    <member refid="classReader_1ab38c2e4b4e9e31982fd77158fb88eeec" kind="variable"><name>patternFile</name></member>
+    <member refid="classReader_1a8b5850f38fe8b78b426575da9c421ba3" kind="function"><name>Reader</name></member>
+    <member refid="classReader_1a481551db3ffcea967de48b4725cb8bcb" kind="function"><name>printFiles</name></member>
+    <member refid="classReader_1a7fbe4bed605ebdd00ec00309cff2ca9d" kind="function"><name>fileExist</name></member>
+    <member refid="classReader_1a8ef7d743eeaf83f2c47e56164145afb0" kind="function"><name>filesToBox</name></member>
+  </compound>
+  <compound refid="classRKRGST" kind="class"><name>RKRGST</name>
+    <member refid="classRKRGST_1ad4e450cff7656afab26be8eb27c4f87c" kind="variable"><name>initialSearchLength</name></member>
+    <member refid="classRKRGST_1aaf28410e7b3c34bcfbffd17cd0d014b2" kind="variable"><name>minimumSearchLength</name></member>
+    <member refid="classRKRGST_1aea66b780697be63c91342029335ad8ef" kind="variable"><name>primeNumber</name></member>
+    <member refid="classRKRGST_1ae0737f82fb5c44b9edd663a9ed00a7fe" kind="variable"><name>box</name></member>
+    <member refid="classRKRGST_1ad2335f6d83faf621a99b66c680f32b5d" kind="variable"><name>listOfPatternTiles</name></member>
+    <member refid="classRKRGST_1a03afdb90a534a2420da654ddadb032c2" kind="variable"><name>listOfTextTiles</name></member>
+    <member refid="classRKRGST_1a49054fd9d1f1fc34a5c2dedaba5e6f14" kind="variable"><name>baseLength</name></member>
+    <member refid="classRKRGST_1aaebf5b2da8490b6fc1ea06300914256e" kind="variable"><name>lengthOfTokensTiled</name></member>
+    <member refid="classRKRGST_1a1ae736b742c0cbcdd6d30c5201d4181b" kind="variable"><name>listOfFinalTiles</name></member>
+    <member refid="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" kind="function"><name>RKRGST</name></member>
+    <member refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" kind="function"><name>execute</name></member>
+    <member refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" kind="function"><name>markArrays</name></member>
+    <member refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" kind="function"><name>scanPattern</name></member>
+    <member refid="classRKRGST_1a37cf8598f504f175035a83a69cfeaa08" kind="function"><name>findPatternSubstring</name></member>
+    <member refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" kind="function"><name>fillTextHashTable</name></member>
+    <member refid="classRKRGST_1aa2b3943e1897025c9f8293ee98edabca" kind="function"><name>occluded</name></member>
+    <member refid="classRKRGST_1af44ddce704c698ee3cb38a7262a36874" kind="function"><name>markTokens</name></member>
+  </compound>
+  <compound refid="classRollingHash" kind="class"><name>RollingHash</name>
+    <member refid="classRollingHash_1af12ead08746ce29672d41151f0d3ac21" kind="variable"><name>hashValue</name></member>
+    <member refid="classRollingHash_1a5b021104f9f93bb2265a2046d7edaaed" kind="variable"><name>primeNumber</name></member>
+    <member refid="classRollingHash_1ae2e7e5cffeada00e493fbd9daed2a298" kind="variable"><name>length</name></member>
+    <member refid="classRollingHash_1aea18bfbf983b35d528fa634d5f08c810" kind="variable"><name>baseLength</name></member>
+    <member refid="classRollingHash_1af85ff74e2d593d4bc48a9c73732d18ec" kind="variable"><name>string</name></member>
+    <member refid="classRollingHash_1ae1516e16a6167fbe36b46af49614c6af" kind="variable"><name>begin</name></member>
+    <member refid="classRollingHash_1aa3f8e695a18340a65fbe29abc46e90ff" kind="variable"><name>end</name></member>
+    <member refid="classRollingHash_1a23a92a45f616ddec85966845b5facb2e" kind="function"><name>RollingHash</name></member>
+    <member refid="classRollingHash_1a234a787077388a3825a9218702ce8647" kind="function"><name>getHashValue</name></member>
+    <member refid="classRollingHash_1a26ee45299e367c88ab8c80801dd007fc" kind="function"><name>append</name></member>
+    <member refid="classRollingHash_1aa4f2a75c882a87d7cce490663c8e01be" kind="function"><name>skip</name></member>
+    <member refid="classRollingHash_1a3a1b45d3adddedb05d92e89d5fd0f5ae" kind="function"><name>print</name></member>
+    <member refid="classRollingHash_1a2d7db74aad6ab8e34e1829c3ddf79989" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classSubstring" kind="class"><name>Substring</name>
+    <member refid="classSubstring_1a8d1fd97efa348288f4b39bea36a8e879" kind="variable"><name>string</name></member>
+    <member refid="classSubstring_1a5965b296a10e4a5fd874913f07754451" kind="variable"><name>next</name></member>
+    <member refid="classSubstring_1a992d0f85409426c420d243ac18d2bca5" kind="variable"><name>previous</name></member>
+    <member refid="classSubstring_1a84e0e55a0ecbd5f74d25441df0edc68e" kind="variable"><name>rollingHash</name></member>
+    <member refid="classSubstring_1a88e2864cc7847c7f57815de891246cfe" kind="variable"><name>begin</name></member>
+    <member refid="classSubstring_1a5a223bd1f3483d1ee55f4b3997a48862" kind="variable"><name>end</name></member>
+    <member refid="classSubstring_1a065a95aaacde32e5b623f0a52d3ca180" kind="function"><name>Substring</name></member>
+    <member refid="classSubstring_1ac486fd7645e645efd9c5a07b5e664b20" kind="function"><name>~Substring</name></member>
+    <member refid="classSubstring_1ae5eb3f9712352741b8bf65b2b231356c" kind="function"><name>append</name></member>
+    <member refid="classSubstring_1a618432b07f7469537bd8de5c9dccc02f" kind="function"><name>skip</name></member>
+    <member refid="classSubstring_1a217db9ee47a8cc5db31a671606e039b5" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="classTile" kind="class"><name>Tile</name>
+    <member refid="classTile_1a3c9f5e6070368625c8bfc8b9d30282ca" kind="variable"><name>next</name></member>
+    <member refid="classTile_1ac5e5e631733d14196575bd39d5df8923" kind="variable"><name>previous</name></member>
+    <member refid="classTile_1abf2eb9ed61ada2b1a35386e5f20bd350" kind="variable"><name>begin</name></member>
+    <member refid="classTile_1a39ee840ddb65bf9ad1fb12667e92993c" kind="variable"><name>end</name></member>
+    <member refid="classTile_1a4f59f006f6a5e1cd5cc5b269a29d067b" kind="function"><name>Tile</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="Box_8h" kind="file"><name>Box.h</name>
+  </compound>
+  <compound refid="HashTable_8h" kind="file"><name>HashTable.h</name>
+  </compound>
+  <compound refid="Letter_8h" kind="file"><name>Letter.h</name>
+  </compound>
+  <compound refid="ListOfMatches_8cpp" kind="file"><name>ListOfMatches.cpp</name>
+  </compound>
+  <compound refid="ListOfMatches_8h" kind="file"><name>ListOfMatches.h</name>
+  </compound>
+  <compound refid="ListOfSubstrings_8h" kind="file"><name>ListOfSubstrings.h</name>
+  </compound>
+  <compound refid="ListOfTiles_8h" kind="file"><name>ListOfTiles.h</name>
+  </compound>
+  <compound refid="Main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="Main_8cpp_1a79bcfb6bde984f42d1124b068a509af7" kind="define"><name>BASE</name></member>
+    <member refid="Main_8cpp_1a4505c08c065b48840a30eedd9845cce2" kind="typedef"><name>string</name></member>
+    <member refid="Main_8cpp_1a4437edd7fd2832790c13ba3179bcc64d" kind="function"><name>getTime</name></member>
+    <member refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="Match_8h" kind="file"><name>Match.h</name>
+  </compound>
+  <compound refid="RandomNumber_8h" kind="file"><name>RandomNumber.h</name>
+  </compound>
+  <compound refid="RandomPrime_8h" kind="file"><name>RandomPrime.h</name>
+  </compound>
+  <compound refid="Reader_8h" kind="file"><name>Reader.h</name>
+    <member refid="Reader_8h_1a4505c08c065b48840a30eedd9845cce2" kind="typedef"><name>string</name></member>
+  </compound>
+  <compound refid="RKRGST_8h" kind="file"><name>RKRGST.h</name>
+    <member refid="RKRGST_8h_1a7a9a231e30b47bc0345749c8bd1e5077" kind="define"><name>MAX_LENGTH</name></member>
+  </compound>
+  <compound refid="RollingHash_8h" kind="file"><name>RollingHash.h</name>
+  </compound>
+  <compound refid="Substring_8h" kind="file"><name>Substring.h</name>
+  </compound>
+  <compound refid="Tile_8h" kind="file"><name>Tile.h</name>
+  </compound>
+</doxygenindex>

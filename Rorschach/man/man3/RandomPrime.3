@@ -1,0 +1,107 @@
+.TH "RandomPrime" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RandomPrime \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <RandomPrime\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRandomPrime\fP ()"
+.br
+.ti -1c
+.RI "\fB~RandomPrime\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisPrime\fP (int number)"
+.br
+.ti -1c
+.RI "int \fBnewRandomPrime\fP (int min, int max)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBRandomNumber\fP * \fBrandomNumber\fP"
+.br
+.RI "\fIPonteiro para a classe que cria um número aleatório, primo ou não\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe que cria um número primo aleatório 
+.PP
+Definition at line 30 of file RandomPrime\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "RandomPrime::RandomPrime ()\fC [inline]\fP"
+Construtor da classe \fBRandomPrime\fP 
+.PP
+Definition at line 40 of file RandomPrime\&.h\&.
+.SS "RandomPrime::~RandomPrime ()\fC [inline]\fP"
+Destrutor da classe \fBRandomPrime\fP 
+.PP
+Definition at line 48 of file RandomPrime\&.h\&.
+.PP
+References randomNumber\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool RandomPrime::isPrime (intnumber)\fC [inline]\fP"
+Verifica se um certo número é primo ou não 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInumber\fP - número que será verificado 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool - true caso seja primo e false caso contrário 
+.RE
+.PP
+
+.PP
+Definition at line 58 of file RandomPrime\&.h\&.
+.PP
+Referenced by newRandomPrime()\&.
+.SS "int RandomPrime::newRandomPrime (intmin, intmax)\fC [inline]\fP"
+Gera um número primo aleatório 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImin\fP - menor número possível de ser retornado 
+.br
+\fImax\fP - maior número possível de ser retornado 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+número primo gerado 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file RandomPrime\&.h\&.
+.PP
+References isPrime(), and RandomNumber::newRandomNumber()\&.
+.PP
+Referenced by RKRGST< TypeOfContent >::RKRGST()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBRandomNumber\fP* RandomPrime::randomNumber"
+
+.PP
+Ponteiro para a classe que cria um número aleatório, primo ou não\&. 
+.PP
+Definition at line 35 of file RandomPrime\&.h\&.
+.PP
+Referenced by ~RandomPrime()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

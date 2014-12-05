@@ -1,0 +1,233 @@
+.TH "RollingHash< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RollingHash< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <RollingHash\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRollingHash\fP (int \fBbaseLength\fP, int randomPrime, \fBLetter\fP< TypeOfContent > *\fBstring\fP)"
+.br
+.ti -1c
+.RI "int \fBgetHashValue\fP ()"
+.br
+.ti -1c
+.RI "void \fBappend\fP (int i)"
+.br
+.ti -1c
+.RI "void \fBskip\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint\fP ()"
+.br
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBRollingHash\fP &other) const "
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "long long \fBhashValue\fP"
+.br
+.RI "\fIvalor da hash referente ao conteudo da fila \fP"
+.ti -1c
+.RI "int \fBprimeNumber\fP"
+.br
+.ti -1c
+.RI "int \fBlength\fP"
+.br
+.RI "\fIquantidade de termos sendo usados para construir a hash \fP"
+.ti -1c
+.RI "int \fBbaseLength\fP"
+.br
+.RI "\fIbase do alfabeto utilizado na criação da hash \fP"
+.ti -1c
+.RI "\fBLetter\fP< TypeOfContent > * \fBstring\fP"
+.br
+.RI "\fIponteiro para a palavra que será usada na Rolling Hash \fP"
+.ti -1c
+.RI "int \fBbegin\fP"
+.br
+.RI "\fIíndice do início do trecho para o qual a Rolling Hash se refere\&. \fP"
+.ti -1c
+.RI "int \fBend\fP"
+.br
+.RI "\fIíndice do fim do trecho para o qual a Rolling Hash se refere\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class RollingHash< TypeOfContent >"
+
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo do termo adicionado a fila classe que realiza a implementação da Rolling Hash 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file RollingHash\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBRollingHash\fP< TypeOfContent >::\fBRollingHash\fP (intbaseLength, intrandomPrime, \fBLetter\fP< TypeOfContent > *string)\fC [inline]\fP"
+Construtor da Rolling Hash 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbaseLength\fP base do alfabeto utilizado na criação da hash 
+.br
+\fIrandomPrime\fP número primo utizado para limitar o valor da hash evitando overflow 
+.br
+\fIstring\fP ponteiro para a palavra que será usada na Rolling Hash 
+.RE
+.PP
+primo escolhido deve ser maior ou igual que tamanho da string, ou seja, primeNumber >= length 
+.PP
+Definition at line 74 of file RollingHash\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::baseLength, and RollingHash< TypeOfContent >::string\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename TypeOfContent> void \fBRollingHash\fP< TypeOfContent >::append (inti)\fC [inline]\fP"
+adiciona uma nova letra a hash, atualizando o valor de hash, length e fila 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIi\fP Ponteiro para a localização da letra cujo tipo é TypeOfContent e que será adicionada 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 107 of file RollingHash\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::baseLength, RollingHash< TypeOfContent >::end, and RollingHash< TypeOfContent >::primeNumber\&.
+.PP
+Referenced by Substring< TypeOfContent >::append(), and Substring< TypeOfContent >::Substring()\&.
+.SS "template<typename TypeOfContent> int \fBRollingHash\fP< TypeOfContent >::getHashValue ()\fC [inline]\fP"
+retorna o valor de hash atual 
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 94 of file RollingHash\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::hashValue\&.
+.SS "template<typename TypeOfContent> bool \fBRollingHash\fP< TypeOfContent >::operator== (const \fBRollingHash\fP< TypeOfContent > &other) const\fC [inline]\fP"
+sobreescrevendo o operador == para que possamos comparar o conteúdo da \fBRollingHash\fP, ou seja, o conteúdo guardado na fila\&. Isto é útil durante a verificação de igualdade entre duas \fBRollingHash\fP cujos valores de hash delas são iguais\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIother\fP a segunda \fBRollingHash\fP sendo comparada 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+retorna true caso os conteúdos delas sejam iguais\&. Falso caso contrário 
+.RE
+.PP
+
+.PP
+Definition at line 176 of file RollingHash\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::begin, RollingHash< TypeOfContent >::end, and RollingHash< TypeOfContent >::string\&.
+.SS "template<typename TypeOfContent> void \fBRollingHash\fP< TypeOfContent >::print ()\fC [inline]\fP"
+imprime o valor da hash atual e os termos que serviram para a sua criação 
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 161 of file RollingHash\&.h\&.
+.SS "template<typename TypeOfContent> void \fBRollingHash\fP< TypeOfContent >::skip ()\fC [inline]\fP"
+retira a primeira letra da fila, ou seja, a mais antiga 
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 130 of file RollingHash\&.h\&.
+.PP
+References RollingHash< TypeOfContent >::hashValue, and RollingHash< TypeOfContent >::primeNumber\&.
+.PP
+Referenced by Substring< TypeOfContent >::skip()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> int \fBRollingHash\fP< TypeOfContent >::baseLength"
+
+.PP
+base do alfabeto utilizado na criação da hash 
+.PP
+Definition at line 57 of file RollingHash\&.h\&.
+.PP
+Referenced by RollingHash< TypeOfContent >::append(), and RollingHash< TypeOfContent >::RollingHash()\&.
+.SS "template<typename TypeOfContent> int \fBRollingHash\fP< TypeOfContent >::begin"
+
+.PP
+índice do início do trecho para o qual a Rolling Hash se refere\&. 
+.PP
+Definition at line 63 of file RollingHash\&.h\&.
+.PP
+Referenced by RollingHash< TypeOfContent >::operator==(), and Substring< TypeOfContent >::print()\&.
+.SS "template<typename TypeOfContent> int \fBRollingHash\fP< TypeOfContent >::end"
+
+.PP
+índice do fim do trecho para o qual a Rolling Hash se refere\&. 
+.PP
+Definition at line 66 of file RollingHash\&.h\&.
+.PP
+Referenced by Substring< TypeOfContent >::append(), RollingHash< TypeOfContent >::append(), RollingHash< TypeOfContent >::operator==(), and Substring< TypeOfContent >::print()\&.
+.SS "template<typename TypeOfContent> long long \fBRollingHash\fP< TypeOfContent >::hashValue"
+
+.PP
+valor da hash referente ao conteudo da fila 
+.PP
+Definition at line 46 of file RollingHash\&.h\&.
+.PP
+Referenced by RollingHash< TypeOfContent >::getHashValue(), Substring< TypeOfContent >::print(), and RollingHash< TypeOfContent >::skip()\&.
+.SS "template<typename TypeOfContent> int \fBRollingHash\fP< TypeOfContent >::length"
+
+.PP
+quantidade de termos sendo usados para construir a hash 
+.PP
+Definition at line 54 of file RollingHash\&.h\&.
+.SS "template<typename TypeOfContent> int \fBRollingHash\fP< TypeOfContent >::primeNumber"
+numero primo utilizado para limitar o valor da hash evitando overflow 
+.PP
+Definition at line 51 of file RollingHash\&.h\&.
+.PP
+Referenced by RollingHash< TypeOfContent >::append(), and RollingHash< TypeOfContent >::skip()\&.
+.SS "template<typename TypeOfContent> \fBLetter\fP<TypeOfContent>* \fBRollingHash\fP< TypeOfContent >::\fBstring\fP"
+
+.PP
+ponteiro para a palavra que será usada na Rolling Hash 
+.PP
+Definition at line 60 of file RollingHash\&.h\&.
+.PP
+Referenced by RollingHash< TypeOfContent >::operator==(), and RollingHash< TypeOfContent >::RollingHash()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

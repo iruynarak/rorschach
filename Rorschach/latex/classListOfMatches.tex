@@ -1,0 +1,144 @@
+\hypertarget{classListOfMatches}{\section{List\+Of\+Matches Class Reference}
+\label{classListOfMatches}\index{List\+Of\+Matches@{List\+Of\+Matches}}
+}
+
+
+{\ttfamily \#include $<$List\+Of\+Matches.\+h$>$}
+
+
+
+Collaboration diagram for List\+Of\+Matches\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{classListOfMatches__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classListOfMatches_a072714a38619e642eda703dfa94fa79c}{List\+Of\+Matches} ()
+\item 
+void \hyperlink{classListOfMatches_a44472d7bbe64b949bf8ce289bda3134f}{insert} (int length, int pattern\+Index, int text\+Index)
+\item 
+\hyperlink{classMatch}{Match} $\ast$ \hyperlink{classListOfMatches_a58a6a1649e3731b0e9af20211e4fd03f}{remove} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classListOfMatches_ab5b4c972df3758bed3fd5ace4d78a4c8}{number\+Of\+Matches}
+\begin{DoxyCompactList}\small\item\em Número de casamentos (objetos da classe \hyperlink{classMatch}{Match}) na lista. \end{DoxyCompactList}\item 
+\hyperlink{classMatch}{Match} $\ast$ \hyperlink{classListOfMatches_adc4925222fa338afdbbcdd7e5c37e2c9}{begin}
+\begin{DoxyCompactList}\small\item\em Ponteiro para o início da lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Lista de casamentos (objetos da classe \hyperlink{classMatch}{Match}) 
+
+Definition at line 33 of file List\+Of\+Matches.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classListOfMatches_a072714a38619e642eda703dfa94fa79c}{\index{List\+Of\+Matches@{List\+Of\+Matches}!List\+Of\+Matches@{List\+Of\+Matches}}
+\index{List\+Of\+Matches@{List\+Of\+Matches}!List\+Of\+Matches@{List\+Of\+Matches}}
+\subsubsection[{List\+Of\+Matches}]{\setlength{\rightskip}{0pt plus 5cm}List\+Of\+Matches\+::\+List\+Of\+Matches (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfMatches_a072714a38619e642eda703dfa94fa79c}
+Construtor de objeto da classe \hyperlink{classListOfMatches}{List\+Of\+Matches} 
+
+Definition at line 43 of file List\+Of\+Matches.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classListOfMatches_a44472d7bbe64b949bf8ce289bda3134f}{\index{List\+Of\+Matches@{List\+Of\+Matches}!insert@{insert}}
+\index{insert@{insert}!List\+Of\+Matches@{List\+Of\+Matches}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void List\+Of\+Matches\+::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{length, }
+\item[{int}]{pattern\+Index, }
+\item[{int}]{text\+Index}
+\end{DoxyParamCaption}
+)}}\label{classListOfMatches_a44472d7bbe64b949bf8ce289bda3134f}
+Insere casamento (objeto da classe \hyperlink{classMatch}{Match}) 
+\begin{DoxyParams}{Parameters}
+{\em length} & Tamanho do casamento (objeto da classe \hyperlink{classMatch}{Match}) a ser inserido. \\
+\hline
+{\em pattern\+Index} & Índice em pattern do casamento (objeto da classe \hyperlink{classMatch}{Match}) a ser inserido. \\
+\hline
+{\em text\+Index} & Índice em text do casamento (objeto da classe \hyperlink{classMatch}{Match}) a ser inserido. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 26 of file List\+Of\+Matches.\+cpp.
+
+
+
+References begin, Match\+::length, Match\+::next, number\+Of\+Matches, and Match\+::previous.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::scan\+Pattern().
+
+\hypertarget{classListOfMatches_a58a6a1649e3731b0e9af20211e4fd03f}{\index{List\+Of\+Matches@{List\+Of\+Matches}!remove@{remove}}
+\index{remove@{remove}!List\+Of\+Matches@{List\+Of\+Matches}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Match} $\ast$ List\+Of\+Matches\+::remove (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classListOfMatches_a58a6a1649e3731b0e9af20211e4fd03f}
+Remove um match da lista 
+
+Definition at line 78 of file List\+Of\+Matches.\+cpp.
+
+
+
+References begin, Match\+::next, number\+Of\+Matches, and Match\+::previous.
+
+
+
+Referenced by main(), and R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays().
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classListOfMatches_adc4925222fa338afdbbcdd7e5c37e2c9}{\index{List\+Of\+Matches@{List\+Of\+Matches}!begin@{begin}}
+\index{begin@{begin}!List\+Of\+Matches@{List\+Of\+Matches}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Match}$\ast$ List\+Of\+Matches\+::begin}}\label{classListOfMatches_adc4925222fa338afdbbcdd7e5c37e2c9}
+
+
+Ponteiro para o início da lista. 
+
+
+
+Definition at line 39 of file List\+Of\+Matches.\+h.
+
+
+
+Referenced by insert(), and remove().
+
+\hypertarget{classListOfMatches_ab5b4c972df3758bed3fd5ace4d78a4c8}{\index{List\+Of\+Matches@{List\+Of\+Matches}!number\+Of\+Matches@{number\+Of\+Matches}}
+\index{number\+Of\+Matches@{number\+Of\+Matches}!List\+Of\+Matches@{List\+Of\+Matches}}
+\subsubsection[{number\+Of\+Matches}]{\setlength{\rightskip}{0pt plus 5cm}int List\+Of\+Matches\+::number\+Of\+Matches}}\label{classListOfMatches_ab5b4c972df3758bed3fd5ace4d78a4c8}
+
+
+Número de casamentos (objetos da classe \hyperlink{classMatch}{Match}) na lista. 
+
+
+
+Definition at line 37 of file List\+Of\+Matches.\+h.
+
+
+
+Referenced by insert(), main(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::mark\+Arrays(), and remove().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ListOfMatches_8h}{List\+Of\+Matches.\+h}\item 
+\hyperlink{ListOfMatches_8cpp}{List\+Of\+Matches.\+cpp}\end{DoxyCompactItemize}

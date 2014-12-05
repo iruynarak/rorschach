@@ -1,0 +1,74 @@
+.TH "Letter< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Letter< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Letter\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBnextUnmarked\fP"
+.br
+.RI "\fIÍndice da \fBLetter\fP não marcada posterior a esta\&. \fP"
+.ti -1c
+.RI "int \fBpreviousUnmarked\fP"
+.br
+.RI "\fIÍndice da \fBLetter\fP não marcada anterior a esta\&. \fP"
+.ti -1c
+.RI "bool \fBmarked\fP"
+.br
+.RI "\fITrue caso esta \fBLetter\fP está marcada e false caso contrário\&. \fP"
+.ti -1c
+.RI "TypeOfContent \fBcontent\fP"
+.br
+.RI "\fIConteúdo da \fBLetter\fP\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class Letter< TypeOfContent >"
+
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo dos termos da pattern e da text Classe que armazena cada letra lida do alfabeto em questão 
+.RE
+.PP
+
+.PP
+Definition at line 29 of file Letter\&.h\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> TypeOfContent \fBLetter\fP< TypeOfContent >::content"
+
+.PP
+Conteúdo da \fBLetter\fP\&. 
+.PP
+Definition at line 45 of file Letter\&.h\&.
+.SS "template<typename TypeOfContent> bool \fBLetter\fP< TypeOfContent >::marked"
+
+.PP
+True caso esta \fBLetter\fP está marcada e false caso contrário\&. 
+.PP
+Definition at line 42 of file Letter\&.h\&.
+.SS "template<typename TypeOfContent> int \fBLetter\fP< TypeOfContent >::nextUnmarked"
+
+.PP
+Índice da \fBLetter\fP não marcada posterior a esta\&. 
+.PP
+Definition at line 37 of file Letter\&.h\&.
+.SS "template<typename TypeOfContent> int \fBLetter\fP< TypeOfContent >::previousUnmarked"
+
+.PP
+Índice da \fBLetter\fP não marcada anterior a esta\&. 
+.PP
+Definition at line 39 of file Letter\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

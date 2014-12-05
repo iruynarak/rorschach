@@ -1,0 +1,120 @@
+.TH "Match" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Match \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Match\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMatch\fP (int \fBlength\fP, int \fBpatternIndex\fP, int \fBtextIndex\fP)"
+.br
+.ti -1c
+.RI "void \fBprint\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBlength\fP"
+.br
+.RI "\fItamanho do casamento \fP"
+.ti -1c
+.RI "int \fBpatternIndex\fP"
+.br
+.RI "\fIindice em pattern da primeira letra pertencente ao casamento \fP"
+.ti -1c
+.RI "int \fBtextIndex\fP"
+.br
+.RI "\fIindice em text da primeira letra pertencente ao casamento \fP"
+.ti -1c
+.RI "\fBMatch\fP * \fBnext\fP"
+.br
+.RI "\fIPonteiro para o proximo casamento em uma estrutura que engloba um objeto desta classe\&. \fP"
+.ti -1c
+.RI "\fBMatch\fP * \fBprevious\fP"
+.br
+.RI "\fIPonteiro para o casamento anterior em uma estrutura que engloba um objeto desta classe\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe que representa um casamento\&. 
+.PP
+Definition at line 29 of file Match\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Match::Match (intlength, intpatternIndex, inttextIndex)\fC [inline]\fP"
+Construtor de um objeto da classe \fBMatch\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlength\fP Tamanho do casamento\&. 
+.br
+\fIpatternIndex\fP Indice em pattern da primeira letra pertencente ao casamento\&. 
+.br
+\fItextIndex\fP Indice em pattern da primeira letra pertencente ao casamento\&. 
+.RE
+.PP
+
+.PP
+Definition at line 50 of file Match\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Match::print ()\fC [inline]\fP"
+Método que imprime o conteúdo do objeto da classe \fBMatch\fP\&. 
+.PP
+Definition at line 61 of file Match\&.h\&.
+.PP
+Referenced by main()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int Match::length"
+
+.PP
+tamanho do casamento 
+.PP
+Definition at line 33 of file Match\&.h\&.
+.PP
+Referenced by ListOfMatches::insert(), main(), RKRGST< TypeOfContent >::markArrays(), RKRGST< TypeOfContent >::markTokens(), and RKRGST< TypeOfContent >::occluded()\&.
+.SS "\fBMatch\fP* Match::next"
+
+.PP
+Ponteiro para o proximo casamento em uma estrutura que engloba um objeto desta classe\&. 
+.PP
+Definition at line 40 of file Match\&.h\&.
+.PP
+Referenced by ListOfMatches::insert(), and ListOfMatches::remove()\&.
+.SS "int Match::patternIndex"
+
+.PP
+indice em pattern da primeira letra pertencente ao casamento 
+.PP
+Definition at line 35 of file Match\&.h\&.
+.PP
+Referenced by main(), RKRGST< TypeOfContent >::markArrays(), RKRGST< TypeOfContent >::markTokens(), and RKRGST< TypeOfContent >::occluded()\&.
+.SS "\fBMatch\fP* Match::previous"
+
+.PP
+Ponteiro para o casamento anterior em uma estrutura que engloba um objeto desta classe\&. 
+.PP
+Definition at line 42 of file Match\&.h\&.
+.PP
+Referenced by ListOfMatches::insert(), and ListOfMatches::remove()\&.
+.SS "int Match::textIndex"
+
+.PP
+indice em text da primeira letra pertencente ao casamento 
+.PP
+Definition at line 37 of file Match\&.h\&.
+.PP
+Referenced by main(), RKRGST< TypeOfContent >::markArrays(), RKRGST< TypeOfContent >::markTokens(), and RKRGST< TypeOfContent >::occluded()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

@@ -1,0 +1,196 @@
+\hypertarget{classListOfTiles}{\section{List\+Of\+Tiles Class Reference}
+\label{classListOfTiles}\index{List\+Of\+Tiles@{List\+Of\+Tiles}}
+}
+
+
+{\ttfamily \#include $<$List\+Of\+Tiles.\+h$>$}
+
+
+
+Collaboration diagram for List\+Of\+Tiles\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=186pt]{classListOfTiles__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classListOfTiles_ad87132d4a7c3eb474797f3e3be24232c}{List\+Of\+Tiles} ()
+\item 
+\hyperlink{classListOfTiles_aff2ecd909d48a815199b949f0a0556cc}{$\sim$\+List\+Of\+Tiles} ()
+\item 
+void \hyperlink{classListOfTiles_a0d8226cb5174084dd6bc7d8854c1e3aa}{add\+Tile} (\hyperlink{classTile}{Tile} $\ast$tile)
+\item 
+void \hyperlink{classListOfTiles_a72a1b46b241ee17dc6f6ff9e5f291521}{print} ()
+\item 
+void \hyperlink{classListOfTiles_ac824d0c735f0f975663740da8d827511}{remove\+Tile} (int tile\+Begin\+Index, int tile\+End\+Index)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTile}{Tile} $\ast$ \hyperlink{classListOfTiles_a19f2f2aac9802594a1080a199fa5b3b7}{begin}
+\begin{DoxyCompactList}\small\item\em Ponteiro para o primeiro objeto do tipo \hyperlink{classTile}{Tile} na lista. \end{DoxyCompactList}\item 
+\hyperlink{classTile}{Tile} $\ast$ \hyperlink{classListOfTiles_adebd46c83a63f0e0f385cc0170def3b3}{end}
+\begin{DoxyCompactList}\small\item\em Ponteiro para o último objeto do tipo \hyperlink{classTile}{Tile} na lista. \end{DoxyCompactList}\item 
+int \hyperlink{classListOfTiles_a6d6a5a454a10f1a9ea1fd4bc4dedf290}{number\+Of\+Tiles}
+\begin{DoxyCompactList}\small\item\em Quantidade de objetos do tipo \hyperlink{classTile}{Tile} na lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe que guarda objetos do tipo \hyperlink{classTile}{Tile} \begin{DoxySeeAlso}{See also}
+\hyperlink{classTile}{Tile} 
+\end{DoxySeeAlso}
+
+
+Definition at line 39 of file List\+Of\+Tiles.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classListOfTiles_ad87132d4a7c3eb474797f3e3be24232c}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\index{List\+Of\+Tiles@{List\+Of\+Tiles}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{List\+Of\+Tiles}]{\setlength{\rightskip}{0pt plus 5cm}List\+Of\+Tiles\+::\+List\+Of\+Tiles (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfTiles_ad87132d4a7c3eb474797f3e3be24232c}
+Construtor de um objeto da classe \hyperlink{classListOfTiles}{List\+Of\+Tiles} 
+
+Definition at line 56 of file List\+Of\+Tiles.\+h.
+
+\hypertarget{classListOfTiles_aff2ecd909d48a815199b949f0a0556cc}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!````~List\+Of\+Tiles@{$\sim$\+List\+Of\+Tiles}}
+\index{````~List\+Of\+Tiles@{$\sim$\+List\+Of\+Tiles}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{$\sim$\+List\+Of\+Tiles}]{\setlength{\rightskip}{0pt plus 5cm}List\+Of\+Tiles\+::$\sim$\+List\+Of\+Tiles (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfTiles_aff2ecd909d48a815199b949f0a0556cc}
+Destrutor de um objeto da classe \hyperlink{classListOfTiles}{List\+Of\+Tiles} 
+
+Definition at line 66 of file List\+Of\+Tiles.\+h.
+
+
+
+References begin, and Tile\+::next.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classListOfTiles_a0d8226cb5174084dd6bc7d8854c1e3aa}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!add\+Tile@{add\+Tile}}
+\index{add\+Tile@{add\+Tile}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{add\+Tile}]{\setlength{\rightskip}{0pt plus 5cm}void List\+Of\+Tiles\+::add\+Tile (
+\begin{DoxyParamCaption}
+\item[{{\bf Tile} $\ast$}]{tile}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfTiles_a0d8226cb5174084dd6bc7d8854c1e3aa}
+Adiciona um novo objeto da classe \hyperlink{classTile}{Tile} na lista 
+\begin{DoxyParams}{Parameters}
+{\em tile} & Ponteiro para o objeto da classe \hyperlink{classTile}{Tile} a ser adicionado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Não há retorno 
+\end{DoxyReturn}
+
+
+Definition at line 89 of file List\+Of\+Tiles.\+h.
+
+
+
+References end, Tile\+::next, and Tile\+::previous.
+
+\hypertarget{classListOfTiles_a72a1b46b241ee17dc6f6ff9e5f291521}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!print@{print}}
+\index{print@{print}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void List\+Of\+Tiles\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfTiles_a72a1b46b241ee17dc6f6ff9e5f291521}
+Imprime, para cada objeto da classe \hyperlink{classTile}{Tile} na lista, o seu índice de início e de fim. \begin{DoxyReturn}{Returns}
+Não há retorno 
+\end{DoxyReturn}
+
+
+Definition at line 113 of file List\+Of\+Tiles.\+h.
+
+
+
+References Tile\+::begin, begin, Tile\+::end, and Tile\+::next.
+
+\hypertarget{classListOfTiles_ac824d0c735f0f975663740da8d827511}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!remove\+Tile@{remove\+Tile}}
+\index{remove\+Tile@{remove\+Tile}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{remove\+Tile}]{\setlength{\rightskip}{0pt plus 5cm}void List\+Of\+Tiles\+::remove\+Tile (
+\begin{DoxyParamCaption}
+\item[{int}]{tile\+Begin\+Index, }
+\item[{int}]{tile\+End\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classListOfTiles_ac824d0c735f0f975663740da8d827511}
+Remove objeto da classe \hyperlink{classTile}{Tile} 
+\begin{DoxyParams}{Parameters}
+{\em tile\+Begin\+Index} & Índice da primeira posição da tile a ser removida \\
+\hline
+{\em tile\+End\+Index} & Índice da última posição da tile a ser removida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Não há retorno 
+\end{DoxyReturn}
+
+
+Definition at line 130 of file List\+Of\+Tiles.\+h.
+
+
+
+References Tile\+::begin, begin, Tile\+::end, Tile\+::next, and Tile\+::previous.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classListOfTiles_a19f2f2aac9802594a1080a199fa5b3b7}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!begin@{begin}}
+\index{begin@{begin}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tile}$\ast$ List\+Of\+Tiles\+::begin}}\label{classListOfTiles_a19f2f2aac9802594a1080a199fa5b3b7}
+
+
+Ponteiro para o primeiro objeto do tipo \hyperlink{classTile}{Tile} na lista. 
+
+
+
+Definition at line 45 of file List\+Of\+Tiles.\+h.
+
+
+
+Referenced by R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::fill\+Text\+Hash\+Table(), R\+K\+R\+G\+S\+T$<$ Type\+Of\+Content $>$\+::find\+Pattern\+Substring(), print(), remove\+Tile(), and $\sim$\+List\+Of\+Tiles().
+
+\hypertarget{classListOfTiles_adebd46c83a63f0e0f385cc0170def3b3}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!end@{end}}
+\index{end@{end}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tile}$\ast$ List\+Of\+Tiles\+::end}}\label{classListOfTiles_adebd46c83a63f0e0f385cc0170def3b3}
+
+
+Ponteiro para o último objeto do tipo \hyperlink{classTile}{Tile} na lista. 
+
+
+
+Definition at line 48 of file List\+Of\+Tiles.\+h.
+
+
+
+Referenced by add\+Tile().
+
+\hypertarget{classListOfTiles_a6d6a5a454a10f1a9ea1fd4bc4dedf290}{\index{List\+Of\+Tiles@{List\+Of\+Tiles}!number\+Of\+Tiles@{number\+Of\+Tiles}}
+\index{number\+Of\+Tiles@{number\+Of\+Tiles}!List\+Of\+Tiles@{List\+Of\+Tiles}}
+\subsubsection[{number\+Of\+Tiles}]{\setlength{\rightskip}{0pt plus 5cm}int List\+Of\+Tiles\+::number\+Of\+Tiles}}\label{classListOfTiles_a6d6a5a454a10f1a9ea1fd4bc4dedf290}
+
+
+Quantidade de objetos do tipo \hyperlink{classTile}{Tile} na lista. 
+
+
+
+Definition at line 51 of file List\+Of\+Tiles.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ListOfTiles_8h}{List\+Of\+Tiles.\+h}\end{DoxyCompactItemize}

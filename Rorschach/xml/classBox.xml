@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classBox" kind="class" prot="public">
+    <compoundname>Box</compoundname>
+    <includes refid="Box_8h" local="no">Box.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classBox_1aa1b857944564f517d12997289e5987ba" prot="public" static="no" mutable="no">
+        <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Letter&lt;TypeOfContent&gt;* Box&lt; TypeOfContent &gt;::pattern</definition>
+        <argsstring></argsstring>
+        <name>pattern</name>
+        <briefdescription>
+<para>Vetor de <ref refid="classLetter" kindref="compound">Letter</ref> alocada dinamicamente contendo pattern. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="39" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classBox_1a0946e5527494183bd61672e12bca5cbc" compoundref="Box_8h" startline="58" endline="64">Box&lt; TypeOfContent &gt;::Box</referencedby>
+        <referencedby refid="classRKRGST_1a37cf8598f504f175035a83a69cfeaa08" compoundref="RKRGST_8h" startline="319" endline="389">RKRGST&lt; TypeOfContent &gt;::findPatternSubstring</referencedby>
+        <referencedby refid="classRKRGST_1af44ddce704c698ee3cb38a7262a36874" compoundref="RKRGST_8h" startline="637" endline="644">RKRGST&lt; TypeOfContent &gt;::markTokens</referencedby>
+        <referencedby refid="classRKRGST_1aa2b3943e1897025c9f8293ee98edabca" compoundref="RKRGST_8h" startline="616" endline="629">RKRGST&lt; TypeOfContent &gt;::occluded</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+        <referencedby refid="classBox_1a5eeacaebc9bab0e00cd0b0d80635c6ec" compoundref="Box_8h" startline="69" endline="73">Box&lt; TypeOfContent &gt;::~Box</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBox_1acadd4d6b43a90560a093cb64aa77b7e9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Box&lt; TypeOfContent &gt;::patternSize</definition>
+        <argsstring></argsstring>
+        <name>patternSize</name>
+        <briefdescription>
+<para>Tamanho do vetor de <ref refid="classLetter" kindref="compound">Letter</ref> contendo o padrão. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="42" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classBox_1a0946e5527494183bd61672e12bca5cbc" compoundref="Box_8h" startline="58" endline="64">Box&lt; TypeOfContent &gt;::Box</referencedby>
+        <referencedby refid="classRKRGST_1a37cf8598f504f175035a83a69cfeaa08" compoundref="RKRGST_8h" startline="319" endline="389">RKRGST&lt; TypeOfContent &gt;::findPatternSubstring</referencedby>
+        <referencedby refid="classBox_1a0c6759886250c36ed1b6a2d6915585e3" compoundref="Box_8h" startline="79" endline="94">Box&lt; TypeOfContent &gt;::printBox</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" prot="public" static="no" mutable="no">
+        <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Letter&lt;TypeOfContent&gt;* Box&lt; TypeOfContent &gt;::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+<para>Vetor contendo o texto onde será realizada a busca do padrão. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="45" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classBox_1a0946e5527494183bd61672e12bca5cbc" compoundref="Box_8h" startline="58" endline="64">Box&lt; TypeOfContent &gt;::Box</referencedby>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classRKRGST_1af44ddce704c698ee3cb38a7262a36874" compoundref="RKRGST_8h" startline="637" endline="644">RKRGST&lt; TypeOfContent &gt;::markTokens</referencedby>
+        <referencedby refid="classRKRGST_1aa2b3943e1897025c9f8293ee98edabca" compoundref="RKRGST_8h" startline="616" endline="629">RKRGST&lt; TypeOfContent &gt;::occluded</referencedby>
+        <referencedby refid="classBox_1a5eeacaebc9bab0e00cd0b0d80635c6ec" compoundref="Box_8h" startline="69" endline="73">Box&lt; TypeOfContent &gt;::~Box</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBox_1a2bfb2b656e74bc0f87f8acda76afbc86" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Box&lt; TypeOfContent &gt;::textSize</definition>
+        <argsstring></argsstring>
+        <name>textSize</name>
+        <briefdescription>
+<para>Tamanho do vetor de <ref refid="classLetter" kindref="compound">Letter</ref> contendo o texto onde será realizada a busca do padrão. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="48" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classBox_1a0946e5527494183bd61672e12bca5cbc" compoundref="Box_8h" startline="58" endline="64">Box&lt; TypeOfContent &gt;::Box</referencedby>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classBox_1a0c6759886250c36ed1b6a2d6915585e3" compoundref="Box_8h" startline="79" endline="94">Box&lt; TypeOfContent &gt;::printBox</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBox_1a0946e5527494183bd61672e12bca5cbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Box&lt; TypeOfContent &gt;::Box</definition>
+        <argsstring>(Letter&lt; TypeOfContent &gt; *pattern, int patternSize, Letter&lt; TypeOfContent &gt; *text, int textSize)</argsstring>
+        <name>Box</name>
+        <param>
+          <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>patternSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classLetter" kindref="compound">Letter</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>textSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor da classe <ref refid="classBox" kindref="compound">Box</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pattern</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vetor de <ref refid="classLetter" kindref="compound">Letter</ref> contendo o padrão </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>patternSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tamanho do vetor de <ref refid="classLetter" kindref="compound">Letter</ref> contendo o padrão </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vetor contendo o texto onde será realizada a busca do padrão </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>textSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tamanho do vetor de <ref refid="classLetter" kindref="compound">Letter</ref> contendo o texto onde será realizada a busca do padrão </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="58" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="58" bodyend="64"/>
+        <references refid="classBox_1aa1b857944564f517d12997289e5987ba" compoundref="Box_8h" startline="39">Box&lt; TypeOfContent &gt;::pattern</references>
+        <references refid="classBox_1acadd4d6b43a90560a093cb64aa77b7e9" compoundref="Box_8h" startline="42">Box&lt; TypeOfContent &gt;::patternSize</references>
+        <references refid="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" compoundref="Box_8h" startline="45">Box&lt; TypeOfContent &gt;::text</references>
+        <references refid="classBox_1a2bfb2b656e74bc0f87f8acda76afbc86" compoundref="Box_8h" startline="48">Box&lt; TypeOfContent &gt;::textSize</references>
+      </memberdef>
+      <memberdef kind="function" id="classBox_1a5eeacaebc9bab0e00cd0b0d80635c6ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Box&lt; TypeOfContent &gt;::~Box</definition>
+        <argsstring>()</argsstring>
+        <name>~Box</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destrutor da classe <ref refid="classBox" kindref="compound">Box</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="69" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="69" bodyend="73"/>
+        <references refid="classBox_1aa1b857944564f517d12997289e5987ba" compoundref="Box_8h" startline="39">Box&lt; TypeOfContent &gt;::pattern</references>
+        <references refid="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" compoundref="Box_8h" startline="45">Box&lt; TypeOfContent &gt;::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classBox_1a0c6759886250c36ed1b6a2d6915585e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Box&lt; TypeOfContent &gt;::printBox</definition>
+        <argsstring>()</argsstring>
+        <name>printBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método que imprime o conteúdo de pattern e text <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="79" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="79" bodyend="94"/>
+        <references refid="classBox_1acadd4d6b43a90560a093cb64aa77b7e9" compoundref="Box_8h" startline="42">Box&lt; TypeOfContent &gt;::patternSize</references>
+        <references refid="classBox_1a2bfb2b656e74bc0f87f8acda76afbc86" compoundref="Box_8h" startline="48">Box&lt; TypeOfContent &gt;::textSize</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text Classe criada para facilitar a administracao dos dados. Isto diminuira o tamanho do construtor do <ref refid="classRKRGST" kindref="compound">RKRGST</ref> ao menos tempo que agrupara estes dados. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" line="36" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/Box.h" bodystart="35" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classBox_1a0946e5527494183bd61672e12bca5cbc" prot="public" virt="non-virtual"><scope>Box</scope><name>Box</name></member>
+      <member refid="classBox_1aa1b857944564f517d12997289e5987ba" prot="public" virt="non-virtual"><scope>Box</scope><name>pattern</name></member>
+      <member refid="classBox_1acadd4d6b43a90560a093cb64aa77b7e9" prot="public" virt="non-virtual"><scope>Box</scope><name>patternSize</name></member>
+      <member refid="classBox_1a0c6759886250c36ed1b6a2d6915585e3" prot="public" virt="non-virtual"><scope>Box</scope><name>printBox</name></member>
+      <member refid="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" prot="public" virt="non-virtual"><scope>Box</scope><name>text</name></member>
+      <member refid="classBox_1a2bfb2b656e74bc0f87f8acda76afbc86" prot="public" virt="non-virtual"><scope>Box</scope><name>textSize</name></member>
+      <member refid="classBox_1a5eeacaebc9bab0e00cd0b0d80635c6ec" prot="public" virt="non-virtual"><scope>Box</scope><name>~Box</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

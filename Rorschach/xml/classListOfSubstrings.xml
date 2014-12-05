@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classListOfSubstrings" kind="class" prot="public">
+    <compoundname>ListOfSubstrings</compoundname>
+    <includes refid="ListOfSubstrings_8h" local="no">ListOfSubstrings.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classListOfSubstrings_1afbd8ea432d107cd2f1285c9fe5dd9b96" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ListOfSubstrings&lt; TypeOfContent &gt;::numberOfSubstrings</definition>
+        <argsstring></argsstring>
+        <name>numberOfSubstrings</name>
+        <briefdescription>
+<para>Número de objetos da classe <ref refid="classSubstring" kindref="compound">Substring</ref> na lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" line="39" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classListOfSubstrings_1aca3c37e86411bf80050bece7a1ec0df0" prot="public" static="no" mutable="no">
+        <type><ref refid="classSubstring" kindref="compound">Substring</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Substring&lt;TypeOfContent&gt;* ListOfSubstrings&lt; TypeOfContent &gt;::begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Ponteiro para o início da lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" line="42" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classListOfSubstrings_1a4b4c8edcbdf74d6c6b0e21551e504b98" prot="public" static="no" mutable="no">
+        <type><ref refid="classSubstring" kindref="compound">Substring</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Substring&lt;TypeOfContent&gt;* ListOfSubstrings&lt; TypeOfContent &gt;::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>Ponteiro para o fim da lista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" line="45" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classListOfSubstrings_1a480372956993999a6e42e104cf264e32" compoundref="ListOfSubstrings_8h" startline="78" endline="95">ListOfSubstrings&lt; TypeOfContent &gt;::addSubstring</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classListOfSubstrings_1ab8280100b0f6224eb4d36fc448d8eeb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListOfSubstrings&lt; TypeOfContent &gt;::ListOfSubstrings</definition>
+        <argsstring>()</argsstring>
+        <name>ListOfSubstrings</name>
+        <briefdescription>
+<para>Construtor de <ref refid="classListOfSubstrings" kindref="compound">ListOfSubstrings</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" line="48" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classListOfSubstrings_1ae5aa0c336f8f5fab58a8d239cc5ab9d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListOfSubstrings&lt; TypeOfContent &gt;::~ListOfSubstrings</definition>
+        <argsstring>()</argsstring>
+        <name>~ListOfSubstrings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destrutor de <ref refid="classListOfSubstrings" kindref="compound">ListOfSubstrings</ref>. deletando cada um dos objetos da classe Substrings contidos na lista </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" line="60" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" bodystart="60" bodyend="72"/>
+        <references refid="classSubstring_1a5965b296a10e4a5fd874913f07754451" compoundref="Substring_8h" startline="44">Substring&lt; TypeOfContent &gt;::next</references>
+      </memberdef>
+      <memberdef kind="function" id="classListOfSubstrings_1a480372956993999a6e42e104cf264e32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListOfSubstrings&lt; TypeOfContent &gt;::addSubstring</definition>
+        <argsstring>(Substring&lt; TypeOfContent &gt; *substring)</argsstring>
+        <name>addSubstring</name>
+        <param>
+          <type><ref refid="classSubstring" kindref="compound">Substring</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adiciona uma nova substring a lista de substrings <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>substring</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>substring que será adicionada. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" line="78" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" bodystart="78" bodyend="95"/>
+        <references refid="classListOfSubstrings_1a4b4c8edcbdf74d6c6b0e21551e504b98" compoundref="ListOfSubstrings_8h" startline="45">ListOfSubstrings&lt; TypeOfContent &gt;::end</references>
+        <references refid="classSubstring_1a5965b296a10e4a5fd874913f07754451" compoundref="Substring_8h" startline="44">Substring&lt; TypeOfContent &gt;::next</references>
+        <references refid="classSubstring_1a992d0f85409426c420d243ac18d2bca5" compoundref="Substring_8h" startline="46">Substring&lt; TypeOfContent &gt;::previous</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Lista de objetos da classe <ref refid="classSubstring" kindref="compound">Substring</ref> <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classSubstring" kindref="compound">Substring</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" line="35" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/ListOfSubstrings.h" bodystart="34" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classListOfSubstrings_1a480372956993999a6e42e104cf264e32" prot="public" virt="non-virtual"><scope>ListOfSubstrings</scope><name>addSubstring</name></member>
+      <member refid="classListOfSubstrings_1aca3c37e86411bf80050bece7a1ec0df0" prot="public" virt="non-virtual"><scope>ListOfSubstrings</scope><name>begin</name></member>
+      <member refid="classListOfSubstrings_1a4b4c8edcbdf74d6c6b0e21551e504b98" prot="public" virt="non-virtual"><scope>ListOfSubstrings</scope><name>end</name></member>
+      <member refid="classListOfSubstrings_1ab8280100b0f6224eb4d36fc448d8eeb8" prot="public" virt="non-virtual"><scope>ListOfSubstrings</scope><name>ListOfSubstrings</name></member>
+      <member refid="classListOfSubstrings_1afbd8ea432d107cd2f1285c9fe5dd9b96" prot="public" virt="non-virtual"><scope>ListOfSubstrings</scope><name>numberOfSubstrings</name></member>
+      <member refid="classListOfSubstrings_1ae5aa0c336f8f5fab58a8d239cc5ab9d9" prot="public" virt="non-virtual"><scope>ListOfSubstrings</scope><name>~ListOfSubstrings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

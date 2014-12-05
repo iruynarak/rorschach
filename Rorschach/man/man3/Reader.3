@@ -1,0 +1,126 @@
+.TH "Reader< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Reader< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Reader\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBReader\fP (\fBstring\fP patternFileName, \fBstring\fP textFileName)"
+.br
+.ti -1c
+.RI "void \fBprintFiles\fP ()"
+.br
+.ti -1c
+.RI "bool \fBfileExist\fP (const \fBstd::string\fP &name)"
+.br
+.ti -1c
+.RI "\fBBox\fP< TypeOfContent > * \fBfilesToBox\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::fstream \fBtextFile\fP"
+.br
+.RI "\fIarquivo que contem o texto \fP"
+.ti -1c
+.RI "std::fstream \fBpatternFile\fP"
+.br
+.RI "\fIarquivo que contem o pattern \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class Reader< TypeOfContent >"
+
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo dos termos de text e pattern tipo usado para a leitura dos arquivos que contem o texto 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file Reader\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBReader\fP< TypeOfContent >::\fBReader\fP (\fBstring\fPpatternFileName, \fBstring\fPtextFileName)\fC [inline]\fP"
+Construtor que, atraves dos nomes dos arquivos, os abre\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpatternFileName\fP nome do arquivo contendo pattern 
+.br
+\fItextFileName\fP nome do arquivo contendo text 
+.RE
+.PP
+
+.PP
+Definition at line 60 of file Reader\&.h\&.
+.PP
+References Reader< TypeOfContent >::fileExist()\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename TypeOfContent> bool \fBReader\fP< TypeOfContent >::fileExist (const \fBstd::string\fP &name)\fC [inline]\fP"
+
+.PP
+Definition at line 117 of file Reader\&.h\&.
+.PP
+Referenced by Reader< TypeOfContent >::Reader()\&.
+.SS "template<typename TypeOfContent> \fBBox\fP<TypeOfContent>* \fBReader\fP< TypeOfContent >::filesToBox ()\fC [inline]\fP"
+através dos arquivos encontrados no construtor, lê cada arquivo e para cada um adiciona seu respectivo conteúdo em um vetor de Letter<char> diferente\&. Por fim, agrupa-os, junto aos seus tamanhos em um objeto do tipo \fBBox\fP 
+.PP
+\fBReturns:\fP
+.RS 4
+box contendo os vetores de Letter<char> criados e seus tamanhos 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBLetter\fP 
+.PP
+\fBBox\fP 
+.RE
+.PP
+
+.PP
+Definition at line 141 of file Reader\&.h\&.
+.PP
+Referenced by main()\&.
+.SS "template<typename TypeOfContent> void \fBReader\fP< TypeOfContent >::printFiles ()\fC [inline]\fP"
+transforma os dados de um arquivo diretamente no tipo \fBBox\fP Usado quando o dado a ser trabalho eh char\&. Quando for token, apos a leitura do arquivo eh necessario realizar um passo a mais para a tokenização 
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 85 of file Reader\&.h\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> std::fstream \fBReader\fP< TypeOfContent >::patternFile"
+
+.PP
+arquivo que contem o pattern 
+.PP
+Definition at line 53 of file Reader\&.h\&.
+.SS "template<typename TypeOfContent> std::fstream \fBReader\fP< TypeOfContent >::textFile"
+
+.PP
+arquivo que contem o texto 
+.PP
+Definition at line 49 of file Reader\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

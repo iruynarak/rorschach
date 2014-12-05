@@ -1,0 +1,35 @@
+#ifndef _ListOfSubstrings
+#include "ListOfSubstrings.h"
+#endif
+
+// @author Yuri Karan Benevides Tomas
+
+#ifndef _Reader
+	#include "Reader.h"
+#endif
+
+#ifndef _RKRGST
+	#include "RKRGST.h"
+#endif
+
+#define BASE 257
+
+typedef char* string;
+//	g++ -Wall -o teste *.cpp
+//   ./test ../input/01/pattern.txt ../input/01/text.txt
+
+int main(int argc, char** argv)
+{
+	Reader<char>* reader = new Reader<char>(argv[1], argv[2]);
+	//reader->printFiles();
+
+	Box<char>* box = reader->filesToBox();
+
+	//box->printBox();
+
+	int initialSearchLength = 3;
+	int minimumSearchLength = 2;
+	RKRGST<char>* rkrgst = new RKRGST<char> (  box, initialSearchLength, minimumSearchLength,  BASE);
+	rkrgst->execute();
+	return 0;
+}

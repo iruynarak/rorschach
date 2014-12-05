@@ -1,0 +1,67 @@
+If there are two ways in which the Internet is similar in the United States and Canada, it’s that it’s slow and expensive in both places relative to many developed countries. The big difference, however, is that Canada is looking into doing something about it.
+
+The Canadian Radio-television and Telecommunications Commission—the northern equivalent of the Federal Communications Commission (FCC)—is in its second week of hearings on how to ensure that Internet subscribers get access to the newest and fastest services at the best prices possible.
+
+The regulator is examining how the wholesale market, where smaller Internet service providers (ISPs) use parts of bigger companies’ networks to sell their own services, should operate in the years ahead.
+
+“In some ways we have a failed competitive market.”
+Of specific concern is whether those small ISPs should get mandated access to super-fast, next-generation fiber infrastructure.
+
+Indie ISPs are optimistic. Both the Canadian government and the CRTC have been outspoken in putting consumer needs first in recent years.
+
+“We believe they’re going to make decisions that err on the side of competition,” says Bill Sandiford, president of the Canadian Network Operators Consortium, a group representing 36 smaller ISPs. “I’m really hopeful and I believe it will happen.”
+
+Indie ISPs currently only get guaranteed access to older, copper-based networks that top out at double-digit-megabit speeds. Fiber and its gigabit capability promises a future of unimagined new applications—holographic video, anyone?
+
+They typically add on their own equipment and customer service capabilities, then offer connections at rates that are usually well below those of incumbent phone and cable providers. They also tend to offer more generous monthly usage caps.
+
+Ontario-based Teksavvy, for example, sells a 30-megabit connection with 300 gigabtyes of monthly usage in Toronto for $45 (Canadian). Similar service from cable giant Rogers costs about $77, or $62 with only 70 GB of usage.
+
+The United States used to have a similar mandated wholesale system, but the FCC axed most of it in the early 2000s in favour of so-called inter-modal competition. By opting not to give small ISPs access to fiber or several other types of network capabilities, the regulator instead endorsed a cable-versus-phone company duopoly, creating the system we all know and hate today.
+
+For most Americans, that has resulted in a choice of two Internet providers. A smattering of independent ISPs do exist, such as Wicked Broadband in Kansas or Sonic.net in California, but they are also left with access to older, slower networks that must be negotiated commercially, which means their wiggle room for offering consumers better deals is more limited.
+
+The FCC is currently considering new net neutrality rules. During the agency’s public comment period, millions of Americans asked the FCC to reclassify broadband Internet service as a public utility under Title II of the Communications Act, which could allow ISP startups to access the infrastructure laid by telecommunications giants like AT&T and Verizon.
+
+The ISP duopoly also exists up north, with five regional companies controlling about 75 per cent of the market. In central Canada, phone company Bell competes with cable providers Rogers and Quebecor, while Telus dukes it out with its cable rival Shaw in the west.
+
+In bigger cities, however, many consumers have some additional options. Smaller ISPs such as Teksavvy and Distributel have collectively captured about 10 percent of the national market.
+
+Their impact extends beyond just share—they exert downward pressure on pricing and have moved usage caps upward, for example.
+
+Despite that, higher-speed connections are expensive in both the United States and Canada, according to 2012 statistics from the Organization for Economic Co-operation and Development. For monthly usage of 54 GB or more on a 45-megabit or higher connection, Americans and Canadians paid about $89 (U.S.) and $64 per month, respectively.
+
+South Koreans, in comparison, paid about $16 for similar service. A gigabit connection from a major provider, such as KDDI in Japan, currently costs only $44. In Canada, service at one-third the speed costs about $200.
+
+Adoption of newer fiber-based services is relatively low in North America. As of December 2013, only 8 percent of Americans and 3 percent of Canadians were on fiber, compared to nearly 70 percent of Japanese and South Korean subscribers.
+
+Neither country performs well in most speed comparisons. The U.S. ranks 26th in download speeds on Ookla’s Net Index, while Canada places 39th, with both behind many European and Asian countries.
+
+Despite indie ISP optimism, the CRTC could decided that the best way to fix these issues is to go the other way. Big network owners say that having smaller competitors chipping away at their profits is a disincentive to rolling out fiber. To get there, they want the regulator to do away with regulated access altogether.
+
+The FCC agreed with that argument a decade ago and many smaller ISPs folded as a result. On the upside, big companies such as AT&T and Verizon, did hold true to their promises and rolled out fiber to millions of homes.
+
+The downside is that these companies are now free to set prices and service levels as they see fit, with no competitive checks.
+
+“It is striking and ironic to see the market power that was accreted to those large carriers. It’s been used to create high costs and limited services with usage caps,” says Dane Jasper, president of Sonic.net. “In some ways we have a failed competitive market.”
+
+The original idea behind mandated network access is the “ladder of investment” theory, where an ISP first uses existing infrastructure to build its business and then trades up to laying its own network.
+
+The plan has worked to some extent in both Canada and the U.S., where a few smaller providers have indeed built their own infrastructure. Sonic, for one, has deployed fiber in Sebastopol, Calif., and is currently building in Brentwood and San Francisco.
+
+"I’m not sure consumers want a second set of poles running down the street.”
+But the latter theory has its share of critics, who argue that building numerous networks when several already exist is wasteful if not outright foolhardy. Regulators and governments in the United Kingdom and Australia, for example, have instead opted for strong mandated sharing rules, building a government-owned network, or both.
+
+“In a lot of cases, it’s not economically feasible or reasonable to be duplicating that sort of infrastructure all over the place,” Sandiford says. “Even if it was, I’m not sure consumers want a second set of poles running down the street.”
+
+Stronger open access is a possibility in Canada, but the CRTC could also go the way of the U.S. and opt to re-establish a duopoly as the best way to get faster networks.
+
+“The open-access model gives me alternative providers, but does it really advance the end goal, which is fiber to the home?” says Catherine Middleton, the Canada Research Chair in Communication Technologies at the Information Society at Ryerson University in Toronto.
+
+The differences in Internet access in the United States and Canada may ultimately come down to historical biases. With many Canadian incumbents having been wholly or partially owned by various governments at some point, there is generally a greater acceptance of governance by all parties.
+
+In the United States, where the major companies have always been privately owned, tolerance for intervention is lower. With the sorts of strict network-sharing rules seen elsewhere unlikely, the ladder of investment theory may be the only option.
+
+“It would be efficient and better for everyone except the entities that are privately owned and that have made substantial investments in their networks,” Jasper says. “But I don’t hold out much hope for it.”
+
+http://www.dailydot.com/politics/canada-net-neutrality-title-ii-fcc-isp/

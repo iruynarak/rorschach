@@ -1,0 +1,323 @@
+No segundo trimestre de 2014 foram vendidos 2,65 milhões de PCs, o que representa uma queda de 26% em comparação ao volume comercializado no mesmo período em 2013 e uma ligeira recuperação em relação ao primeiro trimestre deste ano, quando as vendas foram de 2,4 milhões de unidades.
+
+Os notebooks lideram as vendas de PCs, com 62% das unidades vendidas no segundo trimestre, contra 38% dos desktops, segundo dados da IDC Brasil. Considerando os seis primeiros meses de 2014, o estudo da IDC Brasil mostra que as vendas de PCs caíram 27% em relação ao primeiro semestre de 2013, e a queda se deu tanto no mercado corporativo (-30%) como no de consumo (-26%).
+
+“Entre os consumidores, há o fator Copa do Mundo, enquanto o mercado corporativo é sempre mais cauteloso ao fazer investimentos em anos de eleições, especialmente no setor de médias e grandes empresas. Além disso, há uma diminuição drástica nas compras do setor público, com a entrega de projetos já licitados, e poucas novas licitações”, comenta Pedro Hagge, analista de mercado da IDC Brasil.
+
+O desempenho do mercado de PCs confirma as projeções da IDC Brasil que indicavam um ano bastante negativo, por conta deste cenário.
+
+
+Pedro Hagge
+
+Pedro Hagge
+No segundo trimestre de 2014 foram vendidos 2,65 milhões de PCs, o que representa uma queda de 26% em comparação ao volume comercializado no mesmo período em 2013 e uma ligeira recuperação em relação ao primeiro trimestre deste ano, quando as vendas foram de 2,4 milhões de unidades.
+
+Os notebooks lideram as vendas de PCs, com 62% das unidades vendidas no segundo trimestre, contra 38% dos desktops, segundo dados da IDC Brasil. Considerando os seis primeiros meses de 2014, o estudo da IDC Brasil mostra que as vendas de PCs caíram 27% em relação ao primeiro semestre de 2013, e a queda se deu tanto no mercado corporativo (-30%) como no de consumo (-26%).
+
+“Entre os consumidores, há o fator Copa do Mundo, enquanto o mercado corporativo é sempre mais cauteloso ao fazer investimentos em anos de eleições, especialmente no setor de médias e grandes empresas. Além disso, há uma diminuição drástica nas compras do setor público, com a entrega de projetos já licitados, e poucas novas licitações”, comenta Pedro Hagge, analista de mercado da IDC Brasil.
+
+O desempenho do mercado de PCs confirma as projeções da IDC Brasil que indicavam um ano bastante negativo, por conta deste cenário.
+
+
+------------------------------
+minimum: 2 | searchLength: 4
+
+Ocorreu match
+	foi possivel aumentar o match de 4 para 11
+------------------------------
+minimum: 2 | searchLength: 11
+
+Ocorreu match
+ *** Match ( length: 11| patternIndex: 0| textIndex: 1037)
+ *** Match ( length: 11| patternIndex: 0| textIndex: 1037)
+NOT OCCLUDED
+length: 11 patternIndex: 0 textIndex: 1037
+------------------------------
+minimum: 2 | searchLength: 5
+
+Ocorreu match
+ *** Match ( length: 5| patternIndex: 1| textIndex: 1038)
+Ocorreu match
+ *** Match ( length: 5| patternIndex: 3| textIndex: 1040)
+Ocorreu match
+ *** Match ( length: 5| patternIndex: 5| textIndex: 1042)
+OCCLUDED
+length: 5 patternIndex: 1 textIndex: 1038
+OCCLUDED
+length: 5 patternIndex: 3 textIndex: 1040
+OCCLUDED
+length: 5 patternIndex: 5 textIndex: 1042
+------------------------------
+minimum: 2 | searchLength: 2
+
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 1| textIndex: 89)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 1| textIndex: 597)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 1| textIndex: 1038)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 3| textIndex: 217)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 3| textIndex: 466)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 3| textIndex: 570)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 3| textIndex: 974)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 3| textIndex: 1040)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 3| textIndex: 1130)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 5| textIndex: 1042)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 7| textIndex: 1044)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 9| textIndex: 175)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 9| textIndex: 1046)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 0| textIndex: 1037)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 2| textIndex: 915)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 2| textIndex: 1039)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 1)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 9)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 66)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 114)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 117)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 139)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 142)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 148)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 157)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 193)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 206)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 209)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 218)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 246)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 364)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 372)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 416)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 450)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 485)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 492)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 559)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 562)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 571)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 612)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 615)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 623)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 635)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 647)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 650)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 661)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 702)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 716)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 732)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 734)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 742)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 754)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 779)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 782)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 842)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 913)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 938)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 1041)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 1068)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 1097)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 1100)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 1108)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 4| textIndex: 1174)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 6| textIndex: 1043)
+Ocorreu match
+ *** Match ( length: 2| patternIndex: 8| textIndex: 1045)
+OCCLUDED
+length: 2 patternIndex: 1 textIndex: 89
+OCCLUDED
+length: 2 patternIndex: 1 textIndex: 597
+OCCLUDED
+length: 2 patternIndex: 1 textIndex: 1038
+OCCLUDED
+length: 2 patternIndex: 3 textIndex: 217
+OCCLUDED
+length: 2 patternIndex: 3 textIndex: 466
+OCCLUDED
+length: 2 patternIndex: 3 textIndex: 570
+OCCLUDED
+length: 2 patternIndex: 3 textIndex: 974
+OCCLUDED
+length: 2 patternIndex: 3 textIndex: 1040
+OCCLUDED
+length: 2 patternIndex: 3 textIndex: 1130
+OCCLUDED
+length: 2 patternIndex: 5 textIndex: 1042
+OCCLUDED
+length: 2 patternIndex: 7 textIndex: 1044
+OCCLUDED
+length: 2 patternIndex: 9 textIndex: 175
+OCCLUDED
+length: 2 patternIndex: 9 textIndex: 1046
+OCCLUDED
+length: 2 patternIndex: 0 textIndex: 1037
+OCCLUDED
+length: 2 patternIndex: 2 textIndex: 915
+OCCLUDED
+length: 2 patternIndex: 2 textIndex: 1039
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 1
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 9
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 66
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 114
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 117
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 139
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 142
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 148
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 157
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 193
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 206
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 209
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 218
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 246
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 364
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 372
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 416
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 450
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 485
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 492
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 559
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 562
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 571
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 612
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 615
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 623
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 635
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 647
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 650
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 661
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 702
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 716
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 732
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 734
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 742
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 754
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 779
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 782
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 842
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 913
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 938
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 1041
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 1068
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 1097
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 1100
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 1108
+OCCLUDED
+length: 2 patternIndex: 4 textIndex: 1174
+OCCLUDED
+length: 2 patternIndex: 6 textIndex: 1043
+OCCLUDED
+length: 2 patternIndex: 8 textIndex: 1045
+------------------------------
+
+
+
+
+___________________________________________
+
+length: 11 patternIndex: 0 textIndex: 1037
+
+lengthOfTokensTiled: 11
+

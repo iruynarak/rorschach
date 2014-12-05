@@ -1,0 +1,137 @@
+.TH "Box< TypeOfContent >" 3 "Thu Dec 4 2014" "Rorschach" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Box< TypeOfContent > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Box\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBox\fP (\fBLetter\fP< TypeOfContent > *\fBpattern\fP, int \fBpatternSize\fP, \fBLetter\fP< TypeOfContent > *\fBtext\fP, int \fBtextSize\fP)"
+.br
+.ti -1c
+.RI "\fB~Box\fP ()"
+.br
+.ti -1c
+.RI "void \fBprintBox\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBLetter\fP< TypeOfContent > * \fBpattern\fP"
+.br
+.RI "\fIVetor de \fBLetter\fP alocada dinamicamente contendo pattern\&. \fP"
+.ti -1c
+.RI "int \fBpatternSize\fP"
+.br
+.RI "\fITamanho do vetor de \fBLetter\fP contendo o padrão\&. \fP"
+.ti -1c
+.RI "\fBLetter\fP< TypeOfContent > * \fBtext\fP"
+.br
+.RI "\fIVetor contendo o texto onde será realizada a busca do padrão\&. \fP"
+.ti -1c
+.RI "int \fBtextSize\fP"
+.br
+.RI "\fITamanho do vetor de \fBLetter\fP contendo o texto onde será realizada a busca do padrão\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename TypeOfContent>class Box< TypeOfContent >"
+
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fITypeOfContent\fP tipo da letra do alfabeto utilizado\&. Tipo dos termos da pattern e da text Classe criada para facilitar a administracao dos dados\&. Isto diminuira o tamanho do construtor do \fBRKRGST\fP ao menos tempo que agrupara estes dados\&. 
+.RE
+.PP
+
+.PP
+Definition at line 35 of file Box\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBBox\fP< TypeOfContent >::\fBBox\fP (\fBLetter\fP< TypeOfContent > *pattern, intpatternSize, \fBLetter\fP< TypeOfContent > *text, inttextSize)\fC [inline]\fP"
+Construtor da classe \fBBox\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpattern\fP vetor de \fBLetter\fP contendo o padrão 
+.br
+\fIpatternSize\fP tamanho do vetor de \fBLetter\fP contendo o padrão 
+.br
+\fItext\fP vetor contendo o texto onde será realizada a busca do padrão 
+.br
+\fItextSize\fP tamanho do vetor de \fBLetter\fP contendo o texto onde será realizada a busca do padrão 
+.RE
+.PP
+
+.PP
+Definition at line 58 of file Box\&.h\&.
+.PP
+References Box< TypeOfContent >::pattern, Box< TypeOfContent >::patternSize, Box< TypeOfContent >::text, and Box< TypeOfContent >::textSize\&.
+.SS "template<typename TypeOfContent> \fBBox\fP< TypeOfContent >::~\fBBox\fP ()\fC [inline]\fP"
+Destrutor da classe \fBBox\fP 
+.PP
+Definition at line 69 of file Box\&.h\&.
+.PP
+References Box< TypeOfContent >::pattern, and Box< TypeOfContent >::text\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename TypeOfContent> void \fBBox\fP< TypeOfContent >::printBox ()\fC [inline]\fP"
+Método que imprime o conteúdo de pattern e text 
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file Box\&.h\&.
+.PP
+References Box< TypeOfContent >::patternSize, and Box< TypeOfContent >::textSize\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename TypeOfContent> \fBLetter\fP<TypeOfContent>* \fBBox\fP< TypeOfContent >::pattern"
+
+.PP
+Vetor de \fBLetter\fP alocada dinamicamente contendo pattern\&. 
+.PP
+Definition at line 39 of file Box\&.h\&.
+.PP
+Referenced by Box< TypeOfContent >::Box(), RKRGST< TypeOfContent >::findPatternSubstring(), RKRGST< TypeOfContent >::markTokens(), RKRGST< TypeOfContent >::occluded(), RKRGST< TypeOfContent >::scanPattern(), and Box< TypeOfContent >::~Box()\&.
+.SS "template<typename TypeOfContent> int \fBBox\fP< TypeOfContent >::patternSize"
+
+.PP
+Tamanho do vetor de \fBLetter\fP contendo o padrão\&. 
+.PP
+Definition at line 42 of file Box\&.h\&.
+.PP
+Referenced by Box< TypeOfContent >::Box(), RKRGST< TypeOfContent >::findPatternSubstring(), Box< TypeOfContent >::printBox(), and RKRGST< TypeOfContent >::scanPattern()\&.
+.SS "template<typename TypeOfContent> \fBLetter\fP<TypeOfContent>* \fBBox\fP< TypeOfContent >::text"
+
+.PP
+Vetor contendo o texto onde será realizada a busca do padrão\&. 
+.PP
+Definition at line 45 of file Box\&.h\&.
+.PP
+Referenced by Box< TypeOfContent >::Box(), RKRGST< TypeOfContent >::fillTextHashTable(), RKRGST< TypeOfContent >::markTokens(), RKRGST< TypeOfContent >::occluded(), and Box< TypeOfContent >::~Box()\&.
+.SS "template<typename TypeOfContent> int \fBBox\fP< TypeOfContent >::textSize"
+
+.PP
+Tamanho do vetor de \fBLetter\fP contendo o texto onde será realizada a busca do padrão\&. 
+.PP
+Definition at line 48 of file Box\&.h\&.
+.PP
+Referenced by Box< TypeOfContent >::Box(), RKRGST< TypeOfContent >::fillTextHashTable(), Box< TypeOfContent >::printBox(), and RKRGST< TypeOfContent >::scanPattern()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rorschach from the source code\&.

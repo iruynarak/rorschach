@@ -1,0 +1,595 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classRKRGST" kind="class" prot="public">
+    <compoundname>RKRGST</compoundname>
+    <includes refid="RKRGST_8h" local="no">RKRGST.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TypeOfContent</declname>
+        <defname>TypeOfContent</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classRKRGST_1ad4e450cff7656afab26be8eb27c4f87c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RKRGST&lt; TypeOfContent &gt;::initialSearchLength</definition>
+        <argsstring></argsstring>
+        <name>initialSearchLength</name>
+        <briefdescription>
+<para>Tamanho inicial do padrão buscado. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="54" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" compoundref="RKRGST_8h" startline="104" endline="150">RKRGST&lt; TypeOfContent &gt;::execute</referencedby>
+        <referencedby refid="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" compoundref="RKRGST_8h" startline="86" endline="99">RKRGST&lt; TypeOfContent &gt;::RKRGST</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1aaf28410e7b3c34bcfbffd17cd0d014b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RKRGST&lt; TypeOfContent &gt;::minimumSearchLength</definition>
+        <argsstring></argsstring>
+        <name>minimumSearchLength</name>
+        <briefdescription>
+<para>Tamanho mínimo a ser buscado. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="56" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" compoundref="RKRGST_8h" startline="104" endline="150">RKRGST&lt; TypeOfContent &gt;::execute</referencedby>
+        <referencedby refid="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" compoundref="RKRGST_8h" startline="86" endline="99">RKRGST&lt; TypeOfContent &gt;::RKRGST</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1aea66b780697be63c91342029335ad8ef" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RKRGST&lt; TypeOfContent &gt;::primeNumber</definition>
+        <argsstring></argsstring>
+        <name>primeNumber</name>
+        <briefdescription>
+<para>Número primo utilizado na hash. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="59" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1ae0737f82fb5c44b9edd663a9ed00a7fe" prot="public" static="no" mutable="no">
+        <type><ref refid="classBox" kindref="compound">Box</ref>&lt; TypeOfContent &gt; *</type>
+        <definition>Box&lt; TypeOfContent &gt;* RKRGST&lt; TypeOfContent &gt;::box</definition>
+        <argsstring></argsstring>
+        <name>box</name>
+        <briefdescription>
+<para>Container de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="62" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" compoundref="RKRGST_8h" startline="86" endline="99">RKRGST&lt; TypeOfContent &gt;::RKRGST</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1ad2335f6d83faf621a99b66c680f32b5d" prot="public" static="no" mutable="no">
+        <type><ref refid="classListOfTiles" kindref="compound">ListOfTiles</ref> *</type>
+        <definition>ListOfTiles* RKRGST&lt; TypeOfContent &gt;::listOfPatternTiles</definition>
+        <argsstring></argsstring>
+        <name>listOfPatternTiles</name>
+        <briefdescription>
+<para>Ponteiro para um objeto da classe <ref refid="classListOfTiles" kindref="compound">ListOfTiles</ref> que contém uma lista de objetos da classe <ref refid="classTile" kindref="compound">Tile</ref> relativos à Pattern. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="65" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1a03afdb90a534a2420da654ddadb032c2" prot="public" static="no" mutable="no">
+        <type><ref refid="classListOfTiles" kindref="compound">ListOfTiles</ref> *</type>
+        <definition>ListOfTiles* RKRGST&lt; TypeOfContent &gt;::listOfTextTiles</definition>
+        <argsstring></argsstring>
+        <name>listOfTextTiles</name>
+        <briefdescription>
+<para>Ponteiro para um objeto da classe <ref refid="classListOfTiles" kindref="compound">ListOfTiles</ref> que contém uma lista de objetos da classe <ref refid="classTile" kindref="compound">Tile</ref> relativos à Text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="68" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1a49054fd9d1f1fc34a5c2dedaba5e6f14" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RKRGST&lt; TypeOfContent &gt;::baseLength</definition>
+        <argsstring></argsstring>
+        <name>baseLength</name>
+        <briefdescription>
+<para>Tamanho da base dos números gerados pela <ref refid="classRollingHash" kindref="compound">RollingHash</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="71" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</referencedby>
+        <referencedby refid="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" compoundref="RKRGST_8h" startline="86" endline="99">RKRGST&lt; TypeOfContent &gt;::RKRGST</referencedby>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1aaebf5b2da8490b6fc1ea06300914256e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RKRGST&lt; TypeOfContent &gt;::lengthOfTokensTiled</definition>
+        <argsstring></argsstring>
+        <name>lengthOfTokensTiled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="73" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="73" bodyend="-1"/>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRKRGST_1a1ae736b742c0cbcdd6d30c5201d4181b" prot="public" static="no" mutable="no">
+        <type><ref refid="classListOfMatches" kindref="compound">ListOfMatches</ref> *</type>
+        <definition>ListOfMatches* RKRGST&lt; TypeOfContent &gt;::listOfFinalTiles</definition>
+        <argsstring></argsstring>
+        <name>listOfFinalTiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="75" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="75" bodyend="-1"/>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RKRGST&lt; TypeOfContent &gt;::RKRGST</definition>
+        <argsstring>(Box&lt; TypeOfContent &gt; *box, int initialSearchLength, int minimumSearchLength, int baseLength)</argsstring>
+        <name>RKRGST</name>
+        <param>
+          <type><ref refid="classBox" kindref="compound">Box</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>initialSearchLength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minimumSearchLength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>baseLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construtor de objeto da classe <ref refid="classRKRGST" kindref="compound">RKRGST</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>box</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container de dados que guarda a palavra que compõe a Text, a palavra que contém a Pattern e seus respectivos tamanhos </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initialSearchLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho inicial do padrão buscado </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minimumSearchLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho mínimo a ser buscado </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>baseLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho da base dos números gerados pela <ref refid="classRollingHash" kindref="compound">RollingHash</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="86" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="86" bodyend="99"/>
+        <references refid="classRKRGST_1a49054fd9d1f1fc34a5c2dedaba5e6f14" compoundref="RKRGST_8h" startline="71">RKRGST&lt; TypeOfContent &gt;::baseLength</references>
+        <references refid="classRKRGST_1ae0737f82fb5c44b9edd663a9ed00a7fe" compoundref="RKRGST_8h" startline="62">RKRGST&lt; TypeOfContent &gt;::box</references>
+        <references refid="classRKRGST_1ad4e450cff7656afab26be8eb27c4f87c" compoundref="RKRGST_8h" startline="54">RKRGST&lt; TypeOfContent &gt;::initialSearchLength</references>
+        <references refid="classRKRGST_1aaf28410e7b3c34bcfbffd17cd0d014b2" compoundref="RKRGST_8h" startline="56">RKRGST&lt; TypeOfContent &gt;::minimumSearchLength</references>
+        <references refid="classRandomPrime_1a322ce83f7af45e67d009ff3ed19d0047" compoundref="RandomPrime_8h" startline="76" endline="91">RandomPrime::newRandomPrime</references>
+      </memberdef>
+      <memberdef kind="function" id="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RKRGST&lt; TypeOfContent &gt;::execute</definition>
+        <argsstring>()</argsstring>
+        <name>execute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método que executa t odo o algoritmo <ref refid="classRKRGST" kindref="compound">RKRGST</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="104" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="104" bodyend="150"/>
+        <references refid="classRKRGST_1ad4e450cff7656afab26be8eb27c4f87c" compoundref="RKRGST_8h" startline="54">RKRGST&lt; TypeOfContent &gt;::initialSearchLength</references>
+        <references refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" compoundref="RKRGST_8h" startline="157" endline="183">RKRGST&lt; TypeOfContent &gt;::markArrays</references>
+        <references refid="RKRGST_8h_1a7a9a231e30b47bc0345749c8bd1e5077" compoundref="RKRGST_8h" startline="38">MAX_LENGTH</references>
+        <references refid="classRKRGST_1aaf28410e7b3c34bcfbffd17cd0d014b2" compoundref="RKRGST_8h" startline="56">RKRGST&lt; TypeOfContent &gt;::minimumSearchLength</references>
+        <references refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</references>
+        <referencedby refid="Main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="Main_8cpp" startline="58" endline="120">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RKRGST&lt; TypeOfContent &gt;::markArrays</definition>
+        <argsstring>(int searchLength, ListOfMatches *listOfMatches)</argsstring>
+        <name>markArrays</name>
+        <param>
+          <type>int</type>
+          <declname>searchLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classListOfMatches" kindref="compound">ListOfMatches</ref> *</type>
+          <declname>listOfMatches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método que marca as letras de um casamento <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho do casamento. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>listOfMatches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Casamentos a serem marcados. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="157" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="157" bodyend="183"/>
+        <references refid="classListOfMatches_1a44472d7bbe64b949bf8ce289bda3134f" compoundref="ListOfMatches_8cpp" startline="26" endline="76">ListOfMatches::insert</references>
+        <references refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" compoundref="Match_8h" startline="33">Match::length</references>
+        <references refid="classRKRGST_1af44ddce704c698ee3cb38a7262a36874" compoundref="RKRGST_8h" startline="637" endline="644">RKRGST&lt; TypeOfContent &gt;::markTokens</references>
+        <references refid="classListOfMatches_1ab5b4c972df3758bed3fd5ace4d78a4c8" compoundref="ListOfMatches_8h" startline="37">ListOfMatches::numberOfMatches</references>
+        <references refid="classRKRGST_1aa2b3943e1897025c9f8293ee98edabca" compoundref="RKRGST_8h" startline="616" endline="629">RKRGST&lt; TypeOfContent &gt;::occluded</references>
+        <references refid="classMatch_1ac673bad1075e5499f0d857ed0a526fa2" compoundref="Match_8h" startline="35">Match::patternIndex</references>
+        <references refid="classListOfMatches_1a58a6a1649e3731b0e9af20211e4fd03f" compoundref="ListOfMatches_8cpp" startline="78" endline="90">ListOfMatches::remove</references>
+        <references refid="classMatch_1aee534a2e3d23f7d069a618e1cb7b6343" compoundref="Match_8h" startline="37">Match::textIndex</references>
+        <referencedby refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" compoundref="RKRGST_8h" startline="104" endline="150">RKRGST&lt; TypeOfContent &gt;::execute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RKRGST&lt; TypeOfContent &gt;::scanPattern</definition>
+        <argsstring>(int searchLength, ListOfMatches *listOfMatches)</argsstring>
+        <name>scanPattern</name>
+        <param>
+          <type>int</type>
+          <declname>searchLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classListOfMatches" kindref="compound">ListOfMatches</ref> *</type>
+          <declname>listOfMatches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Buscando casamentos de tamanho searchLength <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho do casamento sendo buscado. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>listOfMatches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista de casamentos encontrados na scanPattern. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Tabela de Hash contendo as substrings de Text </para>        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="190" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="190" bodyend="311"/>
+        <references refid="classRKRGST_1a49054fd9d1f1fc34a5c2dedaba5e6f14" compoundref="RKRGST_8h" startline="71">RKRGST&lt; TypeOfContent &gt;::baseLength</references>
+        <references refid="classSubstring_1a88e2864cc7847c7f57815de891246cfe" compoundref="Substring_8h" startline="52">Substring&lt; TypeOfContent &gt;::begin</references>
+        <references refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" compoundref="RKRGST_8h" startline="397" endline="609">RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</references>
+        <references refid="classRKRGST_1a37cf8598f504f175035a83a69cfeaa08" compoundref="RKRGST_8h" startline="319" endline="389">RKRGST&lt; TypeOfContent &gt;::findPatternSubstring</references>
+        <references refid="classListOfMatches_1a44472d7bbe64b949bf8ce289bda3134f" compoundref="ListOfMatches_8cpp" startline="26" endline="76">ListOfMatches::insert</references>
+        <references refid="RKRGST_8h_1a7a9a231e30b47bc0345749c8bd1e5077" compoundref="RKRGST_8h" startline="38">MAX_LENGTH</references>
+        <references refid="classSubstring_1a5965b296a10e4a5fd874913f07754451" compoundref="Substring_8h" startline="44">Substring&lt; TypeOfContent &gt;::next</references>
+        <references refid="classBox_1aa1b857944564f517d12997289e5987ba" compoundref="Box_8h" startline="39">Box&lt; TypeOfContent &gt;::pattern</references>
+        <references refid="classBox_1acadd4d6b43a90560a093cb64aa77b7e9" compoundref="Box_8h" startline="42">Box&lt; TypeOfContent &gt;::patternSize</references>
+        <references refid="classRKRGST_1aea66b780697be63c91342029335ad8ef" compoundref="RKRGST_8h" startline="59">RKRGST&lt; TypeOfContent &gt;::primeNumber</references>
+        <references refid="classSubstring_1a84e0e55a0ecbd5f74d25441df0edc68e" compoundref="Substring_8h" startline="49">Substring&lt; TypeOfContent &gt;::rollingHash</references>
+        <references refid="classSubstring_1a8d1fd97efa348288f4b39bea36a8e879" compoundref="Substring_8h" startline="42">Substring&lt; TypeOfContent &gt;::string</references>
+        <references refid="classHashTable_1a1772210583a06ad2f1039e7fecbc588c" compoundref="HashTable_8h" startline="46">HashTable&lt; TypeOfContent &gt;::table</references>
+        <references refid="classBox_1a2bfb2b656e74bc0f87f8acda76afbc86" compoundref="Box_8h" startline="48">Box&lt; TypeOfContent &gt;::textSize</references>
+        <referencedby refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" compoundref="RKRGST_8h" startline="104" endline="150">RKRGST&lt; TypeOfContent &gt;::execute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRKRGST_1a37cf8598f504f175035a83a69cfeaa08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RKRGST&lt; TypeOfContent &gt;::findPatternSubstring</definition>
+        <argsstring>(int searchLength, HashTable&lt; TypeOfContent &gt; *textHashTable, int actualIndex)</argsstring>
+        <name>findPatternSubstring</name>
+        <param>
+          <type>int</type>
+          <declname>searchLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classHashTable" kindref="compound">HashTable</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>textHashTable</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>actualIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encontra o índice do início de uma substring de tamanho searchLength. Nenhuma as suas letras podem estar marcadas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho das substrings buscadas. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>textHashTable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tabela de Hash das subcadeias de text. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>actualIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indice da letra do pattern </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o índice inicial da substring ou -1 caso não haja substring de tamanho searchLength sem letras marcadas. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="319" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="319" bodyend="389"/>
+        <references refid="classTile_1abf2eb9ed61ada2b1a35386e5f20bd350" compoundref="Tile_8h" startline="40">Tile::begin</references>
+        <references refid="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" compoundref="ListOfTiles_8h" startline="45">ListOfTiles::begin</references>
+        <references refid="classTile_1a39ee840ddb65bf9ad1fb12667e92993c" compoundref="Tile_8h" startline="43">Tile::end</references>
+        <references refid="classTile_1a3c9f5e6070368625c8bfc8b9d30282ca" compoundref="Tile_8h" startline="35">Tile::next</references>
+        <references refid="classBox_1aa1b857944564f517d12997289e5987ba" compoundref="Box_8h" startline="39">Box&lt; TypeOfContent &gt;::pattern</references>
+        <references refid="classBox_1acadd4d6b43a90560a093cb64aa77b7e9" compoundref="Box_8h" startline="42">Box&lt; TypeOfContent &gt;::patternSize</references>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RKRGST&lt; TypeOfContent &gt;::fillTextHashTable</definition>
+        <argsstring>(int searchLength, HashTable&lt; TypeOfContent &gt; *textHashTable)</argsstring>
+        <name>fillTextHashTable</name>
+        <param>
+          <type>int</type>
+          <declname>searchLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classHashTable" kindref="compound">HashTable</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>textHashTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Preenche a tabela de hash do texto com todas as substrings de tamanho searchLength não marcadas <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho das substrings buscadas. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>textHashTable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tabela de Hash das subcadeias de text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classHashTable" kindref="compound">HashTable</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="397" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="397" bodyend="609"/>
+        <references refid="classHashTable_1a26d5ad659135103f261c4ded31fda22e" compoundref="HashTable_8h" startline="62" endline="65">HashTable&lt; TypeOfContent &gt;::addHash</references>
+        <references refid="classSubstring_1ae5eb3f9712352741b8bf65b2b231356c" compoundref="Substring_8h" startline="100" endline="104">Substring&lt; TypeOfContent &gt;::append</references>
+        <references refid="classRKRGST_1a49054fd9d1f1fc34a5c2dedaba5e6f14" compoundref="RKRGST_8h" startline="71">RKRGST&lt; TypeOfContent &gt;::baseLength</references>
+        <references refid="classTile_1abf2eb9ed61ada2b1a35386e5f20bd350" compoundref="Tile_8h" startline="40">Tile::begin</references>
+        <references refid="classListOfTiles_1a19f2f2aac9802594a1080a199fa5b3b7" compoundref="ListOfTiles_8h" startline="45">ListOfTiles::begin</references>
+        <references refid="classSubstring_1a88e2864cc7847c7f57815de891246cfe" compoundref="Substring_8h" startline="52">Substring&lt; TypeOfContent &gt;::begin</references>
+        <references refid="classTile_1a39ee840ddb65bf9ad1fb12667e92993c" compoundref="Tile_8h" startline="43">Tile::end</references>
+        <references refid="classSubstring_1a5a223bd1f3483d1ee55f4b3997a48862" compoundref="Substring_8h" startline="55">Substring&lt; TypeOfContent &gt;::end</references>
+        <references refid="classTile_1a3c9f5e6070368625c8bfc8b9d30282ca" compoundref="Tile_8h" startline="35">Tile::next</references>
+        <references refid="classSubstring_1a5965b296a10e4a5fd874913f07754451" compoundref="Substring_8h" startline="44">Substring&lt; TypeOfContent &gt;::next</references>
+        <references refid="classSubstring_1a992d0f85409426c420d243ac18d2bca5" compoundref="Substring_8h" startline="46">Substring&lt; TypeOfContent &gt;::previous</references>
+        <references refid="classRKRGST_1aea66b780697be63c91342029335ad8ef" compoundref="RKRGST_8h" startline="59">RKRGST&lt; TypeOfContent &gt;::primeNumber</references>
+        <references refid="classSubstring_1a84e0e55a0ecbd5f74d25441df0edc68e" compoundref="Substring_8h" startline="49">Substring&lt; TypeOfContent &gt;::rollingHash</references>
+        <references refid="classSubstring_1a618432b07f7469537bd8de5c9dccc02f" compoundref="Substring_8h" startline="112" endline="116">Substring&lt; TypeOfContent &gt;::skip</references>
+        <references refid="classSubstring_1a8d1fd97efa348288f4b39bea36a8e879" compoundref="Substring_8h" startline="42">Substring&lt; TypeOfContent &gt;::string</references>
+        <references refid="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" compoundref="Box_8h" startline="45">Box&lt; TypeOfContent &gt;::text</references>
+        <references refid="classBox_1a2bfb2b656e74bc0f87f8acda76afbc86" compoundref="Box_8h" startline="48">Box&lt; TypeOfContent &gt;::textSize</references>
+        <referencedby refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" compoundref="RKRGST_8h" startline="190" endline="311">RKRGST&lt; TypeOfContent &gt;::scanPattern</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRKRGST_1aa2b3943e1897025c9f8293ee98edabca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RKRGST&lt; TypeOfContent &gt;::occluded</definition>
+        <argsstring>(Box&lt; TypeOfContent &gt; *box, Match *match)</argsstring>
+        <name>occluded</name>
+        <param>
+          <type><ref refid="classBox" kindref="compound">Box</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type><ref refid="classMatch" kindref="compound">Match</ref> *</type>
+          <declname>match</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Verifica se o casamento é ocluso por algum tile. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>box</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto contendo text, pattern e seus respectivos tamanhos. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>match</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Casamento a ser verificado </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="616" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="616" bodyend="629"/>
+        <references refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" compoundref="Match_8h" startline="33">Match::length</references>
+        <references refid="classBox_1aa1b857944564f517d12997289e5987ba" compoundref="Box_8h" startline="39">Box&lt; TypeOfContent &gt;::pattern</references>
+        <references refid="classMatch_1ac673bad1075e5499f0d857ed0a526fa2" compoundref="Match_8h" startline="35">Match::patternIndex</references>
+        <references refid="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" compoundref="Box_8h" startline="45">Box&lt; TypeOfContent &gt;::text</references>
+        <references refid="classMatch_1aee534a2e3d23f7d069a618e1cb7b6343" compoundref="Match_8h" startline="37">Match::textIndex</references>
+        <referencedby refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" compoundref="RKRGST_8h" startline="157" endline="183">RKRGST&lt; TypeOfContent &gt;::markArrays</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRKRGST_1af44ddce704c698ee3cb38a7262a36874" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RKRGST&lt; TypeOfContent &gt;::markTokens</definition>
+        <argsstring>(Box&lt; TypeOfContent &gt; *box, Match *match)</argsstring>
+        <name>markTokens</name>
+        <param>
+          <type><ref refid="classBox" kindref="compound">Box</ref>&lt; TypeOfContent &gt; *</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type><ref refid="classMatch" kindref="compound">Match</ref> *</type>
+          <declname>match</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marca os tokens de um casamento <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>box</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto contendo text, pattern e seus respectivos tamanhos. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>match</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Casamento a ser marcado </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="637" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="637" bodyend="644"/>
+        <references refid="classMatch_1aa7e6b74eb7831de7a921ef7d3655d19a" compoundref="Match_8h" startline="33">Match::length</references>
+        <references refid="classBox_1aa1b857944564f517d12997289e5987ba" compoundref="Box_8h" startline="39">Box&lt; TypeOfContent &gt;::pattern</references>
+        <references refid="classMatch_1ac673bad1075e5499f0d857ed0a526fa2" compoundref="Match_8h" startline="35">Match::patternIndex</references>
+        <references refid="classBox_1a5c23fcbcde78ac65c62127c2b272ac30" compoundref="Box_8h" startline="45">Box&lt; TypeOfContent &gt;::text</references>
+        <references refid="classMatch_1aee534a2e3d23f7d069a618e1cb7b6343" compoundref="Match_8h" startline="37">Match::textIndex</references>
+        <referencedby refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" compoundref="RKRGST_8h" startline="157" endline="183">RKRGST&lt; TypeOfContent &gt;::markArrays</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TypeOfContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo da letra do alfabeto utilizado. Tipo dos termos da pattern e da text Classe contendo todos os algoritmos realizados pelo <ref refid="classRKRGST" kindref="compound">RKRGST</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="62">
+        <label>ListOfMatches</label>
+        <link refid="classListOfMatches"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>begin</edgelabel>
+        </childnode>
+      </node>
+      <node id="63">
+        <label>Match</label>
+        <link refid="classMatch"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>previous</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
+        <label>Tile</label>
+        <link refid="classTile"/>
+        <childnode refid="61" relation="usage">
+          <edgelabel>previous</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="59">
+        <label>RKRGST&lt; TypeOfContent &gt;</label>
+        <link refid="classRKRGST"/>
+        <childnode refid="60" relation="usage">
+          <edgelabel>listOfPatternTiles</edgelabel>
+          <edgelabel>listOfTextTiles</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>listOfFinalTiles</edgelabel>
+        </childnode>
+      </node>
+      <node id="60">
+        <label>ListOfTiles</label>
+        <link refid="classListOfTiles"/>
+        <childnode refid="61" relation="usage">
+          <edgelabel>begin</edgelabel>
+          <edgelabel>end</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" line="49" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RKRGST.h" bodystart="48" bodyend="647"/>
+    <listofallmembers>
+      <member refid="classRKRGST_1a49054fd9d1f1fc34a5c2dedaba5e6f14" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>baseLength</name></member>
+      <member refid="classRKRGST_1ae0737f82fb5c44b9edd663a9ed00a7fe" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>box</name></member>
+      <member refid="classRKRGST_1aef01e8fd6c0e17482724c0f3fd7ad89f" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>execute</name></member>
+      <member refid="classRKRGST_1a12e85e53ee2298818cead4ffe76eb8b3" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>fillTextHashTable</name></member>
+      <member refid="classRKRGST_1a37cf8598f504f175035a83a69cfeaa08" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>findPatternSubstring</name></member>
+      <member refid="classRKRGST_1ad4e450cff7656afab26be8eb27c4f87c" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>initialSearchLength</name></member>
+      <member refid="classRKRGST_1aaebf5b2da8490b6fc1ea06300914256e" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>lengthOfTokensTiled</name></member>
+      <member refid="classRKRGST_1a1ae736b742c0cbcdd6d30c5201d4181b" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>listOfFinalTiles</name></member>
+      <member refid="classRKRGST_1ad2335f6d83faf621a99b66c680f32b5d" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>listOfPatternTiles</name></member>
+      <member refid="classRKRGST_1a03afdb90a534a2420da654ddadb032c2" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>listOfTextTiles</name></member>
+      <member refid="classRKRGST_1a469647a68dc845b14b01d37505eee6d1" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>markArrays</name></member>
+      <member refid="classRKRGST_1af44ddce704c698ee3cb38a7262a36874" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>markTokens</name></member>
+      <member refid="classRKRGST_1aaf28410e7b3c34bcfbffd17cd0d014b2" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>minimumSearchLength</name></member>
+      <member refid="classRKRGST_1aa2b3943e1897025c9f8293ee98edabca" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>occluded</name></member>
+      <member refid="classRKRGST_1aea66b780697be63c91342029335ad8ef" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>primeNumber</name></member>
+      <member refid="classRKRGST_1a66390e97e207872a55ea6ee0d3b2c0ee" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>RKRGST</name></member>
+      <member refid="classRKRGST_1a4ef9cf20505986d0f023a5384fdf844c" prot="public" virt="non-virtual"><scope>RKRGST</scope><name>scanPattern</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

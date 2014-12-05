@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classRandomNumber" kind="class" prot="public">
+    <compoundname>RandomNumber</compoundname>
+    <includes refid="RandomNumber_8h" local="no">RandomNumber.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRandomNumber_1a70176ac091c4e563d19658432b504fb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RandomNumber::RandomNumber</definition>
+        <argsstring>()</argsstring>
+        <name>RandomNumber</name>
+        <briefdescription>
+<para>Construtor que inicializa a semente da função que gera o número aleatório. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomNumber.h" line="34" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomNumber.h" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classRandomNumber_1ada5063d81ac44b99407ae29cc2faec6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RandomNumber::newRandomNumber</definition>
+        <argsstring>(int min, int max)</argsstring>
+        <name>newRandomNumber</name>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gera um número aleatório x, sendo min &lt;= x &lt;= max <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor mínimo possível de ser atribuído ao número criado </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor máximo possível de ser atribuído ao número criado </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomNumber.h" line="44" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomNumber.h" bodystart="44" bodyend="51"/>
+        <referencedby refid="classRandomPrime_1a322ce83f7af45e67d009ff3ed19d0047" compoundref="RandomPrime_8h" startline="76" endline="91">RandomPrime::newRandomPrime</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Cria um número inteiro aleatório entre dois inteiros,min e max. </para>    </detaileddescription>
+    <location file="/home/karan/Documents/Computação/Workspace/Rorschach/RandomNumber.h" line="31" column="1" bodyfile="/home/karan/Documents/Computação/Workspace/Rorschach/RandomNumber.h" bodystart="30" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classRandomNumber_1ada5063d81ac44b99407ae29cc2faec6e" prot="public" virt="non-virtual"><scope>RandomNumber</scope><name>newRandomNumber</name></member>
+      <member refid="classRandomNumber_1a70176ac091c4e563d19658432b504fb3" prot="public" virt="non-virtual"><scope>RandomNumber</scope><name>RandomNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
